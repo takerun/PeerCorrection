@@ -59,6 +59,25 @@ if __name__ == '__main__':
         from PG1 import PG1
         snapshot_form = 'PG1-hyper5-RAM5000w500-{0}-{1}'
         trainModel = PG1(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,alpha0,beta0,eta0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,alpha0,beta0,eta0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0, 5.0),
+                   'alpha0': (1.0, 1.0e2),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0, 5.0),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    alpha0=X[keys.index('alpha0')], beta0=X[keys.index('beta0')],
+                    eta0=X[keys.index('eta0')], target=Y)
+        name_result_file = 'resultPG1.txt'
+        label = 'PG1'
     elif args.model == 'PG3':
         from PG3 import PG3
         snapshot_form = 'PG3-hyper5-RAM5000w500-{0}-{1}'
