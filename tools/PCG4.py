@@ -41,7 +41,7 @@ class PCG4:
             sys.exit(1)
         self.stanData['hyper'] = hyper_list
         stan_fit = pystan.stan(file=PCG4_path, data=self.stanData, algorithm=algorithm,
-                n_jobs=n_jobs, iter=iteration, chains=chains, warmup=warmup)
+                n_jobs=n_jobs, iter=iteration, chains=chains, warmup=warmup, refresh=0)
         return stan_fit
 
     def corrcoefWithTruth(self,hyper_list):
