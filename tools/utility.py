@@ -1,6 +1,7 @@
 #coding: utf-8
 
 import os,sys
+from contextlib import contextmanager
 
 @contextlib.contextmanager
 def suppress_stdout():
