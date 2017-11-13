@@ -82,14 +82,70 @@ if __name__ == '__main__':
         from PG3 import PG3
         snapshot_form = 'PG3-hyper5-RAM5000w500-{0}-{1}'
         trainModel = PG3(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,theta0,theta1,eta0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,theta0,theta1,eta0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0, 1.0e1),
+                   'theta0': (1.0e-2, 1.0e3),
+                   'theta1': (1.0e-2, 1.0e3),
+                   'eta0': (1.0, 1.0e1),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    theta0=X[keys.index('theta0')], theta1=X[keys.index('theta1')],
+                    eta0=X[keys.index('eta0')], target=Y)
+        name_result_file = 'resultPG3.txt'
+        label = 'PG3'
     elif args.model == 'PG4':
         from PG4 import PG4
         snapshot_form = 'PG4-hyper4-RAM5000w500-{0}-{1}'
         trainModel = PG4(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,beta0,eta0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0e-2, 5.0),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    beta0=X[keys.index('beta0')], eta0=X[keys.index('eta0')],
+                    target=Y)
+        name_result_file = 'resultPG4.txt'
+        label = 'PG4'
     elif args.model == 'PG5':
         from PG5 import PG5
         snapshot_form = 'PG5-hyper5-RAM5000w500-{0}-{1}'
         trainModel = PG5(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,beta0,eta0,lambda0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,lambda0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0, 1.0e1),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0, 1.0e2),
+                   'lambda0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    beta0=X[keys.index('beta0')],eta0=X[keys.index('eta0')],
+                    lambda0=X[keys.index('lambda0')], target=Y)
+        name_result_file = 'resultPG5.txt'
+        label = 'PG5'
     elif args.model == 'PC1':
         from PC1 import PC1
         snapshot_form = 'PC1-hyper4-RAM5000w500-{0}-{1}'
