@@ -92,7 +92,7 @@ if __name__ == '__main__':
         trainModel = PG5(gDF, rDF)
     elif args.model == 'PC1':
         from PC1 import PC1
-        snapshot_form = 'PC2-hyper4-RAM5000w500-{0}-{1}'
+        snapshot_form = 'PC1-hyper4-RAM5000w500-{0}-{1}'
         trainModel = PC1(gDF, rDF)
         def evaluate_BO(mu0,gamma0,eta0,kappa0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,eta0,kappa0])
