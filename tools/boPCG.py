@@ -79,6 +79,24 @@ if __name__ == '__main__':
         from PC2 import PC2
         snapshot_form = 'PC2-hyper4-RAM5000w500-{0}-{1}'
         trainModel = PC2(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,eta0,kappa0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,eta0,kappa0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0, 3.0e1),
+                   'eta0': (1.0, 1.0e1),
+                   'kappa0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    eta0=X[keys.index('eta0')], kappa0=X[keys.index('kappa0')],
+                    target=Y)
+        name_result_file = 'resultPC2.txt'
+        label = 'PC2'
     elif args.model == 'PCG1':
         from PCG1 import PCG1
         snapshot_form = 'PCG1-hyper6-RAM5000w500-{0}-{1}'
