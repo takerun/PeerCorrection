@@ -3,7 +3,7 @@
 import os,sys
 from contextlib import contextmanager
 
-@contextlib.contextmanager
+@contextmanager
 def suppress_stdout():
     null_fd = os.open(os.devnull, os.O_RDWR)
     save_fd = os.dup(1)
