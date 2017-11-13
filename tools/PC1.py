@@ -4,6 +4,7 @@ import os,sys
 import numpy as np
 import pandas as pd
 import pystan
+from utility import suppress_stdout
 
 # path information
 PC1_path = '../models/PC1.stan'
@@ -39,8 +40,9 @@ class PC1:
             print('NError: {} given. Set 4 hyper parameters.'.format(len(hyper_list)))
             sys.exit(1)
         self.stanData['hyper'] = hyper_list
-        stan_fit = pystan.stan(file=PC1_path, data=self.stanData, algorithm=algorithm,
-                n_jobs=n_jobs, iter=iteration, chains=chains, warmup=warmup)
+        with suppress_stdout():
+            stan_fit = pystan.stan(file=PC1_path, data=self.stanData, algorithm=algorithm,
+                    n_jobs=n_jobs, iter=iteration, chains=chains, warmup=warmup)
         return stan_fit
 
     def corrcoefWithTruth(self,hyper_list):
