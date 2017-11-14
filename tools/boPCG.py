@@ -31,7 +31,7 @@ parser.add_argument('-init','--init-npz', \
 
 # config
 bo_num_iter = 0
-bo_init_points = 100
+bo_init_points = 150
 snapshot_path = '../result/snapshot/ability_estimation_bo'
 groundtruth_csv = '../dataset/open_peer_review_v2/peer_review/translated_groundtruth.csv'
 peer_review_csv = '../dataset/open_peer_review_v2/peer_review/peer_review_forPG3.csv'
@@ -223,6 +223,25 @@ if __name__ == '__main__':
         from PCG4 import PCG4
         snapshot_form = 'PCG4-hyper5-RAM5000w500-{0}-{1}'
         trainModel = PCG4(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,beta0,eta0,kappa0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,kappa0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0e-2, 1.0e1),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0, 1.0e2),
+                   'kappa0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    beta0=X[keys.index('beta0')], eta0=X[keys.index('eta0')],
+                    kappa0=X[keys.index('kappa0')], target=Y)
+        name_result_file = 'resultPCG4.txt'
+        label = 'PCG4'
     elif args.model == 'PCG5':
         from PCG5 import PCG5
         snapshot_form = 'PCG5-hyper6-RAM5000w500-{0}-{1}'
@@ -231,6 +250,27 @@ if __name__ == '__main__':
         from PG1PC2 import PG1PC2
         snapshot_form = 'PG1PC2-hyper6-RAM5000w500-{0}-{1}'
         trainModel = PG1PC2(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,alpha0,beta0,eta0,kappa0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,alpha0,beta0,eta0,kappa0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0, 3.0e1),
+                   'alpha0': (1.0, 1.0e2),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0, 1.0e1),
+                   'kappa0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    alpha0=X[keys.index('alpha0')], beta0=X[keys.index('beta0')],
+                    eta0=X[keys.index('eta0')], kappa0=X[keys.index('kappa0')],
+                    target=Y)
+        name_result_file = 'resultPG1PC2.txt'
+        label = 'PG1PC2'
     elif args.model == 'PG3PC2':
         from PG3PC2 import PG3PC2
         snapshot_form = 'PG3PC2-hyper6-RAM5000w500-{0}-{1}'
@@ -239,6 +279,25 @@ if __name__ == '__main__':
         from PG4PC2 import PG4PC2
         snapshot_form = 'PG4PC2-hyper5-RAM5000w500-{0}-{1}'
         trainModel = PG4PC2(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,beta0,eta0,kappa0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,kappa0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0e-2, 3.0e1),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0, 1.0e2),
+                   'kappa0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    beta0=X[keys.index('beta0')], eta0=X[keys.index('eta0')],
+                    kappa0=X[keys.index('kappa0')], target=Y)
+        name_result_file = 'resultPG4PC2.txt'
+        label = 'PG4PC2'
     elif args.model == 'PG5PC2':
         from PG5PC2 import PG5PC2
         snapshot_form = 'PG5PC2-hyper6-RAM5000w500-{0}-{1}'
