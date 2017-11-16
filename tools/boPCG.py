@@ -131,7 +131,7 @@ if __name__ == '__main__':
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,lambda0])
             return cor
         pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 1.0e1),
+                   'gamma0': (1.0, 5.0),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0, 1.0e2),
                    'lambda0': (1.0, 1.0e2),
@@ -246,6 +246,27 @@ if __name__ == '__main__':
         from PCG5 import PCG5
         snapshot_form = 'PCG5-hyper6-RAM5000w500-{0}-{1}'
         trainModel = PCG5(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,beta0,eta0,lambda0,kappa0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,lambda0,kappa0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0, 1.0e1),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0, 1.0e2),
+                   'lambda0': (1.0, 1.0e2),
+                   'kappa0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    beta0=X[keys.index('beta0')],eta0=X[keys.index('eta0')],
+                    lambda0=X[keys.index('lambda0')] ,kappa0=X[keys.index('kappa0')],
+                    target=Y)
+        name_result_file = 'resultPCG5.txt'
+        label = 'PCG5'
     elif args.model == 'PG1PC2':
         from PG1PC2 import PG1PC2
         snapshot_form = 'PG1PC2-hyper6-RAM5000w500-{0}-{1}'
@@ -302,6 +323,27 @@ if __name__ == '__main__':
         from PG5PC2 import PG5PC2
         snapshot_form = 'PG5PC2-hyper6-RAM5000w500-{0}-{1}'
         trainModel = PG5PC2(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,beta0,eta0,lambda0,kappa0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,lambda0,kappa0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0, 3.0e1),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0, 1.0e2),
+                   'lambda0': (1.0, 1.0e2),
+                   'kappa0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    beta0=X[keys.index('beta0')],eta0=X[keys.index('eta0')],
+                    lambda0=X[keys.index('lambda0')] ,kappa0=X[keys.index('kappa0')],
+                    target=Y)
+        name_result_file = 'resultPG5PC2.txt'
+        label = 'PG5PC2'
     else:
         print('Warning: set model name')
         sys.exit()
