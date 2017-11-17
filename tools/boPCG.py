@@ -87,8 +87,8 @@ if __name__ == '__main__':
             return cor
         pbounds = {'mu0': (0.0, 4.0),
                    'gamma0': (1.0, 1.0e1),
-                   'theta0': (1.0e-2, 1.0e3),
-                   'theta1': (1.0e-2, 1.0e3),
+                   'theta0': (0.0, 1.0),
+                   'theta1': (1.0e-2, 1.0e1),
                    'eta0': (1.0, 1.0e1),
                    }
         def npzSave(path,bo):
