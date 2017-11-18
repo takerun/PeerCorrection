@@ -219,6 +219,27 @@ if __name__ == '__main__':
         from PCG3 import PCG3
         snapshot_form = 'PCG3-hyper6-RAM5000w500-{0}-{1}'
         trainModel = PCG3(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,theta0,theta1,eta0,kappa0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,theta0,theta1,eta0,kappa0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0, 1.0e1),
+                   'theta0': (0.0, 1.0),
+                   'theta1': (1.0e-2, 1.0e1),
+                   'eta0': (1.0, 1.0e2),
+                   'kappa0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    theta0=X[keys.index('theta0')], theta1=X[keys.index('theta1')],
+                    eta0=X[keys.index('eta0')], kappa0=X[keys.index('kappa0')],
+                    target=Y)
+        name_result_file = 'resultPCG3.txt'
+        label = 'PCG3'
     elif args.model == 'PCG4':
         from PCG4 import PCG4
         snapshot_form = 'PCG4-hyper5-RAM5000w500-{0}-{1}'
@@ -296,6 +317,27 @@ if __name__ == '__main__':
         from PG3PC2 import PG3PC2
         snapshot_form = 'PG3PC2-hyper6-RAM5000w500-{0}-{1}'
         trainModel = PG3PC2(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,theta0,theta1,eta0,kappa0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,theta0,theta1,eta0,kappa0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0, 3.0e1),
+                   'theta0': (0.0, 1.0),
+                   'theta1': (1.0e-2, 1.0e1),
+                   'eta0': (1.0, 1.0e1),
+                   'kappa0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    theta0=X[keys.index('theta0')], theta1=X[keys.index('theta1')],
+                    eta0=X[keys.index('eta0')], kappa0=X[keys.index('kappa0')],
+                    target=Y)
+        name_result_file = 'resultPG3PC2.txt'
+        label = 'PG3PC2'
     elif args.model == 'PG4PC2':
         from PG4PC2 import PG4PC2
         snapshot_form = 'PG4PC2-hyper5-RAM5000w500-{0}-{1}'
