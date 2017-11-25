@@ -13,7 +13,7 @@ data{
 parameters{
   real<lower=0, upper=4> ability[uNum];
   real<lower=-2, upper=2> bias[vNum];
-  real<lower=-2, upper=2> noise;
+  real<lower=-5, upper=5> noise;
 }
 
 transformed parameters{
