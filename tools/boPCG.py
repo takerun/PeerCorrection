@@ -201,7 +201,7 @@ if __name__ == '__main__':
                    'gamma0': (1.0, 5.0),
                    'alpha0': (1.0, 1.0e2),
                    'beta0': (1.0, 1.0e2),
-                   'eta0': (1.0, 5.0),
+                   'eta0': (1.0, 3.0e1),
                    'kappa0': (1.0, 1.0e2),
                    }
         def npzSave(path,bo):
