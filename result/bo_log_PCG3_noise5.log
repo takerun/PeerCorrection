@@ -1,0 +1,3307 @@
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+[31mInitialization[0m
+[94m-----------------------------------------------------------------------------------------------------[0m
+ Step |   Time |      Value |      eta0 |    gamma0 |    kappa0 |       mu0 |    theta0 |    theta1 | 
+# 
+#  Elapsed Time: 95.6567 seconds (Warm-up)
+#                198.885 seconds (Sampling)
+#                294.542 seconds (Total)
+# 
+# 
+#  Elapsed Time: 100.143 seconds (Warm-up)
+#                199.834 seconds (Sampling)
+#                299.977 seconds (Total)
+# 
+# 
+#  Elapsed Time: 103.477 seconds (Warm-up)
+#                199.474 seconds (Sampling)
+#                302.951 seconds (Total)
+# 
+# 
+#  Elapsed Time: 107.657 seconds (Warm-up)
+#                199.397 seconds (Sampling)
+#                307.055 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+    1 | 06m11s | [35m  -0.26495[0m | [32m  69.6283[0m | [32m   1.7617[0m | [32m  48.2092[0m | [32m   0.4061[0m | [32m   0.3106[0m | [32m   2.9511[0m | 
+# 
+#  Elapsed Time: 43.9057 seconds (Warm-up)
+#                100.484 seconds (Sampling)
+#                144.389 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.233 seconds (Warm-up)
+#                100.431 seconds (Sampling)
+#                146.664 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.7891 seconds (Warm-up)
+#                329.024 seconds (Sampling)
+#                377.813 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.2019 seconds (Warm-up)
+#                511.641 seconds (Sampling)
+#                557.843 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+    2 | 10m22s |   -0.28348 |   64.7381 |    7.2025 |   10.8328 |    0.8643 |    0.5844 |    0.7984 | 
+# 
+#  Elapsed Time: 46.1072 seconds (Warm-up)
+#                112.25 seconds (Sampling)
+#                158.357 seconds (Total)
+# 
+# 
+#  Elapsed Time: 41.8276 seconds (Warm-up)
+#                198.999 seconds (Sampling)
+#                240.827 seconds (Total)
+# 
+# 
+#  Elapsed Time: 42.2422 seconds (Warm-up)
+#                199.767 seconds (Sampling)
+#                242.009 seconds (Total)
+# 
+# 
+#  Elapsed Time: 39.3783 seconds (Warm-up)
+#                633.384 seconds (Sampling)
+#                672.762 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+    3 | 12m17s |   -0.39225 |   41.0637 |    7.5175 |    3.0306 |    0.3768 |    0.1009 |    3.2622 | 
+# 
+#  Elapsed Time: 25.5057 seconds (Warm-up)
+#                100.106 seconds (Sampling)
+#                125.611 seconds (Total)
+# 
+# 
+#  Elapsed Time: 29.3607 seconds (Warm-up)
+#                101.177 seconds (Sampling)
+#                130.538 seconds (Total)
+# 
+# 
+#  Elapsed Time: 28.72 seconds (Warm-up)
+#                199.915 seconds (Sampling)
+#                228.635 seconds (Total)
+# 
+# 
+#  Elapsed Time: 29.3714 seconds (Warm-up)
+#                200.673 seconds (Sampling)
+#                230.044 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+    4 | 04m55s |   -0.37036 |   15.6592 |    6.6465 |   86.8077 |    3.2821 |    0.4137 |    3.7686 | 
+# 
+#  Elapsed Time: 59.182 seconds (Warm-up)
+#                99.2409 seconds (Sampling)
+#                158.423 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.4079 seconds (Warm-up)
+#                99.7747 seconds (Sampling)
+#                162.183 seconds (Total)
+# 
+# 
+#  Elapsed Time: 67.3441 seconds (Warm-up)
+#                99.9717 seconds (Sampling)
+#                167.316 seconds (Total)
+# 
+# 
+#  Elapsed Time: 73.4901 seconds (Warm-up)
+#                99.8464 seconds (Sampling)
+#                173.336 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+    5 | 03m58s |   -0.38478 |   74.5894 |    9.6796 |   42.0579 |    2.0457 |    0.2186 |    8.9113 | 
+# 
+#  Elapsed Time: 107.989 seconds (Warm-up)
+#                191.885 seconds (Sampling)
+#                299.874 seconds (Total)
+# 
+# 
+#  Elapsed Time: 108.369 seconds (Warm-up)
+#                192.576 seconds (Sampling)
+#                300.946 seconds (Total)
+# 
+# 
+#  Elapsed Time: 110.526 seconds (Warm-up)
+#                193.219 seconds (Sampling)
+#                303.745 seconds (Total)
+# 
+# 
+#  Elapsed Time: 130.45 seconds (Warm-up)
+#                191.794 seconds (Sampling)
+#                322.245 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+    6 | 06m26s |   -0.38812 |   93.3353 |    7.6082 |   61.6043 |    3.9704 |    0.9822 |    5.4287 | 
+# 
+#  Elapsed Time: 79.8939 seconds (Warm-up)
+#                199.634 seconds (Sampling)
+#                279.528 seconds (Total)
+# 
+# 
+#  Elapsed Time: 82.237 seconds (Warm-up)
+#                198.604 seconds (Sampling)
+#                280.841 seconds (Total)
+# 
+# 
+#  Elapsed Time: 84.5673 seconds (Warm-up)
+#                198.769 seconds (Sampling)
+#                283.336 seconds (Total)
+# 
+# 
+#  Elapsed Time: 88.7642 seconds (Warm-up)
+#                775.588 seconds (Sampling)
+#                864.352 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+    7 | 15m30s |   -0.39313 |   67.9517 |    3.1318 |   79.6970 |    3.7825 |    0.0310 |    9.0496 | 
+# 
+#  Elapsed Time: 49.2872 seconds (Warm-up)
+#                198.735 seconds (Sampling)
+#                248.022 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.2708 seconds (Warm-up)
+#                199.801 seconds (Sampling)
+#                251.072 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.7698 seconds (Warm-up)
+#                199.602 seconds (Sampling)
+#                251.372 seconds (Total)
+# 
+# 
+#  Elapsed Time: 56.42 seconds (Warm-up)
+#                199.849 seconds (Sampling)
+#                256.269 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+    8 | 05m21s | [35m  -0.15531[0m | [32m  48.4492[0m | [32m   9.7408[0m | [32m  97.2006[0m | [32m   0.2397[0m | [32m   0.2053[0m | [32m   1.1746[0m | 
+# 
+#  Elapsed Time: 54.8086 seconds (Warm-up)
+#                201.38 seconds (Sampling)
+#                256.189 seconds (Total)
+# 
+# 
+#  Elapsed Time: 59.8614 seconds (Warm-up)
+#                200.562 seconds (Sampling)
+#                260.423 seconds (Total)
+# 
+# 
+#  Elapsed Time: 59.0218 seconds (Warm-up)
+#                201.652 seconds (Sampling)
+#                260.674 seconds (Total)
+# 
+# 
+#  Elapsed Time: 63.4788 seconds (Warm-up)
+#                200.367 seconds (Sampling)
+#                263.845 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+    9 | 05m28s |   -0.34503 |   36.4927 |    4.5601 |    5.9040 |    2.0260 |    0.6640 |    1.8333 | 
+# 
+#  Elapsed Time: 67.6441 seconds (Warm-up)
+#                195.561 seconds (Sampling)
+#                263.205 seconds (Total)
+# 
+# 
+#  Elapsed Time: 71.8874 seconds (Warm-up)
+#                195.743 seconds (Sampling)
+#                267.631 seconds (Total)
+# 
+# 
+#  Elapsed Time: 72.8764 seconds (Warm-up)
+#                195.523 seconds (Sampling)
+#                268.399 seconds (Total)
+# 
+# 
+#  Elapsed Time: 80.3978 seconds (Warm-up)
+#                194.309 seconds (Sampling)
+#                274.707 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   10 | 05m39s |   -0.37277 |   45.3269 |    3.1255 |    5.3102 |    3.6962 |    0.7876 |    9.4165 | 
+# 
+#  Elapsed Time: 61.2389 seconds (Warm-up)
+#                195.685 seconds (Sampling)
+#                256.924 seconds (Total)
+# 
+# 
+#  Elapsed Time: 61.124 seconds (Warm-up)
+#                196.904 seconds (Sampling)
+#                258.028 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.334 seconds (Warm-up)
+#                197.315 seconds (Sampling)
+#                262.649 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.7676 seconds (Warm-up)
+#                476.783 seconds (Sampling)
+#                539.551 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   11 | 10m05s |   -0.36933 |   32.6191 |    6.9107 |   24.4560 |    1.6155 |    0.8816 |    7.0167 | 
+# 
+#  Elapsed Time: 69.117 seconds (Warm-up)
+#                195.709 seconds (Sampling)
+#                264.826 seconds (Total)
+# 
+# 
+#  Elapsed Time: 75.7681 seconds (Warm-up)
+#                196.777 seconds (Sampling)
+#                272.545 seconds (Total)
+# 
+# 
+#  Elapsed Time: 81.792 seconds (Warm-up)
+#                196.644 seconds (Sampling)
+#                278.436 seconds (Total)
+# 
+# 
+#  Elapsed Time: 73.6712 seconds (Warm-up)
+#                2091.96 seconds (Sampling)
+#                2165.63 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   12 | 37m12s |   -0.37981 |   43.0700 |    6.4532 |   23.7543 |    2.8087 |    0.8783 |    4.7987 | 
+# 
+#  Elapsed Time: 64.0591 seconds (Warm-up)
+#                199.888 seconds (Sampling)
+#                263.947 seconds (Total)
+# 
+# 
+#  Elapsed Time: 64.8702 seconds (Warm-up)
+#                201.074 seconds (Sampling)
+#                265.944 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.9074 seconds (Warm-up)
+#                199.234 seconds (Sampling)
+#                268.142 seconds (Total)
+# 
+# 
+#  Elapsed Time: 63.8936 seconds (Warm-up)
+#                228.548 seconds (Sampling)
+#                292.441 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   13 | 05m58s |   -0.38754 |   64.5261 |    4.7644 |   97.0071 |    3.1937 |    0.4521 |    4.1850 | 
+# 
+#  Elapsed Time: 50.233 seconds (Warm-up)
+#                198.89 seconds (Sampling)
+#                249.123 seconds (Total)
+# 
+# 
+#  Elapsed Time: 54.713 seconds (Warm-up)
+#                199.398 seconds (Sampling)
+#                254.111 seconds (Total)
+# 
+# 
+#  Elapsed Time: 56.3466 seconds (Warm-up)
+#                199.407 seconds (Sampling)
+#                255.753 seconds (Total)
+# 
+# 
+#  Elapsed Time: 61.4735 seconds (Warm-up)
+#                200.243 seconds (Sampling)
+#                261.717 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   14 | 05m27s |   -0.36374 |   41.3379 |    8.6318 |    6.2385 |    0.8287 |    0.2808 |    6.7215 | 
+# 
+#  Elapsed Time: 105.346 seconds (Warm-up)
+#                197.846 seconds (Sampling)
+#                303.193 seconds (Total)
+# 
+# 
+#  Elapsed Time: 105.067 seconds (Warm-up)
+#                198.245 seconds (Sampling)
+#                303.312 seconds (Total)
+# 
+# 
+#  Elapsed Time: 108.224 seconds (Warm-up)
+#                198.235 seconds (Sampling)
+#                306.459 seconds (Total)
+# 
+# 
+#  Elapsed Time: 100.107 seconds (Warm-up)
+#                689.554 seconds (Sampling)
+#                789.661 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   15 | 14m14s |   -0.39093 |   75.9981 |    6.0765 |   42.0277 |    2.9338 |    0.6777 |    7.6692 | 
+# 
+#  Elapsed Time: 45.2223 seconds (Warm-up)
+#                101.106 seconds (Sampling)
+#                146.328 seconds (Total)
+# 
+# 
+#  Elapsed Time: 50.5207 seconds (Warm-up)
+#                100.751 seconds (Sampling)
+#                151.272 seconds (Total)
+# 
+# 
+#  Elapsed Time: 59.5555 seconds (Warm-up)
+#                121.37 seconds (Sampling)
+#                180.925 seconds (Total)
+# 
+# 
+#  Elapsed Time: 42.7734 seconds (Warm-up)
+#                200.769 seconds (Sampling)
+#                243.542 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   16 | 05m09s |   -0.35726 |   65.4034 |    7.3838 |   23.5181 |    1.6721 |    0.3328 |    1.9741 | 
+# 
+#  Elapsed Time: 78.2126 seconds (Warm-up)
+#                196.609 seconds (Sampling)
+#                274.821 seconds (Total)
+# 
+# 
+#  Elapsed Time: 84.2887 seconds (Warm-up)
+#                197.117 seconds (Sampling)
+#                281.406 seconds (Total)
+# 
+# 
+#  Elapsed Time: 88.4461 seconds (Warm-up)
+#                197.299 seconds (Sampling)
+#                285.745 seconds (Total)
+# 
+# 
+#  Elapsed Time: 89.7332 seconds (Warm-up)
+#                197.121 seconds (Sampling)
+#                286.854 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   17 | 05m52s | [35m  -0.00112[0m | [32m  64.2249[0m | [32m   9.0675[0m | [32m  30.7886[0m | [32m   0.0711[0m | [32m   0.3720[0m | [32m   9.8927[0m | 
+# 
+#  Elapsed Time: 39.006 seconds (Warm-up)
+#                100.101 seconds (Sampling)
+#                139.107 seconds (Total)
+# 
+# 
+#  Elapsed Time: 41.5305 seconds (Warm-up)
+#                99.9457 seconds (Sampling)
+#                141.476 seconds (Total)
+# 
+# 
+#  Elapsed Time: 41.1634 seconds (Warm-up)
+#                100.436 seconds (Sampling)
+#                141.599 seconds (Total)
+# 
+# 
+#  Elapsed Time: 42.1095 seconds (Warm-up)
+#                100.273 seconds (Sampling)
+#                142.383 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   18 | 03m27s |   -0.38581 |   63.7375 |    7.1701 |   83.0812 |    3.2315 |    0.3215 |    4.6821 | 
+# 
+#  Elapsed Time: 78.3237 seconds (Warm-up)
+#                99.9159 seconds (Sampling)
+#                178.24 seconds (Total)
+# 
+# 
+#  Elapsed Time: 83.9661 seconds (Warm-up)
+#                99.56 seconds (Sampling)
+#                183.526 seconds (Total)
+# 
+# 
+#  Elapsed Time: 87.9117 seconds (Warm-up)
+#                99.5097 seconds (Sampling)
+#                187.421 seconds (Total)
+# 
+# 
+#  Elapsed Time: 76.1068 seconds (Warm-up)
+#                705.188 seconds (Sampling)
+#                781.295 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   19 | 14m07s | [35m   0.13286[0m | [32m  99.2665[0m | [32m   2.5933[0m | [32m  97.6013[0m | [32m   2.8151[0m | [32m   0.8585[0m | [32m   0.9595[0m | 
+# 
+#  Elapsed Time: 84.143 seconds (Warm-up)
+#                195.223 seconds (Sampling)
+#                279.366 seconds (Total)
+# 
+# 
+#  Elapsed Time: 96.7617 seconds (Warm-up)
+#                195.443 seconds (Sampling)
+#                292.205 seconds (Total)
+# 
+# 
+#  Elapsed Time: 97.4805 seconds (Warm-up)
+#                196.213 seconds (Sampling)
+#                293.694 seconds (Total)
+# 
+# 
+#  Elapsed Time: 99.7469 seconds (Warm-up)
+#                196.569 seconds (Sampling)
+#                296.316 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   20 | 06m02s |   -0.33436 |   70.6240 |    5.8997 |   80.2183 |    0.9267 |    0.4109 |    4.9540 | 
+# 
+#  Elapsed Time: 72.734 seconds (Warm-up)
+#                198.692 seconds (Sampling)
+#                271.426 seconds (Total)
+# 
+# 
+#  Elapsed Time: 73.2662 seconds (Warm-up)
+#                199.1 seconds (Sampling)
+#                272.366 seconds (Total)
+# 
+# 
+#  Elapsed Time: 76.9966 seconds (Warm-up)
+#                198.676 seconds (Sampling)
+#                275.673 seconds (Total)
+# 
+# 
+#  Elapsed Time: 81.5551 seconds (Warm-up)
+#                199.37 seconds (Sampling)
+#                280.925 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   21 | 05m45s |   -0.37068 |   56.4459 |    7.4242 |    5.3240 |    3.8796 |    0.3768 |    3.4705 | 
+# 
+#  Elapsed Time: 54.5365 seconds (Warm-up)
+#                99.6187 seconds (Sampling)
+#                154.155 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.6518 seconds (Warm-up)
+#                99.8438 seconds (Sampling)
+#                157.496 seconds (Total)
+# 
+# 
+#  Elapsed Time: 58.9138 seconds (Warm-up)
+#                99.97 seconds (Sampling)
+#                158.884 seconds (Total)
+# 
+# 
+#  Elapsed Time: 64.0458 seconds (Warm-up)
+#                99.8619 seconds (Sampling)
+#                163.908 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   22 | 03m48s | [35m   0.22031[0m | [32m  47.4442[0m | [32m   4.7018[0m | [32m  50.1189[0m | [32m   1.5798[0m | [32m   0.7216[0m | [32m   0.5756[0m | 
+# 
+#  Elapsed Time: 71.2617 seconds (Warm-up)
+#                195.911 seconds (Sampling)
+#                267.173 seconds (Total)
+# 
+# 
+#  Elapsed Time: 72.4008 seconds (Warm-up)
+#                196.644 seconds (Sampling)
+#                269.044 seconds (Total)
+# 
+# 
+#  Elapsed Time: 75.807 seconds (Warm-up)
+#                196.498 seconds (Sampling)
+#                272.305 seconds (Total)
+# 
+# 
+#  Elapsed Time: 77.3638 seconds (Warm-up)
+#                197.066 seconds (Sampling)
+#                274.429 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   23 | 05m39s |   -0.22790 |   51.7864 |    2.8554 |   29.3050 |    0.4894 |    0.3501 |    2.0021 | 
+# 
+#  Elapsed Time: 65.4022 seconds (Warm-up)
+#                198.777 seconds (Sampling)
+#                264.18 seconds (Total)
+# 
+# 
+#  Elapsed Time: 74.1722 seconds (Warm-up)
+#                199.257 seconds (Sampling)
+#                273.429 seconds (Total)
+# 
+# 
+#  Elapsed Time: 81.1307 seconds (Warm-up)
+#                198.121 seconds (Sampling)
+#                279.252 seconds (Total)
+# 
+# 
+#  Elapsed Time: 85.4821 seconds (Warm-up)
+#                197.96 seconds (Sampling)
+#                283.443 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   24 | 05m48s |   -0.37749 |   83.5605 |    9.2083 |   63.5894 |    1.4288 |    0.2943 |    9.3577 | 
+# 
+#  Elapsed Time: 30.6834 seconds (Warm-up)
+#                132.837 seconds (Sampling)
+#                163.52 seconds (Total)
+# 
+# 
+#  Elapsed Time: 33.449 seconds (Warm-up)
+#                198.984 seconds (Sampling)
+#                232.433 seconds (Total)
+# 
+# 
+#  Elapsed Time: 32.5089 seconds (Warm-up)
+#                238.811 seconds (Sampling)
+#                271.32 seconds (Total)
+# 
+# 
+#  Elapsed Time: 33.7109 seconds (Warm-up)
+#                246.489 seconds (Sampling)
+#                280.2 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   25 | 05m46s |   -0.30193 |   19.3855 |    7.2559 |   10.1105 |    0.5254 |    0.1100 |    6.4577 | 
+# 
+#  Elapsed Time: 50.0257 seconds (Warm-up)
+#                195.152 seconds (Sampling)
+#                245.178 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.5293 seconds (Warm-up)
+#                195.609 seconds (Sampling)
+#                247.138 seconds (Total)
+# 
+# 
+#  Elapsed Time: 54.8379 seconds (Warm-up)
+#                195.736 seconds (Sampling)
+#                250.574 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.8722 seconds (Warm-up)
+#                219.184 seconds (Sampling)
+#                268.056 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   26 | 05m33s |   -0.36381 |   21.4914 |    5.1470 |   19.4817 |    1.6751 |    0.7396 |    9.1923 | 
+# 
+#  Elapsed Time: 102.923 seconds (Warm-up)
+#                118.725 seconds (Sampling)
+#                221.648 seconds (Total)
+# 
+# 
+#  Elapsed Time: 97.1976 seconds (Warm-up)
+#                193.58 seconds (Sampling)
+#                290.778 seconds (Total)
+# 
+# 
+#  Elapsed Time: 101.613 seconds (Warm-up)
+#                193.423 seconds (Sampling)
+#                295.036 seconds (Total)
+# 
+# 
+#  Elapsed Time: 112.655 seconds (Warm-up)
+#                195.622 seconds (Sampling)
+#                308.277 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   27 | 06m14s |   -0.38256 |   78.3111 |    6.5597 |   77.6709 |    2.7933 |    0.7405 |    7.9350 | 
+# 
+#  Elapsed Time: 48.4761 seconds (Warm-up)
+#                197.574 seconds (Sampling)
+#                246.05 seconds (Total)
+# 
+# 
+#  Elapsed Time: 49.9687 seconds (Warm-up)
+#                196.652 seconds (Sampling)
+#                246.621 seconds (Total)
+# 
+# 
+#  Elapsed Time: 50.1795 seconds (Warm-up)
+#                197.486 seconds (Sampling)
+#                247.666 seconds (Total)
+# 
+# 
+#  Elapsed Time: 47.6049 seconds (Warm-up)
+#                232.838 seconds (Sampling)
+#                280.443 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   28 | 05m46s |   -0.26839 |   54.4275 |    6.3922 |   92.4457 |    0.3880 |    0.2444 |    1.1737 | 
+# 
+#  Elapsed Time: 90.9526 seconds (Warm-up)
+#                194.982 seconds (Sampling)
+#                285.935 seconds (Total)
+# 
+# 
+#  Elapsed Time: 93.9255 seconds (Warm-up)
+#                195.862 seconds (Sampling)
+#                289.787 seconds (Total)
+# 
+# 
+#  Elapsed Time: 89.8881 seconds (Warm-up)
+#                301.406 seconds (Sampling)
+#                391.295 seconds (Total)
+# 
+# 
+#  Elapsed Time: 86.4986 seconds (Warm-up)
+#                702.663 seconds (Sampling)
+#                789.162 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   29 | 14m15s |   -0.38961 |   59.4090 |    6.0295 |   20.0840 |    3.3834 |    0.6908 |    8.6340 | 
+# 
+#  Elapsed Time: 45.66 seconds (Warm-up)
+#                199.436 seconds (Sampling)
+#                245.096 seconds (Total)
+# 
+# 
+#  Elapsed Time: 50.8409 seconds (Warm-up)
+#                200.424 seconds (Sampling)
+#                251.265 seconds (Total)
+# 
+# 
+#  Elapsed Time: 43.1116 seconds (Warm-up)
+#                281.76 seconds (Sampling)
+#                324.872 seconds (Total)
+# 
+# 
+#  Elapsed Time: 38.7477 seconds (Warm-up)
+#                636.031 seconds (Sampling)
+#                674.779 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   30 | 12m20s |   -0.36764 |    9.1684 |    4.1348 |   80.5868 |    2.1594 |    0.1636 |    5.7486 | 
+# 
+#  Elapsed Time: 35.4489 seconds (Warm-up)
+#                198.868 seconds (Sampling)
+#                234.317 seconds (Total)
+# 
+# 
+#  Elapsed Time: 38.1341 seconds (Warm-up)
+#                199.228 seconds (Sampling)
+#                237.362 seconds (Total)
+# 
+# 
+#  Elapsed Time: 40.2553 seconds (Warm-up)
+#                199.619 seconds (Sampling)
+#                239.874 seconds (Total)
+# 
+# 
+#  Elapsed Time: 40.8047 seconds (Warm-up)
+#                200.146 seconds (Sampling)
+#                240.951 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   31 | 05m06s |   -0.13285 |   10.2455 |    2.9232 |    7.7575 |    0.3574 |    0.1391 |    3.6741 | 
+# 
+#  Elapsed Time: 69.3645 seconds (Warm-up)
+#                195.86 seconds (Sampling)
+#                265.225 seconds (Total)
+# 
+# 
+#  Elapsed Time: 70.2524 seconds (Warm-up)
+#                196.507 seconds (Sampling)
+#                266.76 seconds (Total)
+# 
+# 
+#  Elapsed Time: 74.84 seconds (Warm-up)
+#                195.96 seconds (Sampling)
+#                270.8 seconds (Total)
+# 
+# 
+#  Elapsed Time: 70.7296 seconds (Warm-up)
+#                1157.43 seconds (Sampling)
+#                1228.16 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   32 | 21m33s |   -0.20467 |   39.9071 |    7.6532 |   18.2339 |    0.3927 |    0.6438 |    7.3762 | 
+# 
+#  Elapsed Time: 104.116 seconds (Warm-up)
+#                97.9185 seconds (Sampling)
+#                202.035 seconds (Total)
+# 
+# 
+#  Elapsed Time: 107.497 seconds (Warm-up)
+#                195.012 seconds (Sampling)
+#                302.509 seconds (Total)
+# 
+# 
+#  Elapsed Time: 106.811 seconds (Warm-up)
+#                195.789 seconds (Sampling)
+#                302.6 seconds (Total)
+# 
+# 
+#  Elapsed Time: 108.197 seconds (Warm-up)
+#                949.002 seconds (Sampling)
+#                1057.2 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   33 | 18m42s |   -0.32888 |   76.7572 |    1.6159 |   45.2712 |    2.4595 |    0.7472 |    4.9568 | 
+# 
+#  Elapsed Time: 32.1231 seconds (Warm-up)
+#                99.7909 seconds (Sampling)
+#                131.914 seconds (Total)
+# 
+# 
+#  Elapsed Time: 35.9852 seconds (Warm-up)
+#                100.163 seconds (Sampling)
+#                136.148 seconds (Total)
+# 
+# 
+#  Elapsed Time: 37.1703 seconds (Warm-up)
+#                100.066 seconds (Sampling)
+#                137.237 seconds (Total)
+# 
+# 
+#  Elapsed Time: 36.3847 seconds (Warm-up)
+#                178.123 seconds (Sampling)
+#                214.508 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   34 | 04m38s |   -0.33858 |   39.2017 |    9.2564 |    2.8226 |    3.6218 |    0.8683 |    2.4742 | 
+# 
+#  Elapsed Time: 110.774 seconds (Warm-up)
+#                235.493 seconds (Sampling)
+#                346.267 seconds (Total)
+# 
+# 
+#  Elapsed Time: 114.77 seconds (Warm-up)
+#                240.781 seconds (Sampling)
+#                355.551 seconds (Total)
+# 
+# 
+#  Elapsed Time: 114.665 seconds (Warm-up)
+#                295.704 seconds (Sampling)
+#                410.369 seconds (Total)
+# 
+# 
+#  Elapsed Time: 109.229 seconds (Warm-up)
+#                475.939 seconds (Sampling)
+#                585.169 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   35 | 10m51s |   -0.37320 |   96.4462 |    5.0539 |    3.5119 |    2.3521 |    0.5850 |    3.4849 | 
+# 
+#  Elapsed Time: 71.4359 seconds (Warm-up)
+#                197.214 seconds (Sampling)
+#                268.649 seconds (Total)
+# 
+# 
+#  Elapsed Time: 71.1347 seconds (Warm-up)
+#                198.464 seconds (Sampling)
+#                269.598 seconds (Total)
+# 
+# 
+#  Elapsed Time: 72.7817 seconds (Warm-up)
+#                197.794 seconds (Sampling)
+#                270.575 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.9881 seconds (Warm-up)
+#                445.651 seconds (Sampling)
+#                514.64 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   36 | 09m39s |   -0.37408 |   35.7838 |    5.6850 |   21.3091 |    1.8806 |    0.6546 |    4.1775 | 
+# 
+#  Elapsed Time: 47.624 seconds (Warm-up)
+#                100.02 seconds (Sampling)
+#                147.644 seconds (Total)
+# 
+# 
+#  Elapsed Time: 50.629 seconds (Warm-up)
+#                99.659 seconds (Sampling)
+#                150.288 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.1172 seconds (Warm-up)
+#                99.4316 seconds (Sampling)
+#                154.549 seconds (Total)
+# 
+# 
+#  Elapsed Time: 59.8305 seconds (Warm-up)
+#                99.9662 seconds (Sampling)
+#                159.797 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   37 | 03m45s |   -0.34963 |   19.9689 |    5.6499 |   17.2124 |    1.2237 |    0.0760 |    3.2879 | 
+# 
+#  Elapsed Time: 47.4872 seconds (Warm-up)
+#                99.9386 seconds (Sampling)
+#                147.426 seconds (Total)
+# 
+# 
+#  Elapsed Time: 53.3285 seconds (Warm-up)
+#                100.001 seconds (Sampling)
+#                153.329 seconds (Total)
+# 
+# 
+#  Elapsed Time: 53.8244 seconds (Warm-up)
+#                101.316 seconds (Sampling)
+#                155.141 seconds (Total)
+# 
+# 
+#  Elapsed Time: 56.3977 seconds (Warm-up)
+#                99.6124 seconds (Sampling)
+#                156.01 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   38 | 03m40s |   -0.36687 |   62.7531 |    5.4346 |   70.2612 |    1.4962 |    0.1920 |    5.2277 | 
+# 
+#  Elapsed Time: 42.7736 seconds (Warm-up)
+#                198.105 seconds (Sampling)
+#                240.879 seconds (Total)
+# 
+# 
+#  Elapsed Time: 44.1316 seconds (Warm-up)
+#                198.965 seconds (Sampling)
+#                243.096 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.9496 seconds (Warm-up)
+#                199.347 seconds (Sampling)
+#                246.296 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.7179 seconds (Warm-up)
+#                199.158 seconds (Sampling)
+#                250.876 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   39 | 05m15s |   -0.30577 |    5.2055 |    9.8590 |   33.4596 |    1.4434 |    0.1357 |    3.7523 | 
+# 
+#  Elapsed Time: 100.398 seconds (Warm-up)
+#                196.367 seconds (Sampling)
+#                296.765 seconds (Total)
+# 
+# 
+#  Elapsed Time: 101.214 seconds (Warm-up)
+#                196.651 seconds (Sampling)
+#                297.864 seconds (Total)
+# 
+# 
+#  Elapsed Time: 93.9356 seconds (Warm-up)
+#                238.007 seconds (Sampling)
+#                331.942 seconds (Total)
+# 
+# 
+#  Elapsed Time: 99.5739 seconds (Warm-up)
+#                2271.51 seconds (Sampling)
+#                2371.08 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   40 | 40m37s |   -0.38290 |   68.6133 |    9.2441 |   20.6814 |    2.5316 |    0.7447 |    6.8959 | 
+# 
+#  Elapsed Time: 101.878 seconds (Warm-up)
+#                196.407 seconds (Sampling)
+#                298.285 seconds (Total)
+# 
+# 
+#  Elapsed Time: 104.718 seconds (Warm-up)
+#                195.696 seconds (Sampling)
+#                300.414 seconds (Total)
+# 
+# 
+#  Elapsed Time: 109.515 seconds (Warm-up)
+#                197.208 seconds (Sampling)
+#                306.724 seconds (Total)
+# 
+# 
+#  Elapsed Time: 99.0107 seconds (Warm-up)
+#                303.453 seconds (Sampling)
+#                402.464 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   41 | 07m48s |   -0.36833 |   75.8355 |    5.8587 |   54.5897 |    2.0541 |    0.6982 |    9.1629 | 
+# 
+#  Elapsed Time: 44.7558 seconds (Warm-up)
+#                197.146 seconds (Sampling)
+#                241.902 seconds (Total)
+# 
+# 
+#  Elapsed Time: 44.6567 seconds (Warm-up)
+#                198.324 seconds (Sampling)
+#                242.981 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.7329 seconds (Warm-up)
+#                198.418 seconds (Sampling)
+#                245.151 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.1734 seconds (Warm-up)
+#                197.41 seconds (Sampling)
+#                245.583 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   42 | 05m10s |   -0.01249 |   17.2917 |    6.6031 |   76.6494 |    0.0864 |    0.0166 |    7.5676 | 
+# 
+#  Elapsed Time: 47.2236 seconds (Warm-up)
+#                197.927 seconds (Sampling)
+#                245.151 seconds (Total)
+# 
+# 
+#  Elapsed Time: 49.25 seconds (Warm-up)
+#                197.114 seconds (Sampling)
+#                246.364 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.8851 seconds (Warm-up)
+#                198.152 seconds (Sampling)
+#                247.037 seconds (Total)
+# 
+# 
+#  Elapsed Time: 44.3659 seconds (Warm-up)
+#                707.557 seconds (Sampling)
+#                751.923 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   43 | 13m37s |   -0.35464 |   15.4288 |    8.7442 |    6.2839 |    0.9102 |    0.9529 |    6.5636 | 
+# 
+#  Elapsed Time: 106 seconds (Warm-up)
+#                194.708 seconds (Sampling)
+#                300.707 seconds (Total)
+# 
+# 
+#  Elapsed Time: 108.127 seconds (Warm-up)
+#                195.535 seconds (Sampling)
+#                303.662 seconds (Total)
+# 
+# 
+#  Elapsed Time: 110.276 seconds (Warm-up)
+#                195.423 seconds (Sampling)
+#                305.699 seconds (Total)
+# 
+# 
+#  Elapsed Time: 115.522 seconds (Warm-up)
+#                195.321 seconds (Sampling)
+#                310.843 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   44 | 06m17s |   -0.38630 |   77.5649 |    4.6655 |   56.7534 |    3.4614 |    0.7650 |    4.9249 | 
+# 
+#  Elapsed Time: 53.5029 seconds (Warm-up)
+#                99.4395 seconds (Sampling)
+#                152.942 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.9958 seconds (Warm-up)
+#                99.822 seconds (Sampling)
+#                157.818 seconds (Total)
+# 
+# 
+#  Elapsed Time: 58.6426 seconds (Warm-up)
+#                99.9361 seconds (Sampling)
+#                158.579 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.7673 seconds (Warm-up)
+#                99.784 seconds (Sampling)
+#                165.551 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   45 | 03m51s |    0.17140 |   93.5853 |    7.9098 |   52.1781 |    1.8857 |    0.8450 |    0.6461 | 
+# 
+#  Elapsed Time: 124.073 seconds (Warm-up)
+#                101.747 seconds (Sampling)
+#                225.819 seconds (Total)
+# 
+# 
+#  Elapsed Time: 129.726 seconds (Warm-up)
+#                99.3071 seconds (Sampling)
+#                229.033 seconds (Total)
+# 
+# 
+#  Elapsed Time: 124.304 seconds (Warm-up)
+#                197.989 seconds (Sampling)
+#                322.293 seconds (Total)
+# 
+# 
+#  Elapsed Time: 127.093 seconds (Warm-up)
+#                198.298 seconds (Sampling)
+#                325.39 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   46 | 06m30s |   -0.29464 |   98.7283 |    1.9223 |   34.1962 |    3.4060 |    0.8958 |    1.2383 | 
+# 
+#  Elapsed Time: 54.3967 seconds (Warm-up)
+#                100.582 seconds (Sampling)
+#                154.979 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.2028 seconds (Warm-up)
+#                100.398 seconds (Sampling)
+#                162.601 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.7539 seconds (Warm-up)
+#                100.219 seconds (Sampling)
+#                162.973 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.9619 seconds (Warm-up)
+#                100.037 seconds (Sampling)
+#                168.999 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   47 | 03m55s |   -0.37307 |   70.4126 |    4.4554 |   34.2631 |    3.3137 |    0.0200 |    2.9341 | 
+# 
+#  Elapsed Time: 58.4739 seconds (Warm-up)
+#                387.495 seconds (Sampling)
+#                445.969 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.8736 seconds (Warm-up)
+#                400.267 seconds (Sampling)
+#                458.14 seconds (Total)
+# 
+# 
+#  Elapsed Time: 61.722 seconds (Warm-up)
+#                397.971 seconds (Sampling)
+#                459.693 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.5933 seconds (Warm-up)
+#                397.217 seconds (Sampling)
+#                459.81 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   48 | 08m45s |   -0.37809 |    6.3398 |    7.9213 |   70.5755 |    3.6344 |    0.4029 |    8.5054 | 
+# 
+#  Elapsed Time: 50.93 seconds (Warm-up)
+#                100.008 seconds (Sampling)
+#                150.938 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.5324 seconds (Warm-up)
+#                100.53 seconds (Sampling)
+#                153.063 seconds (Total)
+# 
+# 
+#  Elapsed Time: 53.8156 seconds (Warm-up)
+#                100.25 seconds (Sampling)
+#                154.066 seconds (Total)
+# 
+# 
+#  Elapsed Time: 58.6792 seconds (Warm-up)
+#                100.668 seconds (Sampling)
+#                159.347 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   49 | 03m44s |   -0.34855 |   49.7061 |    9.5630 |   50.0202 |    2.9468 |    0.2550 |    2.9195 | 
+# 
+#  Elapsed Time: 42.5656 seconds (Warm-up)
+#                101.113 seconds (Sampling)
+#                143.678 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.6441 seconds (Warm-up)
+#                101.561 seconds (Sampling)
+#                147.205 seconds (Total)
+# 
+# 
+#  Elapsed Time: 47.9164 seconds (Warm-up)
+#                101.274 seconds (Sampling)
+#                149.19 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.9913 seconds (Warm-up)
+#                101.366 seconds (Sampling)
+#                153.357 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   50 | 03m37s |   -0.20862 |   75.3270 |    8.2918 |   68.9936 |    1.8275 |    0.8782 |    1.1606 | 
+# 
+#  Elapsed Time: 87.7887 seconds (Warm-up)
+#                98.561 seconds (Sampling)
+#                186.35 seconds (Total)
+# 
+# 
+#  Elapsed Time: 80.6035 seconds (Warm-up)
+#                197.746 seconds (Sampling)
+#                278.349 seconds (Total)
+# 
+# 
+#  Elapsed Time: 91.6766 seconds (Warm-up)
+#                197.433 seconds (Sampling)
+#                289.11 seconds (Total)
+# 
+# 
+#  Elapsed Time: 87.2054 seconds (Warm-up)
+#                647.324 seconds (Sampling)
+#                734.529 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   51 | 13m19s |   -0.35944 |   53.1369 |    6.1233 |   71.7656 |    1.2740 |    0.6117 |    2.8098 | 
+# 
+#  Elapsed Time: 74.0215 seconds (Warm-up)
+#                99.4855 seconds (Sampling)
+#                173.507 seconds (Total)
+# 
+# 
+#  Elapsed Time: 80.9809 seconds (Warm-up)
+#                99.6409 seconds (Sampling)
+#                180.622 seconds (Total)
+# 
+# 
+#  Elapsed Time: 81.5016 seconds (Warm-up)
+#                99.6298 seconds (Sampling)
+#                181.131 seconds (Total)
+# 
+# 
+#  Elapsed Time: 82.8346 seconds (Warm-up)
+#                99.5056 seconds (Sampling)
+#                182.34 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   52 | 04m07s | [35m   0.26561[0m | [32m  74.1431[0m | [32m   1.6702[0m | [32m  51.0149[0m | [32m   2.5472[0m | [32m   0.2877[0m | [32m   0.6178[0m | 
+# 
+#  Elapsed Time: 43.8082 seconds (Warm-up)
+#                99.5674 seconds (Sampling)
+#                143.376 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.3943 seconds (Warm-up)
+#                99.1426 seconds (Sampling)
+#                150.537 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.2557 seconds (Warm-up)
+#                99.4806 seconds (Sampling)
+#                151.736 seconds (Total)
+# 
+# 
+#  Elapsed Time: 70.0596 seconds (Warm-up)
+#                99.0423 seconds (Sampling)
+#                169.102 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   53 | 03m55s |    0.11910 |   31.8775 |    6.1183 |   75.3101 |    3.0817 |    0.1679 |    0.9528 | 
+# 
+#  Elapsed Time: 75.3586 seconds (Warm-up)
+#                194.889 seconds (Sampling)
+#                270.248 seconds (Total)
+# 
+# 
+#  Elapsed Time: 85.7271 seconds (Warm-up)
+#                194.347 seconds (Sampling)
+#                280.074 seconds (Total)
+# 
+# 
+#  Elapsed Time: 87.8901 seconds (Warm-up)
+#                193.687 seconds (Sampling)
+#                281.577 seconds (Total)
+# 
+# 
+#  Elapsed Time: 88.5556 seconds (Warm-up)
+#                193.819 seconds (Sampling)
+#                282.375 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   54 | 05m49s |   -0.16079 |   47.4362 |    5.6047 |    2.7221 |    0.2536 |    0.9540 |    6.2681 | 
+# 
+#  Elapsed Time: 69.799 seconds (Warm-up)
+#                194.849 seconds (Sampling)
+#                264.648 seconds (Total)
+# 
+# 
+#  Elapsed Time: 74.3546 seconds (Warm-up)
+#                195.559 seconds (Sampling)
+#                269.914 seconds (Total)
+# 
+# 
+#  Elapsed Time: 74.6867 seconds (Warm-up)
+#                196.093 seconds (Sampling)
+#                270.78 seconds (Total)
+# 
+# 
+#  Elapsed Time: 83.8404 seconds (Warm-up)
+#                194.702 seconds (Sampling)
+#                278.543 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   55 | 05m45s |   -0.12975 |   40.1728 |    8.1212 |   97.1119 |    0.2596 |    0.5270 |    7.8143 | 
+# 
+#  Elapsed Time: 101.449 seconds (Warm-up)
+#                96.1287 seconds (Sampling)
+#                197.578 seconds (Total)
+# 
+# 
+#  Elapsed Time: 88.9333 seconds (Warm-up)
+#                192.116 seconds (Sampling)
+#                281.05 seconds (Total)
+# 
+# 
+#  Elapsed Time: 90.3985 seconds (Warm-up)
+#                192.027 seconds (Sampling)
+#                282.425 seconds (Total)
+# 
+# 
+#  Elapsed Time: 102.029 seconds (Warm-up)
+#                191.581 seconds (Sampling)
+#                293.609 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   56 | 05m59s |   -0.36475 |   58.0175 |    7.7182 |   70.7447 |    2.1359 |    0.9775 |    3.9242 | 
+# 
+#  Elapsed Time: 75.4399 seconds (Warm-up)
+#                198.439 seconds (Sampling)
+#                273.879 seconds (Total)
+# 
+# 
+#  Elapsed Time: 75.6534 seconds (Warm-up)
+#                198.441 seconds (Sampling)
+#                274.095 seconds (Total)
+# 
+# 
+#  Elapsed Time: 78.1206 seconds (Warm-up)
+#                198.694 seconds (Sampling)
+#                276.815 seconds (Total)
+# 
+# 
+#  Elapsed Time: 77.9886 seconds (Warm-up)
+#                201.532 seconds (Sampling)
+#                279.52 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   57 | 05m45s |   -0.39012 |   55.2477 |    5.7426 |   88.4700 |    1.8897 |    0.3408 |    8.9093 | 
+# 
+#  Elapsed Time: 67.6418 seconds (Warm-up)
+#                194.879 seconds (Sampling)
+#                262.521 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.2518 seconds (Warm-up)
+#                195.777 seconds (Sampling)
+#                264.029 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.4406 seconds (Warm-up)
+#                195.64 seconds (Sampling)
+#                264.081 seconds (Total)
+# 
+# 
+#  Elapsed Time: 73.9637 seconds (Warm-up)
+#                195.625 seconds (Sampling)
+#                269.589 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   58 | 05m34s |   -0.33582 |   42.6477 |    8.6705 |   45.7034 |    0.1026 |    0.5137 |    3.9690 | 
+# 
+#  Elapsed Time: 28.2483 seconds (Warm-up)
+#                100.171 seconds (Sampling)
+#                128.42 seconds (Total)
+# 
+# 
+#  Elapsed Time: 30.153 seconds (Warm-up)
+#                99.5178 seconds (Sampling)
+#                129.671 seconds (Total)
+# 
+# 
+#  Elapsed Time: 31.0159 seconds (Warm-up)
+#                109.054 seconds (Sampling)
+#                140.07 seconds (Total)
+# 
+# 
+#  Elapsed Time: 26.4974 seconds (Warm-up)
+#                1084.64 seconds (Sampling)
+#                1111.14 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   59 | 19m36s |   -0.32161 |   24.1442 |    9.3408 |   53.6078 |    1.1293 |    0.8537 |    1.2766 | 
+# 
+#  Elapsed Time: 105.69 seconds (Warm-up)
+#                196.146 seconds (Sampling)
+#                301.836 seconds (Total)
+# 
+# 
+#  Elapsed Time: 109.895 seconds (Warm-up)
+#                195.218 seconds (Sampling)
+#                305.113 seconds (Total)
+# 
+# 
+#  Elapsed Time: 125.458 seconds (Warm-up)
+#                196.255 seconds (Sampling)
+#                321.713 seconds (Total)
+# 
+# 
+#  Elapsed Time: 110.312 seconds (Warm-up)
+#                412.268 seconds (Sampling)
+#                522.581 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   60 | 09m47s |   -0.34533 |   91.5724 |    2.4467 |   95.9763 |    3.2201 |    0.9633 |    9.7447 | 
+# 
+#  Elapsed Time: 46.95 seconds (Warm-up)
+#                99.9328 seconds (Sampling)
+#                146.883 seconds (Total)
+# 
+# 
+#  Elapsed Time: 47.4304 seconds (Warm-up)
+#                99.472 seconds (Sampling)
+#                146.902 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.5055 seconds (Warm-up)
+#                100.327 seconds (Sampling)
+#                151.832 seconds (Total)
+# 
+# 
+#  Elapsed Time: 54.4203 seconds (Warm-up)
+#                99.7649 seconds (Sampling)
+#                154.185 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   61 | 03m38s |   -0.39563 |   78.3004 |    8.0936 |   79.0655 |    3.3223 |    0.2051 |    9.0332 | 
+# 
+#  Elapsed Time: 49.0052 seconds (Warm-up)
+#                100.23 seconds (Sampling)
+#                149.235 seconds (Total)
+# 
+# 
+#  Elapsed Time: 49.9924 seconds (Warm-up)
+#                100.842 seconds (Sampling)
+#                150.835 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.3068 seconds (Warm-up)
+#                100.091 seconds (Sampling)
+#                151.398 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.1562 seconds (Warm-up)
+#                100.963 seconds (Sampling)
+#                153.119 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   62 | 03m38s | [35m   0.41719[0m | [32m   1.7668[0m | [32m   6.7809[0m | [32m  50.8345[0m | [32m   2.0343[0m | [32m   0.3122[0m | [32m   0.5316[0m | 
+# 
+#  Elapsed Time: 42.7256 seconds (Warm-up)
+#                198.738 seconds (Sampling)
+#                241.464 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.5712 seconds (Warm-up)
+#                197.891 seconds (Sampling)
+#                244.462 seconds (Total)
+# 
+# 
+#  Elapsed Time: 47.4837 seconds (Warm-up)
+#                197.379 seconds (Sampling)
+#                244.863 seconds (Total)
+# 
+# 
+#  Elapsed Time: 50.1227 seconds (Warm-up)
+#                198.893 seconds (Sampling)
+#                249.016 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   63 | 05m15s |   -0.37080 |   15.4374 |    8.6426 |   61.0953 |    1.0798 |    0.8246 |    4.1526 | 
+# 
+#  Elapsed Time: 29.8376 seconds (Warm-up)
+#                99.9913 seconds (Sampling)
+#                129.829 seconds (Total)
+# 
+# 
+#  Elapsed Time: 35.47 seconds (Warm-up)
+#                100.384 seconds (Sampling)
+#                135.854 seconds (Total)
+# 
+# 
+#  Elapsed Time: 38.8883 seconds (Warm-up)
+#                100.274 seconds (Sampling)
+#                139.162 seconds (Total)
+# 
+# 
+#  Elapsed Time: 35.1294 seconds (Warm-up)
+#                1382.27 seconds (Sampling)
+#                1417.4 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   64 | 24m43s |   -0.31700 |   34.9981 |    8.3426 |   51.8315 |    3.4906 |    0.7613 |    2.1636 | 
+# 
+#  Elapsed Time: 59.8799 seconds (Warm-up)
+#                197.873 seconds (Sampling)
+#                257.753 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.0456 seconds (Warm-up)
+#                198.419 seconds (Sampling)
+#                260.465 seconds (Total)
+# 
+# 
+#  Elapsed Time: 64.0035 seconds (Warm-up)
+#                199.211 seconds (Sampling)
+#                263.215 seconds (Total)
+# 
+# 
+#  Elapsed Time: 64.5115 seconds (Warm-up)
+#                199.167 seconds (Sampling)
+#                263.679 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   65 | 05m28s |   -0.22527 |   37.9456 |    2.3600 |   97.4048 |    0.3495 |    0.6831 |    5.2700 | 
+# 
+#  Elapsed Time: 64.1637 seconds (Warm-up)
+#                100.789 seconds (Sampling)
+#                164.953 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.8718 seconds (Warm-up)
+#                100.429 seconds (Sampling)
+#                166.301 seconds (Total)
+# 
+# 
+#  Elapsed Time: 66.1048 seconds (Warm-up)
+#                100.715 seconds (Sampling)
+#                166.819 seconds (Total)
+# 
+# 
+#  Elapsed Time: 70.5361 seconds (Warm-up)
+#                101.3 seconds (Sampling)
+#                171.836 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   66 | 03m57s |    0.22175 |   93.9780 |    4.5602 |   75.2951 |    2.3247 |    0.5595 |    0.6793 | 
+# 
+#  Elapsed Time: 94.6946 seconds (Warm-up)
+#                99.7938 seconds (Sampling)
+#                194.488 seconds (Total)
+# 
+# 
+#  Elapsed Time: 92.7546 seconds (Warm-up)
+#                199.783 seconds (Sampling)
+#                292.538 seconds (Total)
+# 
+# 
+#  Elapsed Time: 93.787 seconds (Warm-up)
+#                199.595 seconds (Sampling)
+#                293.382 seconds (Total)
+# 
+# 
+#  Elapsed Time: 95.1288 seconds (Warm-up)
+#                199.065 seconds (Sampling)
+#                294.194 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   67 | 05m58s |   -0.32718 |   82.8268 |    5.6402 |   82.3250 |    1.6053 |    0.9252 |    1.5860 | 
+# 
+#  Elapsed Time: 67.0124 seconds (Warm-up)
+#                101.205 seconds (Sampling)
+#                168.217 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.0177 seconds (Warm-up)
+#                101.021 seconds (Sampling)
+#                169.039 seconds (Total)
+# 
+# 
+#  Elapsed Time: 44.3265 seconds (Warm-up)
+#                201.865 seconds (Sampling)
+#                246.191 seconds (Total)
+# 
+# 
+#  Elapsed Time: 75.5465 seconds (Warm-up)
+#                201.185 seconds (Sampling)
+#                276.732 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   68 | 05m41s |   -0.36942 |   82.1481 |    2.8337 |    6.4369 |    3.0354 |    0.0846 |    3.6424 | 
+# 
+#  Elapsed Time: 70.7365 seconds (Warm-up)
+#                199.057 seconds (Sampling)
+#                269.794 seconds (Total)
+# 
+# 
+#  Elapsed Time: 72.6829 seconds (Warm-up)
+#                198.9 seconds (Sampling)
+#                271.583 seconds (Total)
+# 
+# 
+#  Elapsed Time: 73.8488 seconds (Warm-up)
+#                198.442 seconds (Sampling)
+#                272.291 seconds (Total)
+# 
+# 
+#  Elapsed Time: 76.2679 seconds (Warm-up)
+#                198.758 seconds (Sampling)
+#                275.026 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   69 | 05m39s |   -0.37649 |   43.6937 |    6.9935 |   85.6631 |    2.2180 |    0.4239 |    7.5604 | 
+# 
+#  Elapsed Time: 73.0223 seconds (Warm-up)
+#                100.779 seconds (Sampling)
+#                173.801 seconds (Total)
+# 
+# 
+#  Elapsed Time: 76.724 seconds (Warm-up)
+#                101.05 seconds (Sampling)
+#                177.774 seconds (Total)
+# 
+# 
+#  Elapsed Time: 77.1449 seconds (Warm-up)
+#                101.283 seconds (Sampling)
+#                178.427 seconds (Total)
+# 
+# 
+#  Elapsed Time: 72.6155 seconds (Warm-up)
+#                261.279 seconds (Sampling)
+#                333.894 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   70 | 06m39s |   -0.36685 |   99.2248 |    6.2848 |   49.6315 |    3.3840 |    0.2278 |    3.0642 | 
+# 
+#  Elapsed Time: 49.2915 seconds (Warm-up)
+#                100.039 seconds (Sampling)
+#                149.33 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.9603 seconds (Warm-up)
+#                99.9155 seconds (Sampling)
+#                155.876 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.5995 seconds (Warm-up)
+#                199.117 seconds (Sampling)
+#                261.716 seconds (Total)
+# 
+# 
+#  Elapsed Time: 66.2526 seconds (Warm-up)
+#                208.741 seconds (Sampling)
+#                274.994 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   71 | 05m39s |   -0.37780 |   78.0733 |    9.7193 |   84.2320 |    2.1185 |    0.2921 |    7.3817 | 
+# 
+#  Elapsed Time: 47.5407 seconds (Warm-up)
+#                200.189 seconds (Sampling)
+#                247.729 seconds (Total)
+# 
+# 
+#  Elapsed Time: 47.8879 seconds (Warm-up)
+#                200.97 seconds (Sampling)
+#                248.857 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.3546 seconds (Warm-up)
+#                200.993 seconds (Sampling)
+#                256.348 seconds (Total)
+# 
+# 
+#  Elapsed Time: 54.1796 seconds (Warm-up)
+#                947.171 seconds (Sampling)
+#                1001.35 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   72 | 17m46s |   -0.34884 |   59.8177 |    4.1949 |   94.3980 |    2.6997 |    0.4833 |    1.9342 | 
+# 
+#  Elapsed Time: 34.4373 seconds (Warm-up)
+#                200.715 seconds (Sampling)
+#                235.153 seconds (Total)
+# 
+# 
+#  Elapsed Time: 33.454 seconds (Warm-up)
+#                201.778 seconds (Sampling)
+#                235.232 seconds (Total)
+# 
+# 
+#  Elapsed Time: 35.0808 seconds (Warm-up)
+#                201.556 seconds (Sampling)
+#                236.637 seconds (Total)
+# 
+# 
+#  Elapsed Time: 36.8269 seconds (Warm-up)
+#                201.188 seconds (Sampling)
+#                238.015 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   73 | 05m02s |   -0.28338 |    2.2818 |    4.6999 |   71.9001 |    3.3950 |    0.8869 |    1.9037 | 
+# 
+#  Elapsed Time: 55.0011 seconds (Warm-up)
+#                200.156 seconds (Sampling)
+#                255.158 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.493 seconds (Warm-up)
+#                199.753 seconds (Sampling)
+#                255.246 seconds (Total)
+# 
+# 
+#  Elapsed Time: 58.1064 seconds (Warm-up)
+#                199.895 seconds (Sampling)
+#                258.001 seconds (Total)
+# 
+# 
+#  Elapsed Time: 59.2469 seconds (Warm-up)
+#                200.308 seconds (Sampling)
+#                259.555 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   74 | 05m25s |   -0.36539 |   22.1495 |    9.5277 |   24.3375 |    0.3001 |    0.7067 |    2.4690 | 
+# 
+#  Elapsed Time: 44.8141 seconds (Warm-up)
+#                99.203 seconds (Sampling)
+#                144.017 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.6997 seconds (Warm-up)
+#                99.9071 seconds (Sampling)
+#                146.607 seconds (Total)
+# 
+# 
+#  Elapsed Time: 58.2815 seconds (Warm-up)
+#                197.82 seconds (Sampling)
+#                256.102 seconds (Total)
+# 
+# 
+#  Elapsed Time: 43.3038 seconds (Warm-up)
+#                1744.48 seconds (Sampling)
+#                1787.78 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   75 | 30m55s |   -0.38123 |   88.2982 |    7.2554 |   38.6770 |    2.5168 |    0.0410 |    8.1886 | 
+# 
+#  Elapsed Time: 50.0641 seconds (Warm-up)
+#                199.399 seconds (Sampling)
+#                249.463 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.3854 seconds (Warm-up)
+#                199.753 seconds (Sampling)
+#                252.139 seconds (Total)
+# 
+# 
+#  Elapsed Time: 53.0718 seconds (Warm-up)
+#                199.39 seconds (Sampling)
+#                252.461 seconds (Total)
+# 
+# 
+#  Elapsed Time: 53.6232 seconds (Warm-up)
+#                198.879 seconds (Sampling)
+#                252.502 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   76 | 05m18s |   -0.34247 |   37.7833 |    1.6579 |   64.5698 |    2.7727 |    0.2714 |    6.8624 | 
+# 
+#  Elapsed Time: 62.6833 seconds (Warm-up)
+#                197.962 seconds (Sampling)
+#                260.645 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.8053 seconds (Warm-up)
+#                198.261 seconds (Sampling)
+#                264.067 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.8479 seconds (Warm-up)
+#                198.429 seconds (Sampling)
+#                264.277 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.2548 seconds (Warm-up)
+#                198.733 seconds (Sampling)
+#                266.987 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   77 | 05m32s |   -0.35455 |   40.1944 |    8.9377 |   14.2748 |    1.0158 |    0.3965 |    7.2850 | 
+# 
+#  Elapsed Time: 49.8727 seconds (Warm-up)
+#                199.963 seconds (Sampling)
+#                249.835 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.5073 seconds (Warm-up)
+#                199.936 seconds (Sampling)
+#                252.443 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.6301 seconds (Warm-up)
+#                200.431 seconds (Sampling)
+#                256.061 seconds (Total)
+# 
+# 
+#  Elapsed Time: 60.437 seconds (Warm-up)
+#                199.891 seconds (Sampling)
+#                260.328 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   78 | 05m25s |   -0.36716 |   20.9381 |    3.1047 |   57.8113 |    1.2162 |    0.3594 |    9.7068 | 
+# 
+#  Elapsed Time: 63.5035 seconds (Warm-up)
+#                201.586 seconds (Sampling)
+#                265.09 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.8462 seconds (Warm-up)
+#                202.998 seconds (Sampling)
+#                271.844 seconds (Total)
+# 
+# 
+#  Elapsed Time: 72.8805 seconds (Warm-up)
+#                202.138 seconds (Sampling)
+#                275.019 seconds (Total)
+# 
+# 
+#  Elapsed Time: 63.4713 seconds (Warm-up)
+#                496.923 seconds (Sampling)
+#                560.394 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   79 | 10m27s |   -0.33738 |   63.3792 |    9.3173 |   50.5783 |    3.8053 |    0.9307 |    2.4272 | 
+# 
+#  Elapsed Time: 54.8532 seconds (Warm-up)
+#                196.513 seconds (Sampling)
+#                251.366 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.7067 seconds (Warm-up)
+#                197.534 seconds (Sampling)
+#                255.24 seconds (Total)
+# 
+# 
+#  Elapsed Time: 61.1925 seconds (Warm-up)
+#                197.199 seconds (Sampling)
+#                258.392 seconds (Total)
+# 
+# 
+#  Elapsed Time: 60.7771 seconds (Warm-up)
+#                1788.87 seconds (Sampling)
+#                1849.65 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   80 | 31m57s |   -0.39068 |   32.2010 |    8.1754 |   20.2416 |    1.4369 |    0.7530 |    6.9456 | 
+# 
+#  Elapsed Time: 92.8745 seconds (Warm-up)
+#                102.814 seconds (Sampling)
+#                195.688 seconds (Total)
+# 
+# 
+#  Elapsed Time: 86.5798 seconds (Warm-up)
+#                198.527 seconds (Sampling)
+#                285.107 seconds (Total)
+# 
+# 
+#  Elapsed Time: 86.479 seconds (Warm-up)
+#                199.877 seconds (Sampling)
+#                286.356 seconds (Total)
+# 
+# 
+#  Elapsed Time: 82.9418 seconds (Warm-up)
+#                2440.55 seconds (Sampling)
+#                2523.49 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   81 | 43m10s |   -0.35869 |   61.3418 |    4.8307 |   49.1835 |    1.5786 |    0.5249 |    2.3930 | 
+# 
+#  Elapsed Time: 106.401 seconds (Warm-up)
+#                198.512 seconds (Sampling)
+#                304.913 seconds (Total)
+# 
+# 
+#  Elapsed Time: 105.971 seconds (Warm-up)
+#                199.582 seconds (Sampling)
+#                305.553 seconds (Total)
+# 
+# 
+#  Elapsed Time: 111.331 seconds (Warm-up)
+#                199.052 seconds (Sampling)
+#                310.382 seconds (Total)
+# 
+# 
+#  Elapsed Time: 117.584 seconds (Warm-up)
+#                199.543 seconds (Sampling)
+#                317.127 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   82 | 06m22s |   -0.31307 |   86.4214 |    1.8148 |   26.0854 |    1.1578 |    0.4789 |    8.4965 | 
+# 
+#  Elapsed Time: 103.727 seconds (Warm-up)
+#                100.73 seconds (Sampling)
+#                204.457 seconds (Total)
+# 
+# 
+#  Elapsed Time: 96.7076 seconds (Warm-up)
+#                197.081 seconds (Sampling)
+#                293.789 seconds (Total)
+# 
+# 
+#  Elapsed Time: 103.856 seconds (Warm-up)
+#                196.881 seconds (Sampling)
+#                300.738 seconds (Total)
+# 
+# 
+#  Elapsed Time: 97.5309 seconds (Warm-up)
+#                217.729 seconds (Sampling)
+#                315.26 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   83 | 06m19s |   -0.35562 |   78.2328 |    4.9980 |   73.3317 |    3.4416 |    0.8622 |    2.4679 | 
+# 
+#  Elapsed Time: 49.4751 seconds (Warm-up)
+#                200.765 seconds (Sampling)
+#                250.241 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.0597 seconds (Warm-up)
+#                201.784 seconds (Sampling)
+#                253.843 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.0073 seconds (Warm-up)
+#                201.906 seconds (Sampling)
+#                256.913 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.1333 seconds (Warm-up)
+#                279.926 seconds (Sampling)
+#                332.06 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   84 | 06m36s |   -0.35844 |   55.3672 |    6.9026 |   77.3011 |    3.6301 |    0.3506 |    2.7427 | 
+# 
+#  Elapsed Time: 65.0616 seconds (Warm-up)
+#                196.917 seconds (Sampling)
+#                261.978 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.0134 seconds (Warm-up)
+#                196.861 seconds (Sampling)
+#                264.874 seconds (Total)
+# 
+# 
+#  Elapsed Time: 67.8977 seconds (Warm-up)
+#                198.299 seconds (Sampling)
+#                266.197 seconds (Total)
+# 
+# 
+#  Elapsed Time: 70.2394 seconds (Warm-up)
+#                198.273 seconds (Sampling)
+#                268.513 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   85 | 05m33s |   -0.37289 |   38.3677 |    5.3102 |   88.9686 |    2.3840 |    0.6822 |    8.7854 | 
+# 
+#  Elapsed Time: 98.1718 seconds (Warm-up)
+#                198.701 seconds (Sampling)
+#                296.872 seconds (Total)
+# 
+# 
+#  Elapsed Time: 104.838 seconds (Warm-up)
+#                198.218 seconds (Sampling)
+#                303.057 seconds (Total)
+# 
+# 
+#  Elapsed Time: 107.179 seconds (Warm-up)
+#                198.859 seconds (Sampling)
+#                306.037 seconds (Total)
+# 
+# 
+#  Elapsed Time: 112.29 seconds (Warm-up)
+#                198.015 seconds (Sampling)
+#                310.304 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   86 | 06m15s |   -0.34837 |   66.2215 |    7.1076 |   91.6975 |    0.9495 |    0.6630 |    3.3116 | 
+# 
+#  Elapsed Time: 57.8966 seconds (Warm-up)
+#                196.927 seconds (Sampling)
+#                254.824 seconds (Total)
+# 
+# 
+#  Elapsed Time: 64.5828 seconds (Warm-up)
+#                196.833 seconds (Sampling)
+#                261.416 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.0101 seconds (Warm-up)
+#                196.887 seconds (Sampling)
+#                261.898 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.0535 seconds (Warm-up)
+#                197.161 seconds (Sampling)
+#                262.214 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   87 | 05m26s |   -0.30036 |   26.9237 |    3.1156 |   45.2730 |    0.8779 |    0.7589 |    9.5553 | 
+# 
+#  Elapsed Time: 77.4432 seconds (Warm-up)
+#                198.872 seconds (Sampling)
+#                276.315 seconds (Total)
+# 
+# 
+#  Elapsed Time: 80.0894 seconds (Warm-up)
+#                198.252 seconds (Sampling)
+#                278.342 seconds (Total)
+# 
+# 
+#  Elapsed Time: 80.1641 seconds (Warm-up)
+#                199.213 seconds (Sampling)
+#                279.377 seconds (Total)
+# 
+# 
+#  Elapsed Time: 85.4976 seconds (Warm-up)
+#                198.431 seconds (Sampling)
+#                283.928 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   88 | 05m48s |   -0.11282 |   81.0343 |    9.7468 |   49.4422 |    3.8368 |    0.0099 |    0.6832 | 
+# 
+#  Elapsed Time: 40.1239 seconds (Warm-up)
+#                99.7461 seconds (Sampling)
+#                139.87 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.9536 seconds (Warm-up)
+#                103.434 seconds (Sampling)
+#                149.388 seconds (Total)
+# 
+# 
+#  Elapsed Time: 54.2295 seconds (Warm-up)
+#                100.334 seconds (Sampling)
+#                154.564 seconds (Total)
+# 
+# 
+#  Elapsed Time: 63.5908 seconds (Warm-up)
+#                101.647 seconds (Sampling)
+#                165.238 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   89 | 03m51s |   -0.39067 |   49.6454 |    6.0770 |   47.1844 |    3.3712 |    0.2256 |    4.7910 | 
+# 
+#  Elapsed Time: 104.574 seconds (Warm-up)
+#                207.83 seconds (Sampling)
+#                312.404 seconds (Total)
+# 
+# 
+#  Elapsed Time: 121.037 seconds (Warm-up)
+#                207.039 seconds (Sampling)
+#                328.076 seconds (Total)
+# 
+# 
+#  Elapsed Time: 125.005 seconds (Warm-up)
+#                207.687 seconds (Sampling)
+#                332.692 seconds (Total)
+# 
+# 
+#  Elapsed Time: 120.974 seconds (Warm-up)
+#                283.328 seconds (Sampling)
+#                404.302 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   90 | 07m50s |   -0.39128 |   83.5148 |    7.8039 |   40.6641 |    1.7864 |    0.6475 |    8.3122 | 
+# 
+#  Elapsed Time: 33.0081 seconds (Warm-up)
+#                201.899 seconds (Sampling)
+#                234.907 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.6 seconds (Warm-up)
+#                400.966 seconds (Sampling)
+#                446.566 seconds (Total)
+# 
+# 
+#  Elapsed Time: 47.9861 seconds (Warm-up)
+#                401.545 seconds (Sampling)
+#                449.531 seconds (Total)
+# 
+# 
+#  Elapsed Time: 49.4272 seconds (Warm-up)
+#                401.001 seconds (Sampling)
+#                450.428 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   91 | 08m35s |   -0.32771 |    6.5966 |    1.7962 |   20.4334 |    2.6521 |    0.2547 |    7.4764 | 
+# 
+#  Elapsed Time: 93.8948 seconds (Warm-up)
+#                110.641 seconds (Sampling)
+#                204.536 seconds (Total)
+# 
+# 
+#  Elapsed Time: 100.325 seconds (Warm-up)
+#                198.838 seconds (Sampling)
+#                299.163 seconds (Total)
+# 
+# 
+#  Elapsed Time: 100.232 seconds (Warm-up)
+#                199.824 seconds (Sampling)
+#                300.056 seconds (Total)
+# 
+# 
+#  Elapsed Time: 101.383 seconds (Warm-up)
+#                1508.98 seconds (Sampling)
+#                1610.36 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   92 | 27m57s |   -0.33046 |   54.9784 |    2.0529 |   79.5851 |    1.4941 |    0.6842 |    3.9133 | 
+# 
+#  Elapsed Time: 51.0084 seconds (Warm-up)
+#                99.9341 seconds (Sampling)
+#                150.943 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.1222 seconds (Warm-up)
+#                100.178 seconds (Sampling)
+#                157.3 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.3842 seconds (Warm-up)
+#                100.636 seconds (Sampling)
+#                158.02 seconds (Total)
+# 
+# 
+#  Elapsed Time: 162.648 seconds (Warm-up)
+#                99.5037 seconds (Sampling)
+#                262.152 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   93 | 05m28s |   -0.38055 |   87.6830 |    6.2132 |   76.5379 |    2.4795 |    0.2152 |    6.6155 | 
+# 
+#  Elapsed Time: 41.3314 seconds (Warm-up)
+#                100.012 seconds (Sampling)
+#                141.344 seconds (Total)
+# 
+# 
+#  Elapsed Time: 54.3281 seconds (Warm-up)
+#                100.572 seconds (Sampling)
+#                154.9 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.44 seconds (Warm-up)
+#                100.829 seconds (Sampling)
+#                166.269 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.4784 seconds (Warm-up)
+#                100.443 seconds (Sampling)
+#                168.922 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   94 | 03m53s |   -0.40086 |   90.7911 |    8.9420 |    7.3392 |    2.8216 |    0.1416 |    6.6858 | 
+# 
+#  Elapsed Time: 59.6546 seconds (Warm-up)
+#                99.189 seconds (Sampling)
+#                158.844 seconds (Total)
+# 
+# 
+#  Elapsed Time: 61.7127 seconds (Warm-up)
+#                99.8171 seconds (Sampling)
+#                161.53 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.8083 seconds (Warm-up)
+#                99.6361 seconds (Sampling)
+#                165.444 seconds (Total)
+# 
+# 
+#  Elapsed Time: 71.0748 seconds (Warm-up)
+#                100.158 seconds (Sampling)
+#                171.233 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   95 | 03m55s |    0.39454 |   95.8317 |    4.4000 |   25.3492 |    2.0968 |    0.8794 |    0.1708 | 
+# 
+#  Elapsed Time: 36.1039 seconds (Warm-up)
+#                100.426 seconds (Sampling)
+#                136.53 seconds (Total)
+# 
+# 
+#  Elapsed Time: 44.8449 seconds (Warm-up)
+#                99.914 seconds (Sampling)
+#                144.759 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.0946 seconds (Warm-up)
+#                100.971 seconds (Sampling)
+#                147.066 seconds (Total)
+# 
+# 
+#  Elapsed Time: 50.8357 seconds (Warm-up)
+#                100.067 seconds (Sampling)
+#                150.903 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   96 | 03m35s |   -0.36356 |   41.2010 |    6.0117 |   83.9918 |    1.3319 |    0.1238 |    5.0597 | 
+# 
+#  Elapsed Time: 46.9492 seconds (Warm-up)
+#                102.723 seconds (Sampling)
+#                149.673 seconds (Total)
+# 
+# 
+#  Elapsed Time: 40.5098 seconds (Warm-up)
+#                200.477 seconds (Sampling)
+#                240.987 seconds (Total)
+# 
+# 
+#  Elapsed Time: 42.9658 seconds (Warm-up)
+#                200.31 seconds (Sampling)
+#                243.276 seconds (Total)
+# 
+# 
+#  Elapsed Time: 44.6228 seconds (Warm-up)
+#                200.314 seconds (Sampling)
+#                244.937 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   97 | 05m09s |   -0.36010 |   27.4571 |    7.7943 |   96.1698 |    1.1110 |    0.2892 |    4.9811 | 
+# 
+#  Elapsed Time: 58.003 seconds (Warm-up)
+#                199.895 seconds (Sampling)
+#                257.898 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.6557 seconds (Warm-up)
+#                200.382 seconds (Sampling)
+#                263.038 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.0157 seconds (Warm-up)
+#                199.889 seconds (Sampling)
+#                267.905 seconds (Total)
+# 
+# 
+#  Elapsed Time: 71.5973 seconds (Warm-up)
+#                200.827 seconds (Sampling)
+#                272.424 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   98 | 05m36s |   -0.37331 |   56.4613 |    4.7593 |   96.5493 |    1.9548 |    0.2730 |    6.2001 | 
+# 
+#  Elapsed Time: 96.4649 seconds (Warm-up)
+#                197.378 seconds (Sampling)
+#                293.843 seconds (Total)
+# 
+# 
+#  Elapsed Time: 101.477 seconds (Warm-up)
+#                197.104 seconds (Sampling)
+#                298.581 seconds (Total)
+# 
+# 
+#  Elapsed Time: 103.297 seconds (Warm-up)
+#                196.593 seconds (Sampling)
+#                299.89 seconds (Total)
+# 
+# 
+#  Elapsed Time: 105.734 seconds (Warm-up)
+#                197.634 seconds (Sampling)
+#                303.367 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+   99 | 06m07s |   -0.28220 |   70.2477 |    1.3562 |   22.6902 |    0.8178 |    0.3987 |    7.7368 | 
+# 
+#  Elapsed Time: 104.383 seconds (Warm-up)
+#                195.345 seconds (Sampling)
+#                299.727 seconds (Total)
+# 
+# 
+#  Elapsed Time: 117.255 seconds (Warm-up)
+#                195.84 seconds (Sampling)
+#                313.095 seconds (Total)
+# 
+# 
+#  Elapsed Time: 119.15 seconds (Warm-up)
+#                390.222 seconds (Sampling)
+#                509.372 seconds (Total)
+# 
+# 
+#  Elapsed Time: 120.353 seconds (Warm-up)
+#                389.256 seconds (Sampling)
+#                509.61 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  100 | 09m34s |   -0.38074 |   91.0441 |    3.8910 |   16.3498 |    3.6074 |    0.9350 |    9.1153 | 
+# 
+#  Elapsed Time: 41.7865 seconds (Warm-up)
+#                100.574 seconds (Sampling)
+#                142.361 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.9712 seconds (Warm-up)
+#                100.83 seconds (Sampling)
+#                147.801 seconds (Total)
+# 
+# 
+#  Elapsed Time: 47.4474 seconds (Warm-up)
+#                100.761 seconds (Sampling)
+#                148.208 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.1077 seconds (Warm-up)
+#                100.866 seconds (Sampling)
+#                157.974 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  101 | 03m42s |   -0.36501 |   45.4782 |    6.8800 |   95.5378 |    2.5097 |    0.0213 |    3.3764 | 
+# 
+#  Elapsed Time: 64.5943 seconds (Warm-up)
+#                204.46 seconds (Sampling)
+#                269.054 seconds (Total)
+# 
+# 
+#  Elapsed Time: 54.4748 seconds (Warm-up)
+#                398.882 seconds (Sampling)
+#                453.357 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.8274 seconds (Warm-up)
+#                398.513 seconds (Sampling)
+#                456.341 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.8912 seconds (Warm-up)
+#                398.514 seconds (Sampling)
+#                461.405 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  102 | 08m46s |   -0.37322 |    6.5070 |    2.5102 |   56.6376 |    3.6740 |    0.0876 |    9.8163 | 
+# 
+#  Elapsed Time: 41.4867 seconds (Warm-up)
+#                197.214 seconds (Sampling)
+#                238.701 seconds (Total)
+# 
+# 
+#  Elapsed Time: 42.2178 seconds (Warm-up)
+#                198.148 seconds (Sampling)
+#                240.365 seconds (Total)
+# 
+# 
+#  Elapsed Time: 43.7897 seconds (Warm-up)
+#                197.075 seconds (Sampling)
+#                240.864 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.6691 seconds (Warm-up)
+#                197.976 seconds (Sampling)
+#                243.645 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  103 | 05m07s |   -0.22159 |    6.8015 |    2.4228 |   76.2352 |    0.7049 |    0.9862 |    5.1615 | 
+# 
+#  Elapsed Time: 61.566 seconds (Warm-up)
+#                196.953 seconds (Sampling)
+#                258.519 seconds (Total)
+# 
+# 
+#  Elapsed Time: 63.8738 seconds (Warm-up)
+#                197.71 seconds (Sampling)
+#                261.584 seconds (Total)
+# 
+# 
+#  Elapsed Time: 67.9716 seconds (Warm-up)
+#                197.915 seconds (Sampling)
+#                265.887 seconds (Total)
+# 
+# 
+#  Elapsed Time: 68.2649 seconds (Warm-up)
+#                197.963 seconds (Sampling)
+#                266.228 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  104 | 05m30s |   -0.37261 |   33.1190 |    6.4349 |   20.1987 |    1.3202 |    0.6290 |    9.5153 | 
+# 
+#  Elapsed Time: 44.3429 seconds (Warm-up)
+#                194.135 seconds (Sampling)
+#                238.478 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.7132 seconds (Warm-up)
+#                194.264 seconds (Sampling)
+#                240.978 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.5414 seconds (Warm-up)
+#                196.06 seconds (Sampling)
+#                241.601 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.5712 seconds (Warm-up)
+#                195.035 seconds (Sampling)
+#                246.606 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  105 | 05m12s |   -0.36209 |   16.4161 |    4.6740 |   61.5890 |    1.9029 |    0.9897 |    5.4093 | 
+# 
+#  Elapsed Time: 37.7493 seconds (Warm-up)
+#                99.4301 seconds (Sampling)
+#                137.179 seconds (Total)
+# 
+# 
+#  Elapsed Time: 42.4031 seconds (Warm-up)
+#                100.23 seconds (Sampling)
+#                142.634 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.1993 seconds (Warm-up)
+#                99.8494 seconds (Sampling)
+#                148.049 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.179 seconds (Warm-up)
+#                99.9308 seconds (Sampling)
+#                155.11 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  106 | 03m41s |    0.04140 |   23.3614 |    9.6528 |   34.8004 |    3.1179 |    0.2275 |    1.2610 | 
+# 
+#  Elapsed Time: 43.3948 seconds (Warm-up)
+#                199.28 seconds (Sampling)
+#                242.675 seconds (Total)
+# 
+# 
+#  Elapsed Time: 44.0854 seconds (Warm-up)
+#                200.252 seconds (Sampling)
+#                244.337 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.1825 seconds (Warm-up)
+#                200.85 seconds (Sampling)
+#                246.033 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.6439 seconds (Warm-up)
+#                201.068 seconds (Sampling)
+#                246.712 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  107 | 05m12s |   -0.38395 |   18.4238 |    7.0680 |   47.8170 |    0.2911 |    0.3330 |    3.7009 | 
+# 
+#  Elapsed Time: 46.5524 seconds (Warm-up)
+#                198.313 seconds (Sampling)
+#                244.865 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.9905 seconds (Warm-up)
+#                198.625 seconds (Sampling)
+#                247.615 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.5138 seconds (Warm-up)
+#                199.403 seconds (Sampling)
+#                247.917 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.9078 seconds (Warm-up)
+#                199.1 seconds (Sampling)
+#                248.008 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  108 | 05m13s |   -0.35892 |   16.6210 |    9.1442 |   71.8761 |    0.8997 |    0.3901 |    8.8034 | 
+# 
+#  Elapsed Time: 103.357 seconds (Warm-up)
+#                200.23 seconds (Sampling)
+#                303.587 seconds (Total)
+# 
+# 
+#  Elapsed Time: 109.88 seconds (Warm-up)
+#                199.405 seconds (Sampling)
+#                309.285 seconds (Total)
+# 
+# 
+#  Elapsed Time: 108.111 seconds (Warm-up)
+#                201.588 seconds (Sampling)
+#                309.698 seconds (Total)
+# 
+# 
+#  Elapsed Time: 110.347 seconds (Warm-up)
+#                201.247 seconds (Sampling)
+#                311.594 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  109 | 06m16s |   -0.36793 |   82.3449 |    6.3145 |   12.9222 |    3.9397 |    0.0299 |    3.0540 | 
+# 
+#  Elapsed Time: 57.309 seconds (Warm-up)
+#                200.399 seconds (Sampling)
+#                257.708 seconds (Total)
+# 
+# 
+#  Elapsed Time: 58.9586 seconds (Warm-up)
+#                198.823 seconds (Sampling)
+#                257.782 seconds (Total)
+# 
+# 
+#  Elapsed Time: 59.7558 seconds (Warm-up)
+#                200.711 seconds (Sampling)
+#                260.467 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.6897 seconds (Warm-up)
+#                199.014 seconds (Sampling)
+#                264.704 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  110 | 05m29s |   -0.36227 |   25.5880 |    4.4716 |   30.8887 |    1.5942 |    0.4679 |    8.2551 | 
+# 
+#  Elapsed Time: 60.502 seconds (Warm-up)
+#                198.363 seconds (Sampling)
+#                258.865 seconds (Total)
+# 
+# 
+#  Elapsed Time: 64.5894 seconds (Warm-up)
+#                198.226 seconds (Sampling)
+#                262.815 seconds (Total)
+# 
+# 
+#  Elapsed Time: 66.931 seconds (Warm-up)
+#                196.989 seconds (Sampling)
+#                263.92 seconds (Total)
+# 
+# 
+#  Elapsed Time: 70.135 seconds (Warm-up)
+#                196.997 seconds (Sampling)
+#                267.132 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  111 | 05m33s |   -0.38805 |   33.8919 |    8.8218 |   16.5647 |    1.4810 |    0.9398 |    7.4561 | 
+# 
+#  Elapsed Time: 42.9782 seconds (Warm-up)
+#                99.9082 seconds (Sampling)
+#                142.886 seconds (Total)
+# 
+# 
+#  Elapsed Time: 44.5803 seconds (Warm-up)
+#                100.198 seconds (Sampling)
+#                144.778 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.4613 seconds (Warm-up)
+#                99.4581 seconds (Sampling)
+#                144.919 seconds (Total)
+# 
+# 
+#  Elapsed Time: 50.7646 seconds (Warm-up)
+#                99.4155 seconds (Sampling)
+#                150.18 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  112 | 03m36s |    0.27514 |   13.3794 |    7.5806 |   81.0637 |    0.7333 |    0.3079 |    0.0501 | 
+# 
+#  Elapsed Time: 44.8351 seconds (Warm-up)
+#                99.7881 seconds (Sampling)
+#                144.623 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.5262 seconds (Warm-up)
+#                198.33 seconds (Sampling)
+#                243.857 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.8028 seconds (Warm-up)
+#                198.759 seconds (Sampling)
+#                245.562 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.4626 seconds (Warm-up)
+#                198.705 seconds (Sampling)
+#                247.168 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  113 | 05m12s |    0.06233 |   46.1583 |    8.7480 |   29.2629 |    0.3007 |    0.6302 |    0.1861 | 
+# 
+#  Elapsed Time: 59.588 seconds (Warm-up)
+#                196.826 seconds (Sampling)
+#                256.414 seconds (Total)
+# 
+# 
+#  Elapsed Time: 61.4028 seconds (Warm-up)
+#                197.452 seconds (Sampling)
+#                258.855 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.2668 seconds (Warm-up)
+#                198.341 seconds (Sampling)
+#                260.608 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.2641 seconds (Warm-up)
+#                235.147 seconds (Sampling)
+#                287.411 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  114 | 05m52s |   -0.39688 |   33.8749 |    8.4672 |   45.9816 |    3.2672 |    0.6224 |    8.4634 | 
+# 
+#  Elapsed Time: 41.0831 seconds (Warm-up)
+#                200.249 seconds (Sampling)
+#                241.332 seconds (Total)
+# 
+# 
+#  Elapsed Time: 40.9353 seconds (Warm-up)
+#                200.565 seconds (Sampling)
+#                241.5 seconds (Total)
+# 
+# 
+#  Elapsed Time: 40.3297 seconds (Warm-up)
+#                206.175 seconds (Sampling)
+#                246.505 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.4384 seconds (Warm-up)
+#                200.209 seconds (Sampling)
+#                248.647 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  115 | 05m14s |   -0.32372 |   29.5808 |    1.6386 |   53.5018 |    1.8814 |    0.0940 |    6.4431 | 
+# 
+#  Elapsed Time: 76.0637 seconds (Warm-up)
+#                196.613 seconds (Sampling)
+#                272.677 seconds (Total)
+# 
+# 
+#  Elapsed Time: 78.7721 seconds (Warm-up)
+#                197.294 seconds (Sampling)
+#                276.066 seconds (Total)
+# 
+# 
+#  Elapsed Time: 83.8251 seconds (Warm-up)
+#                197.642 seconds (Sampling)
+#                281.467 seconds (Total)
+# 
+# 
+#  Elapsed Time: 75.5272 seconds (Warm-up)
+#                506.144 seconds (Sampling)
+#                581.671 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  116 | 10m47s |   -0.37510 |   47.1290 |    7.4000 |   75.0700 |    1.6572 |    0.7174 |    5.9136 | 
+# 
+#  Elapsed Time: 82.3443 seconds (Warm-up)
+#                201.376 seconds (Sampling)
+#                283.72 seconds (Total)
+# 
+# 
+#  Elapsed Time: 83.9436 seconds (Warm-up)
+#                200.703 seconds (Sampling)
+#                284.647 seconds (Total)
+# 
+# 
+#  Elapsed Time: 93.2057 seconds (Warm-up)
+#                200.338 seconds (Sampling)
+#                293.544 seconds (Total)
+# 
+# 
+#  Elapsed Time: 93.2752 seconds (Warm-up)
+#                203.035 seconds (Sampling)
+#                296.31 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  117 | 06m01s |   -0.36539 |   63.1812 |    4.2524 |   13.1052 |    1.7012 |    0.4294 |    4.6277 | 
+# 
+#  Elapsed Time: 61.6727 seconds (Warm-up)
+#                197.452 seconds (Sampling)
+#                259.125 seconds (Total)
+# 
+# 
+#  Elapsed Time: 64.3723 seconds (Warm-up)
+#                198.02 seconds (Sampling)
+#                262.393 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.4141 seconds (Warm-up)
+#                198.625 seconds (Sampling)
+#                264.039 seconds (Total)
+# 
+# 
+#  Elapsed Time: 66.5739 seconds (Warm-up)
+#                198.354 seconds (Sampling)
+#                264.927 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  118 | 05m29s |   -0.28839 |   42.4434 |    1.8866 |   96.9960 |    0.8237 |    0.6029 |    7.0148 | 
+# 
+#  Elapsed Time: 100.883 seconds (Warm-up)
+#                98.185 seconds (Sampling)
+#                199.068 seconds (Total)
+# 
+# 
+#  Elapsed Time: 95.377 seconds (Warm-up)
+#                196.249 seconds (Sampling)
+#                291.626 seconds (Total)
+# 
+# 
+#  Elapsed Time: 100.81 seconds (Warm-up)
+#                196.591 seconds (Sampling)
+#                297.401 seconds (Total)
+# 
+# 
+#  Elapsed Time: 95.7142 seconds (Warm-up)
+#                1610.7 seconds (Sampling)
+#                1706.41 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  119 | 29m32s |   -0.39948 |   90.8613 |    9.8190 |   54.4341 |    3.0511 |    0.5541 |    9.6312 | 
+# 
+#  Elapsed Time: 92.269 seconds (Warm-up)
+#                197.45 seconds (Sampling)
+#                289.719 seconds (Total)
+# 
+# 
+#  Elapsed Time: 92.9961 seconds (Warm-up)
+#                197.825 seconds (Sampling)
+#                290.821 seconds (Total)
+# 
+# 
+#  Elapsed Time: 95.2835 seconds (Warm-up)
+#                198.211 seconds (Sampling)
+#                293.495 seconds (Total)
+# 
+# 
+#  Elapsed Time: 91.6477 seconds (Warm-up)
+#                394.464 seconds (Sampling)
+#                486.112 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  120 | 09m11s |   -0.38273 |   68.3638 |    2.4195 |   30.0904 |    3.9436 |    0.3078 |    9.3291 | 
+# 
+#  Elapsed Time: 56.1146 seconds (Warm-up)
+#                199.957 seconds (Sampling)
+#                256.072 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.0994 seconds (Warm-up)
+#                200.37 seconds (Sampling)
+#                257.47 seconds (Total)
+# 
+# 
+#  Elapsed Time: 53.8518 seconds (Warm-up)
+#                477.262 seconds (Sampling)
+#                531.114 seconds (Total)
+# 
+# 
+#  Elapsed Time: 56.7279 seconds (Warm-up)
+#                946.046 seconds (Sampling)
+#                1002.77 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  121 | 17m47s |   -0.28782 |   42.7768 |    2.0828 |   35.3700 |    1.0799 |    0.3344 |    1.5096 | 
+# 
+#  Elapsed Time: 61.051 seconds (Warm-up)
+#                198.514 seconds (Sampling)
+#                259.565 seconds (Total)
+# 
+# 
+#  Elapsed Time: 63.1387 seconds (Warm-up)
+#                198.041 seconds (Sampling)
+#                261.18 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.5395 seconds (Warm-up)
+#                199.163 seconds (Sampling)
+#                264.702 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.3777 seconds (Warm-up)
+#                1053.33 seconds (Sampling)
+#                1115.71 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  122 | 19m42s |   -0.33360 |   36.5111 |    3.1351 |   18.6217 |    3.5255 |    0.8774 |    1.6794 | 
+# 
+#  Elapsed Time: 58.4014 seconds (Warm-up)
+#                101.945 seconds (Sampling)
+#                160.346 seconds (Total)
+# 
+# 
+#  Elapsed Time: 59.4293 seconds (Warm-up)
+#                101.607 seconds (Sampling)
+#                161.036 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.4847 seconds (Warm-up)
+#                101.822 seconds (Sampling)
+#                164.306 seconds (Total)
+# 
+# 
+#  Elapsed Time: 70.7557 seconds (Warm-up)
+#                101.609 seconds (Sampling)
+#                172.364 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  123 | 03m58s |   -0.09393 |   89.8204 |    8.3559 |   72.4117 |    1.5693 |    0.3727 |    0.8110 | 
+# 
+#  Elapsed Time: 89.5062 seconds (Warm-up)
+#                98.716 seconds (Sampling)
+#                188.222 seconds (Total)
+# 
+# 
+#  Elapsed Time: 107.531 seconds (Warm-up)
+#                155.405 seconds (Sampling)
+#                262.936 seconds (Total)
+# 
+# 
+#  Elapsed Time: 100.512 seconds (Warm-up)
+#                197.388 seconds (Sampling)
+#                297.901 seconds (Total)
+# 
+# 
+#  Elapsed Time: 104.421 seconds (Warm-up)
+#                196.828 seconds (Sampling)
+#                301.249 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  124 | 06m07s |   -0.39082 |   74.4121 |    8.5789 |   21.8584 |    3.2923 |    0.8485 |    6.7479 | 
+# 
+#  Elapsed Time: 83.1032 seconds (Warm-up)
+#                197.306 seconds (Sampling)
+#                280.41 seconds (Total)
+# 
+# 
+#  Elapsed Time: 87.77 seconds (Warm-up)
+#                197.11 seconds (Sampling)
+#                284.88 seconds (Total)
+# 
+# 
+#  Elapsed Time: 75.9734 seconds (Warm-up)
+#                212.342 seconds (Sampling)
+#                288.315 seconds (Total)
+# 
+# 
+#  Elapsed Time: 98.7188 seconds (Warm-up)
+#                196.271 seconds (Sampling)
+#                294.989 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  125 | 06m00s |   -0.39758 |   78.1527 |    9.7840 |   42.6646 |    3.4207 |    0.6491 |    8.4728 | 
+# 
+#  Elapsed Time: 45.3249 seconds (Warm-up)
+#                192.558 seconds (Sampling)
+#                237.883 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.8625 seconds (Warm-up)
+#                192.414 seconds (Sampling)
+#                239.277 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.251 seconds (Warm-up)
+#                193.376 seconds (Sampling)
+#                239.627 seconds (Total)
+# 
+# 
+#  Elapsed Time: 49.696 seconds (Warm-up)
+#                198.2 seconds (Sampling)
+#                247.896 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  126 | 05m13s |   -0.34204 |   11.4335 |    2.4595 |   64.5591 |    3.5806 |    0.9741 |    7.1316 | 
+# 
+#  Elapsed Time: 29.0204 seconds (Warm-up)
+#                100.905 seconds (Sampling)
+#                129.925 seconds (Total)
+# 
+# 
+#  Elapsed Time: 30.3078 seconds (Warm-up)
+#                100.179 seconds (Sampling)
+#                130.487 seconds (Total)
+# 
+# 
+#  Elapsed Time: 40.9485 seconds (Warm-up)
+#                100.322 seconds (Sampling)
+#                141.271 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.2137 seconds (Warm-up)
+#                100.708 seconds (Sampling)
+#                145.922 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  127 | 03m31s |   -0.38223 |   43.7722 |    9.8005 |   12.7803 |    2.7387 |    0.2922 |    5.9962 | 
+# 
+#  Elapsed Time: 42.2536 seconds (Warm-up)
+#                199.327 seconds (Sampling)
+#                241.58 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.0058 seconds (Warm-up)
+#                199.885 seconds (Sampling)
+#                244.891 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.2174 seconds (Warm-up)
+#                200.175 seconds (Sampling)
+#                245.393 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.3482 seconds (Warm-up)
+#                200.33 seconds (Sampling)
+#                246.678 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  128 | 05m11s |   -0.27546 |   15.5551 |    1.9982 |   29.0895 |    0.8484 |    0.4749 |    5.5244 | 
+# 
+#  Elapsed Time: 53.4634 seconds (Warm-up)
+#                100.354 seconds (Sampling)
+#                153.817 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.7854 seconds (Warm-up)
+#                99.9013 seconds (Sampling)
+#                157.687 seconds (Total)
+# 
+# 
+#  Elapsed Time: 58.0212 seconds (Warm-up)
+#                100.134 seconds (Sampling)
+#                158.156 seconds (Total)
+# 
+# 
+#  Elapsed Time: 58.978 seconds (Warm-up)
+#                99.9153 seconds (Sampling)
+#                158.893 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  129 | 03m43s |   -0.38905 |   73.7517 |    9.6291 |   86.8989 |    2.8033 |    0.0645 |    7.7500 | 
+# 
+#  Elapsed Time: 32.6102 seconds (Warm-up)
+#                99.6084 seconds (Sampling)
+#                132.219 seconds (Total)
+# 
+# 
+#  Elapsed Time: 36.2322 seconds (Warm-up)
+#                100.135 seconds (Sampling)
+#                136.367 seconds (Total)
+# 
+# 
+#  Elapsed Time: 42.6463 seconds (Warm-up)
+#                100.341 seconds (Sampling)
+#                142.987 seconds (Total)
+# 
+# 
+#  Elapsed Time: 44.2863 seconds (Warm-up)
+#                100.871 seconds (Sampling)
+#                145.158 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  130 | 03m30s |   -0.39522 |   29.7924 |    9.6871 |   81.5341 |    3.2594 |    0.1829 |    8.3153 | 
+# 
+#  Elapsed Time: 54.6476 seconds (Warm-up)
+#                343.143 seconds (Sampling)
+#                397.791 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.697 seconds (Warm-up)
+#                368.451 seconds (Sampling)
+#                420.148 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.8716 seconds (Warm-up)
+#                399.969 seconds (Sampling)
+#                451.84 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.321 seconds (Warm-up)
+#                400.14 seconds (Sampling)
+#                452.461 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  131 | 08m38s |   -0.37574 |    2.5250 |    5.6470 |   57.4177 |    3.8201 |    0.1942 |    5.5354 | 
+# 
+#  Elapsed Time: 99.5256 seconds (Warm-up)
+#                126.25 seconds (Sampling)
+#                225.775 seconds (Total)
+# 
+# 
+#  Elapsed Time: 70.1126 seconds (Warm-up)
+#                198.37 seconds (Sampling)
+#                268.482 seconds (Total)
+# 
+# 
+#  Elapsed Time: 96.1477 seconds (Warm-up)
+#                198.589 seconds (Sampling)
+#                294.736 seconds (Total)
+# 
+# 
+#  Elapsed Time: 116.846 seconds (Warm-up)
+#                281.36 seconds (Sampling)
+#                398.206 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  132 | 07m43s |   -0.36162 |   71.0319 |    3.2199 |   42.6250 |    1.1809 |    0.4810 |    3.1171 | 
+# 
+#  Elapsed Time: 84.2482 seconds (Warm-up)
+#                196.445 seconds (Sampling)
+#                280.693 seconds (Total)
+# 
+# 
+#  Elapsed Time: 88.1192 seconds (Warm-up)
+#                196.889 seconds (Sampling)
+#                285.008 seconds (Total)
+# 
+# 
+#  Elapsed Time: 90.8854 seconds (Warm-up)
+#                197.044 seconds (Sampling)
+#                287.93 seconds (Total)
+# 
+# 
+#  Elapsed Time: 96.2994 seconds (Warm-up)
+#                196.777 seconds (Sampling)
+#                293.076 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  133 | 05m57s |   -0.17837 |   65.8519 |    4.3239 |   97.4341 |    0.3102 |    0.5896 |    6.2433 | 
+# 
+#  Elapsed Time: 58.5131 seconds (Warm-up)
+#                99.7436 seconds (Sampling)
+#                158.257 seconds (Total)
+# 
+# 
+#  Elapsed Time: 62.6639 seconds (Warm-up)
+#                99.7919 seconds (Sampling)
+#                162.456 seconds (Total)
+# 
+# 
+#  Elapsed Time: 77.9608 seconds (Warm-up)
+#                99.9858 seconds (Sampling)
+#                177.947 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.0517 seconds (Warm-up)
+#                1106.76 seconds (Sampling)
+#                1161.81 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  134 | 20m29s |   -0.39560 |   81.9790 |    4.8370 |   69.9803 |    1.9899 |    0.0170 |    6.7193 | 
+# 
+#  Elapsed Time: 80.1818 seconds (Warm-up)
+#                199.176 seconds (Sampling)
+#                279.358 seconds (Total)
+# 
+# 
+#  Elapsed Time: 85.3395 seconds (Warm-up)
+#                198.676 seconds (Sampling)
+#                284.016 seconds (Total)
+# 
+# 
+#  Elapsed Time: 87.3385 seconds (Warm-up)
+#                198.486 seconds (Sampling)
+#                285.824 seconds (Total)
+# 
+# 
+#  Elapsed Time: 87.7606 seconds (Warm-up)
+#                199.47 seconds (Sampling)
+#                287.231 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  135 | 05m54s |   -0.18021 |   74.2846 |    9.1745 |   71.2720 |    0.2188 |    0.4455 |    0.6188 | 
+# 
+#  Elapsed Time: 70.6316 seconds (Warm-up)
+#                197.007 seconds (Sampling)
+#                267.638 seconds (Total)
+# 
+# 
+#  Elapsed Time: 72.4008 seconds (Warm-up)
+#                197.82 seconds (Sampling)
+#                270.221 seconds (Total)
+# 
+# 
+#  Elapsed Time: 75.9598 seconds (Warm-up)
+#                197.178 seconds (Sampling)
+#                273.138 seconds (Total)
+# 
+# 
+#  Elapsed Time: 79.9664 seconds (Warm-up)
+#                198.197 seconds (Sampling)
+#                278.164 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  136 | 05m43s |   -0.33869 |   51.1990 |    9.4375 |   26.8781 |    0.8885 |    0.4021 |    9.3277 | 
+# 
+#  Elapsed Time: 36.4308 seconds (Warm-up)
+#                99.748 seconds (Sampling)
+#                136.179 seconds (Total)
+# 
+# 
+#  Elapsed Time: 32.6993 seconds (Warm-up)
+#                104.327 seconds (Sampling)
+#                137.027 seconds (Total)
+# 
+# 
+#  Elapsed Time: 35.9778 seconds (Warm-up)
+#                653.109 seconds (Sampling)
+#                689.087 seconds (Total)
+# 
+# 
+#  Elapsed Time: 34.4984 seconds (Warm-up)
+#                1173.83 seconds (Sampling)
+#                1208.33 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  137 | 21m14s |   -0.36679 |   26.2996 |    5.9682 |   87.4355 |    0.4659 |    0.0148 |    2.7872 | 
+# 
+#  Elapsed Time: 76.1541 seconds (Warm-up)
+#                199.239 seconds (Sampling)
+#                275.393 seconds (Total)
+# 
+# 
+#  Elapsed Time: 79.8854 seconds (Warm-up)
+#                198.235 seconds (Sampling)
+#                278.12 seconds (Total)
+# 
+# 
+#  Elapsed Time: 82.7771 seconds (Warm-up)
+#                198.349 seconds (Sampling)
+#                281.126 seconds (Total)
+# 
+# 
+#  Elapsed Time: 69.2841 seconds (Warm-up)
+#                228.219 seconds (Sampling)
+#                297.503 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  138 | 06m02s |   -0.10717 |   95.3780 |    9.7878 |   81.4476 |    3.7959 |    0.1537 |    0.7460 | 
+# 
+#  Elapsed Time: 106.382 seconds (Warm-up)
+#                197.889 seconds (Sampling)
+#                304.272 seconds (Total)
+# 
+# 
+#  Elapsed Time: 107.843 seconds (Warm-up)
+#                211.009 seconds (Sampling)
+#                318.852 seconds (Total)
+# 
+# 
+#  Elapsed Time: 100.889 seconds (Warm-up)
+#                1150.64 seconds (Sampling)
+#                1251.53 seconds (Total)
+# 
+# 
+#  Elapsed Time: 113.369 seconds (Warm-up)
+#                2498.12 seconds (Sampling)
+#                2611.49 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  139 | 44m39s |   -0.36398 |   69.3503 |    9.2733 |    5.2885 |    1.2397 |    0.8550 |    5.2445 | 
+# 
+#  Elapsed Time: 45.9837 seconds (Warm-up)
+#                197.025 seconds (Sampling)
+#                243.009 seconds (Total)
+# 
+# 
+#  Elapsed Time: 46.5295 seconds (Warm-up)
+#                196.642 seconds (Sampling)
+#                243.172 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.9168 seconds (Warm-up)
+#                198.163 seconds (Sampling)
+#                251.08 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.508 seconds (Warm-up)
+#                197.416 seconds (Sampling)
+#                252.924 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  140 | 05m18s |   -0.37879 |   21.6671 |    3.0518 |   50.9923 |    3.9111 |    0.7540 |    7.2482 | 
+# 
+#  Elapsed Time: 52.8572 seconds (Warm-up)
+#                198.117 seconds (Sampling)
+#                250.975 seconds (Total)
+# 
+# 
+#  Elapsed Time: 52.101 seconds (Warm-up)
+#                199.602 seconds (Sampling)
+#                251.703 seconds (Total)
+# 
+# 
+#  Elapsed Time: 54.4456 seconds (Warm-up)
+#                199.228 seconds (Sampling)
+#                253.674 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.9972 seconds (Warm-up)
+#                483.337 seconds (Sampling)
+#                532.334 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  141 | 09m57s |   -0.25283 |   55.4227 |    5.9235 |   89.2369 |    0.4517 |    0.1008 |    3.7286 | 
+# 
+#  Elapsed Time: 53.9616 seconds (Warm-up)
+#                198.614 seconds (Sampling)
+#                252.575 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.0797 seconds (Warm-up)
+#                199.998 seconds (Sampling)
+#                257.077 seconds (Total)
+# 
+# 
+#  Elapsed Time: 63.5465 seconds (Warm-up)
+#                199.669 seconds (Sampling)
+#                263.215 seconds (Total)
+# 
+# 
+#  Elapsed Time: 63.9238 seconds (Warm-up)
+#                389.955 seconds (Sampling)
+#                453.879 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  142 | 08m39s |   -0.37069 |   52.7532 |    7.8110 |   60.5721 |    1.3143 |    0.2609 |    7.0755 | 
+# 
+#  Elapsed Time: 93.7517 seconds (Warm-up)
+#                199.206 seconds (Sampling)
+#                292.957 seconds (Total)
+# 
+# 
+#  Elapsed Time: 95.3035 seconds (Warm-up)
+#                198.81 seconds (Sampling)
+#                294.114 seconds (Total)
+# 
+# 
+#  Elapsed Time: 93.5385 seconds (Warm-up)
+#                471.957 seconds (Sampling)
+#                565.496 seconds (Total)
+# 
+# 
+#  Elapsed Time: 94.5716 seconds (Warm-up)
+#                1678.46 seconds (Sampling)
+#                1773.03 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  143 | 30m39s |   -0.27280 |   94.9608 |    2.8548 |   48.4344 |    0.6859 |    0.1192 |    8.4372 | 
+# 
+#  Elapsed Time: 112.313 seconds (Warm-up)
+#                197.313 seconds (Sampling)
+#                309.627 seconds (Total)
+# 
+# 
+#  Elapsed Time: 114.387 seconds (Warm-up)
+#                197.538 seconds (Sampling)
+#                311.925 seconds (Total)
+# 
+# 
+#  Elapsed Time: 121.592 seconds (Warm-up)
+#                198.043 seconds (Sampling)
+#                319.635 seconds (Total)
+# 
+# 
+#  Elapsed Time: 115.62 seconds (Warm-up)
+#                1118.04 seconds (Sampling)
+#                1233.66 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  144 | 21m40s |   -0.35402 |   85.5410 |    3.0179 |   57.7182 |    1.7385 |    0.5598 |    4.8578 | 
+# 
+#  Elapsed Time: 61.9517 seconds (Warm-up)
+#                100.233 seconds (Sampling)
+#                162.184 seconds (Total)
+# 
+# 
+#  Elapsed Time: 74.3986 seconds (Warm-up)
+#                99.765 seconds (Sampling)
+#                174.164 seconds (Total)
+# 
+# 
+#  Elapsed Time: 77.2242 seconds (Warm-up)
+#                99.8114 seconds (Sampling)
+#                177.036 seconds (Total)
+# 
+# 
+#  Elapsed Time: 80.3997 seconds (Warm-up)
+#                100.488 seconds (Sampling)
+#                180.888 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  145 | 04m08s |   -0.37107 |   90.4127 |    9.7999 |   35.6270 |    1.2741 |    0.1121 |    9.3596 | 
+# 
+#  Elapsed Time: 53.8951 seconds (Warm-up)
+#                196.889 seconds (Sampling)
+#                250.784 seconds (Total)
+# 
+# 
+#  Elapsed Time: 58.2652 seconds (Warm-up)
+#                197.67 seconds (Sampling)
+#                255.935 seconds (Total)
+# 
+# 
+#  Elapsed Time: 59.4459 seconds (Warm-up)
+#                198.039 seconds (Sampling)
+#                257.485 seconds (Total)
+# 
+# 
+#  Elapsed Time: 59.051 seconds (Warm-up)
+#                256.957 seconds (Sampling)
+#                316.008 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  146 | 06m22s |   -0.38901 |   29.7786 |    8.7297 |   77.0405 |    2.9360 |    0.9387 |    9.7230 | 
+# 
+#  Elapsed Time: 95.5648 seconds (Warm-up)
+#                197.612 seconds (Sampling)
+#                293.177 seconds (Total)
+# 
+# 
+#  Elapsed Time: 97.702 seconds (Warm-up)
+#                197.48 seconds (Sampling)
+#                295.182 seconds (Total)
+# 
+# 
+#  Elapsed Time: 106.856 seconds (Warm-up)
+#                198.069 seconds (Sampling)
+#                304.925 seconds (Total)
+# 
+# 
+#  Elapsed Time: 107.295 seconds (Warm-up)
+#                197.942 seconds (Sampling)
+#                305.237 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  147 | 06m10s |   -0.36878 |   79.6224 |    5.7391 |   21.7994 |    1.4917 |    0.5494 |    8.2509 | 
+# 
+#  Elapsed Time: 98.3123 seconds (Warm-up)
+#                196.53 seconds (Sampling)
+#                294.842 seconds (Total)
+# 
+# 
+#  Elapsed Time: 102.037 seconds (Warm-up)
+#                196.772 seconds (Sampling)
+#                298.809 seconds (Total)
+# 
+# 
+#  Elapsed Time: 106.98 seconds (Warm-up)
+#                235.997 seconds (Sampling)
+#                342.977 seconds (Total)
+# 
+# 
+#  Elapsed Time: 97.7641 seconds (Warm-up)
+#                496.023 seconds (Sampling)
+#                593.788 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  148 | 10m59s |   -0.38932 |   81.0908 |    7.2987 |   65.0435 |    3.7218 |    0.8097 |    5.2938 | 
+# 
+#  Elapsed Time: 41.0455 seconds (Warm-up)
+#                199.196 seconds (Sampling)
+#                240.241 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.9654 seconds (Warm-up)
+#                199.083 seconds (Sampling)
+#                248.049 seconds (Total)
+# 
+# 
+#  Elapsed Time: 47.6373 seconds (Warm-up)
+#                200.481 seconds (Sampling)
+#                248.118 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.368 seconds (Warm-up)
+#                200.437 seconds (Sampling)
+#                251.805 seconds (Total)
+# 
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_bf47e4fcff5b0115cf650f2e263da4f2 NOW.
+  149 | 05m17s |   -0.38535 |   10.8596 |    4.6346 |   45.8699 |    2.8618 |    0.5322 |    5.4444 | 
+# 
+#  Elapsed Time: 104.702 seconds (Warm-up)
+#                195.687 seconds (Sampling)
+#                300.389 seconds (Total)
+# 
+# 
+#  Elapsed Time: 107.258 seconds (Warm-up)
+#                194.786 seconds (Sampling)
+#                302.043 seconds (Total)
+# 
+# 
+#  Elapsed Time: 106.435 seconds (Warm-up)
+#                195.928 seconds (Sampling)
+#                302.363 seconds (Total)
+# 
+# 
+#  Elapsed Time: 114.481 seconds (Warm-up)
+#                195.116 seconds (Sampling)
+#                309.597 seconds (Total)
+# 
+  150 | 06m14s |   -0.14848 |   70.1052 |    3.2150 |   89.9096 |    0.0025 |    0.7216 |    1.6233 | 
+[31mBayesian Optimization[0m
+[94m-----------------------------------------------------------------------------------------------------[0m
+ Step |   Time |      Value |      eta0 |    gamma0 |    kappa0 |       mu0 |    theta0 |    theta1 | 
+Save: ../result/snapshot/ability_estimation_bo/PCG3-hyper6-RAM5000w500-full-20171126125023
