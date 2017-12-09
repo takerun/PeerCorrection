@@ -33,8 +33,8 @@ parser.add_argument('-init','--init-npz', \
 bo_num_iter = 0
 bo_init_points = 150
 snapshot_path = '../result/snapshot/ability_estimation_bo'
-groundtruth_csv = '../dataset/open_peer_review_v2/peer_review/translated_groundtruth.csv'
-peer_review_csv = '../dataset/open_peer_review_v2/peer_review/peer_review_forPG3.csv'
+groundtruth_csv = '../dataset/open_peer_review_v3/peer_review/translated_groundtruth.csv'
+peer_review_csv = '../dataset/open_peer_review_v3/peer_review/peer_review_forPG3.csv'
 
 # functions
 def timeStamp():
@@ -63,7 +63,7 @@ if __name__ == '__main__':
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,alpha0,beta0,eta0])
             return cor
         pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 5.0),
+                   'gamma0': (1.0e-2, 5.0),
                    'alpha0': (1.0, 1.0e2),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0, 5.0),
@@ -86,7 +86,7 @@ if __name__ == '__main__':
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,theta0,theta1,eta0])
             return cor
         pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 1.0e1),
+                   'gamma0': (1.0e-2, 1.0e1),
                    'theta0': (0.0, 1.0),
                    'theta1': (1.0e-2, 1.0e1),
                    'eta0': (1.0, 1.0e1),
@@ -131,7 +131,7 @@ if __name__ == '__main__':
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,lambda0])
             return cor
         pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 5.0),
+                   'gamma0': (1.0e-2, 5.0),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0, 1.0e2),
                    'lambda0': (1.0, 1.0e2),
@@ -175,8 +175,8 @@ if __name__ == '__main__':
         def evaluate_BO(mu0,gamma0,eta0,kappa0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,eta0,kappa0])
             return cor
-        pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 3.0e1),
+        pbounds = {'mu0': (0.0, 15.0),
+                   'gamma0': (1.0e-2, 3.0e1),
                    'eta0': (1.0, 1.0e1),
                    'kappa0': (1.0, 1.0e2),
                    }
@@ -198,7 +198,7 @@ if __name__ == '__main__':
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,alpha0,beta0,eta0,kappa0])
             return cor
         pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 5.0),
+                   'gamma0': (1.0e-2, 5.0),
                    'alpha0': (1.0, 1.0e2),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0, 3.0e1),
@@ -223,7 +223,7 @@ if __name__ == '__main__':
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,theta0,theta1,eta0,kappa0])
             return cor
         pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 1.0e1),
+                   'gamma0': (1.0e-2, 1.0e1),
                    'theta0': (0.0, 1.0),
                    'theta1': (1.0e-2, 1.0e1),
                    'eta0': (1.0, 1.0e2),
@@ -271,7 +271,7 @@ if __name__ == '__main__':
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,lambda0,kappa0])
             return cor
         pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 1.0e1),
+                   'gamma0': (1.0e-2, 1.0e1),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0, 1.0e2),
                    'lambda0': (1.0, 1.0e2),
@@ -295,8 +295,8 @@ if __name__ == '__main__':
         def evaluate_BO(mu0,gamma0,alpha0,beta0,eta0,kappa0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,alpha0,beta0,eta0,kappa0])
             return cor
-        pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 3.0e1),
+        pbounds = {'mu0': (0.0, 15.0),
+                   'gamma0': (1.0e-2, 3.0e1),
                    'alpha0': (1.0, 1.0e2),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0, 1.0e1),
@@ -320,8 +320,8 @@ if __name__ == '__main__':
         def evaluate_BO(mu0,gamma0,theta0,theta1,eta0,kappa0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,theta0,theta1,eta0,kappa0])
             return cor
-        pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 3.0e1),
+        pbounds = {'mu0': (0.0, 15.0),
+                   'gamma0': (1.0e-2, 3.0e1),
                    'theta0': (0.0, 1.0),
                    'theta1': (1.0e-2, 1.0e1),
                    'eta0': (1.0, 1.0e1),
@@ -345,7 +345,7 @@ if __name__ == '__main__':
         def evaluate_BO(mu0,gamma0,beta0,eta0,kappa0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,kappa0])
             return cor
-        pbounds = {'mu0': (0.0, 4.0),
+        pbounds = {'mu0': (0.0, 15.0),
                    'gamma0': (1.0e-2, 3.0e1),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0, 1.0e2),
@@ -368,8 +368,8 @@ if __name__ == '__main__':
         def evaluate_BO(mu0,gamma0,beta0,eta0,lambda0,kappa0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,lambda0,kappa0])
             return cor
-        pbounds = {'mu0': (0.0, 4.0),
-                   'gamma0': (1.0, 3.0e1),
+        pbounds = {'mu0': (0.0, 15.0),
+                   'gamma0': (1.0e-2, 3.0e1),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0, 1.0e2),
                    'lambda0': (1.0, 1.0e2),
@@ -398,8 +398,10 @@ if __name__ == '__main__':
     BO.maximize(init_points=bo_init_points, n_iter=bo_num_iter)
     saveBO(BO,'full')
 
+    '''
     with open(os.path.join(snapshot_path, name_result_file),'a') as f:
         f.write('##{},full##\n'.format(label))
         f.write('keys: {}\n'.format(BO.keys))
         f.write('opt X: {}\n'.format(BO.X[BO.Y.argmax()]))
         f.write('max cor: {}\n'.format(BO.Y.max()))
+    '''
