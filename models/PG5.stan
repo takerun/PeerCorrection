@@ -6,13 +6,14 @@ data{
   int sender[N];
   int receiver[N];
   int value[N];
+  int senderOrigin[vNum];
   real hyper[5];
 }
 
 parameters{
-  real<lower=0, upper=4> ability[uNum];
-  real<lower=0.0001> reliability[vNum];
-  real<lower=-2, upper=2> bias[vNum];
+  real ability[uNum];
+  real<lower=0.00001> reliability[vNum];
+  real bias[vNum];
 }
 
 model{
@@ -21,7 +22,7 @@ model{
     ability[i] ~ normal(hyper[1],1/hyper[2]);
   }
   for(i in 1:vNum){
-    reliability[i] ~ normal(ability[i],1/hyper[3]);
+    reliability[i] ~ normal(ability[senderOrigin[i]+1],1/hyper[3]);
     bias[i] ~ normal(0,1/hyper[4]);
   }
   //posterior
