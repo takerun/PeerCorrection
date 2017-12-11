@@ -6,13 +6,14 @@ data{
   int sender[N];
   int receiver[N];
   int corrected[N];
+  int senderOrigin[vNum];
   real hyper[4];
 }
 
 parameters{
-  real<lower=-2, upper=2> ability[uNum];
-  real<lower=-2, upper=2> bias[vNum];
-  real<lower=-2, upper=2> noise;
+  real ability[uNum];
+  real bias[vNum];
+  real noise;
 }
 
 model{
