@@ -89,7 +89,7 @@ class PC2:
         if RECORD == True:
             inferred_bias = ext['bias'].mean(axis=0)
             inferred_noise = ext['noise'].mean(axis=0)
-            parameters = {'ability':inferred_ability, 'bias':inferred_bias,  'noise':inferred_noise}
+            parameters = {'ability':inferred_ability, 'bias':inferred_bias, 'noise':inferred_noise}
             # save
             pkl_name = 'PC2-{}.pkl'.format(timeStamp())
             saveStanExtract(parameters, os.path.join(save_param_dir,pkl_name))

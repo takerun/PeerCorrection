@@ -9,7 +9,7 @@ from math import sqrt
 import pandas as pd
 import pystan
 
-RECORD = True
+RECORD = False
 
 # path information
 PG1_path = '../models/PG1.stan'

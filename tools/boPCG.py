@@ -201,7 +201,7 @@ if __name__ == '__main__':
                    'gamma0': (1.0e-2, 5.0),
                    'alpha0': (1.0, 1.0e2),
                    'beta0': (1.0, 1.0e2),
-                   'eta0': (1.0, 3.0e1),
+                   'eta0': (1.0e-2, 3.0e1),
                    'kappa0': (1.0, 1.0e2),
                    }
         def npzSave(path,bo):
@@ -226,7 +226,7 @@ if __name__ == '__main__':
                    'gamma0': (1.0e-2, 1.0e1),
                    'theta0': (0.0, 1.0),
                    'theta1': (1.0e-2, 1.0e1),
-                   'eta0': (1.0, 1.0e2),
+                   'eta0': (1.0e-2, 1.0e2),
                    'kappa0': (1.0, 1.0e2),
                    }
         def npzSave(path,bo):
@@ -250,7 +250,7 @@ if __name__ == '__main__':
         pbounds = {'mu0': (0.0, 4.0),
                    'gamma0': (1.0e-2, 1.0e1),
                    'beta0': (1.0, 1.0e2),
-                   'eta0': (1.0, 1.0e2),
+                   'eta0': (1.0e-2, 1.0e2),
                    'kappa0': (1.0, 1.0e2),
                    }
         def npzSave(path,bo):
@@ -273,7 +273,7 @@ if __name__ == '__main__':
         pbounds = {'mu0': (0.0, 4.0),
                    'gamma0': (1.0e-2, 1.0e1),
                    'beta0': (1.0, 1.0e2),
-                   'eta0': (1.0, 1.0e2),
+                   'eta0': (1.0e-2, 1.0e2),
                    'lambda0': (1.0, 1.0e2),
                    'kappa0': (1.0, 1.0e2),
                    }

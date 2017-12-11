@@ -7,19 +7,20 @@ data{
   int receiver[N];
   int value[N];
   int corrected[N];
+  int senderOrigin[vNum];
   real hyper[6];
 }
 
 parameters{
-  real<lower=0, upper=4> ability[uNum];
-  real<lower=-2, upper=2> bias[vNum];
-  real<lower=-5, upper=5> noise;
+  real<lower=0> ability[uNum];
+  real bias[vNum];
+  real noise;
 }
 
 transformed parameters{
   real<lower=0.0001> reliability[vNum];
-  for(i in 1:uNum){
-    reliability[i] = hyper[4]*ability[i]+hyper[3];
+  for(i in 1:vNum){
+    reliability[i] = hyper[4]*ability[senderOrigin[i]+1]+hyper[3];
   }
 }
 
