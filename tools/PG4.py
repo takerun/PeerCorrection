@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import pystan
 
-RECORD = True
+RECORD = False
 
 # path information
 PG4_path = '../models/PG4.stan'

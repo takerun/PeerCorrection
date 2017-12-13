@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import pystan
 
-RECORD = True
+RECORD = False
 
 # path information
 PCG3_path = '../models/PCG3.stan'
