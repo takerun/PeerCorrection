@@ -48,15 +48,15 @@ def evaluateEstimationInFold(func_metric,name_metric,num_folds,true_scores,arr_e
         #train
         true_train = true_scores[idx_train]
         arr_estimated_train = arr_estimated_scores[:,idx_train]
-        corrcoefs_train = np.array([func_metric(true_train, estimated_train) for estimated_train in arr_estimated_train])
-        id_best_model = corrcoefs_train.argmax()
+        evalues_train = np.array([func_metric(true_train, estimated_train) for estimated_train in arr_estimated_train])
+        id_best_model = evalues_train.argmax()
         #test
         true_test = true_scores[idx_test]
         estimated_test_best = arr_estimated_scores[id_best_model,idx_test]
-        corrcoef_test = func_metric(true_test, estimated_test_best)
-        print('test {0}:{1}, best train {0}:{2}, best model:{3}'.format(name_metric,corrcoef_test,corrcoefs_train.max(), id_best_model))
+        evalue_test = func_metric(true_test, estimated_test_best)
+        print('test {0}:{1}, best train {0}:{2}, best model:{3}'.format(name_metric,evalue_test,evalues_train.max(), id_best_model))
         #accumulate
-        statistic_test = np.append(statistic_test,corrcoef_test)
+        statistic_test = np.append(statistic_test,evalue_test)
     print('mean:{0}, std:{1}'.format(statistic_test.mean(),statistic_test.std()))
 
 
@@ -82,8 +82,10 @@ if __name__ == '__main__':
     if args.metric == 'cor':
         func_metric = lambda true,estimated: np.corrcoef(true, estimated)[0,1]
         name_metric = 'corrcoef'
-    elif args.metric == '':
+    elif args.metric == 'rcor':
         sys.exit()
+    else:
+        print('Error: set metrics [cor|rcor|prec]')
 
     num_folds = NUM_FOLDS
     true_scores = true_ability

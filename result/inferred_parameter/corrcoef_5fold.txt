@@ -5,13 +5,6 @@ test corrcoef:0.208450916067, best train corrcoef:0.259170387598, best model:66
 test corrcoef:0.0904783423873, best train corrcoef:0.139496728471, best model:110
 test corrcoef:0.189141147599, best train corrcoef:0.271893299958, best model:126
 mean:0.178957886054, std:0.0483372622112
--------- result PC2 --------
-test corrcoef:0.321292361438, best train corrcoef:0.455760090899, best model:8
-test corrcoef:0.353868461705, best train corrcoef:0.242103359756, best model:24
-test corrcoef:0.331205238775, best train corrcoef:0.401859435994, best model:8
-test corrcoef:0.366286982023, best train corrcoef:0.276981478761, best model:8
-test corrcoef:0.321873544841, best train corrcoef:0.39430444431, best model:25
-mean:0.338905317757, std:0.0180734056009
 -------- result PG1 --------
 test corrcoef:0.47426950863, best train corrcoef:0.545175139462, best model:45
 test corrcoef:0.509477413827, best train corrcoef:0.518617857268, best model:105
