@@ -3,3 +3,9 @@
 
 # ignore swap
 ._*
+
+# ignore pyc
+*.pyc
+
+# ignore .ipython_checkpoints/
+.ipynb_checkpoints
