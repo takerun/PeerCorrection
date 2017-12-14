@@ -31,22 +31,46 @@ parser.add_argument('-met','--metric', \
         metavar=None)
 
 # config
-num_folds = 5
-groundtruth = '../dataset/open_peer_review_v3/peer_review/translated_groundtruth.csv'
+NUM_FOLDS = 5
+GROUNDTRUTH = '../dataset/open_peer_review_v3/peer_review/translated_groundtruth.csv'
+
+# functions
+def evaluateEstimationInFold(func_metric,name_metric,num_folds,true_scores,arr_estimated_scores):
+    #generate random permutation and fold that index
+    np.random.seed(12345678)
+    permu =np.random.permutation(len(true_scores))
+    idx_inFold = np.array_split(permu, num_folds)
+    statistic_test = np.empty(0)
+    for loop in xrange(num_folds):
+        buf_list = copy.copy(idx_inFold)
+        idx_train = buf_list.pop(loop)
+        idx_test = np.concatenate(buf_list)
+        #train
+        true_train = true_scores[idx_train]
+        arr_estimated_train = arr_estimated_scores[:,idx_train]
+        corrcoefs_train = np.array([func_metric(true_train, estimated_train) for estimated_train in arr_estimated_train])
+        id_best_model = corrcoefs_train.argmax()
+        #test
+        true_test = true_scores[idx_test]
+        estimated_test_best = arr_estimated_scores[id_best_model,idx_test]
+        corrcoef_test = func_metric(true_test, estimated_test_best)
+        print('test {0}:{1}, best train {0}:{2}, best model:{3}'.format(name_metric,corrcoef_test,corrcoefs_train.max(), id_best_model))
+        #accumulate
+        statistic_test = np.append(statistic_test,corrcoef_test)
+    print('mean:{0}, std:{1}'.format(statistic_test.mean(),statistic_test.std()))
+
 
 if __name__ == '__main__':
     #argparse
     args = parser.parse_args()
 
-    #set true ability
-    gDF = pd.read_csv(groundtruth)
+    #load true ability
+    gDF = pd.read_csv(GROUNDTRUTH)
     true_ability = gDF['grade'].get_values()
 
-    #load df_result(table of trial model)
+    #load estimated abilities
     path_result = '../result/inferred_parameter/{}/models.csv'.format(args.model)
     df_result = pd.read_csv(path_result)
-
-    #load estimated_abilities(estimated ability per trial)
     dir_result = os.path.dirname(path_result)
     estimated_abilities = np.empty((0,len(gDF)))
     for fname in df_result['file']:
@@ -55,30 +79,14 @@ if __name__ == '__main__':
         add =  np.expand_dims(est['ability'],axis=0)
         estimated_abilities = np.append(estimated_abilities,add,axis=0)
 
-    #generate random user_id and fold that ids
-    np.random.seed(12345678)
-    permu =np.random.permutation(len(true_ability))
-    idx_inFold = np.array_split(permu, num_folds)
-    print('-------- result {} --------'.format(args.model))
-
     if args.metric == 'cor':
-        statistic_test = np.empty(0)
-        for loop in xrange(num_folds):
-            buf_list = copy.copy(idx_inFold)
-            idx_train = buf_list.pop(loop)
-            idx_test = np.concatenate(buf_list)
-            #search best train model
-            true_train = true_ability[idx_train]
-            estimations_train = estimated_abilities[:,idx_train]
-            corrcoefs_train = np.array([np.corrcoef(true_train, estimated_ability)[0,1] for estimated_ability in estimations_train])
-            id_best_model = corrcoefs_train.argmax()
-            #test the best model
-            true_test = true_ability[idx_test]
-            estimation_test = estimated_abilities[id_best_model,idx_test]
-            corrcoef_test = np.corrcoef(true_test, estimation_test)[0,1]
-            print('test corrcoef:{0}, best train corrcoef:{1}, best model:{2}'.format(corrcoef_test,corrcoefs_train.max(), id_best_model))
-            #accumulate test results
-            statistic_test = np.append(statistic_test,corrcoef_test)
-        print('mean:{0}, std:{1}'.format(statistic_test.mean(),statistic_test.std()))
+        func_metric = lambda true,estimated: np.corrcoef(true, estimated)[0,1]
+        name_metric = 'corrcoef'
     elif args.metric == '':
         sys.exit()
+
+    num_folds = NUM_FOLDS
+    true_scores = true_ability
+    arr_estimated_scores = estimated_abilities
+    print('-------- result {} --------'.format(args.model))
+    evaluateEstimationInFold(func_metric,name_metric,num_folds,true_scores,arr_estimated_scores)
