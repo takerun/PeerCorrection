@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import pystan
 
-RECORD = False
+RECORD = True
 
 # path information
 PC2_path = '../models/PC2.stan'
