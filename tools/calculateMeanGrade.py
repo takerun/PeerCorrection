@@ -3,6 +3,8 @@
 import os,sys
 import copy
 import numpy as np
+from scipy import stats
+import Bio.Cluster
 import pandas as pd
 
 # config
@@ -30,7 +32,10 @@ permu =np.random.permutation(len(true_ability))
 idx_inFold = np.array_split(permu, NUM_FOLDS)
 
 # set metric
-func_metric = lambda true,estimated: np.corrcoef(true, estimated)[0,1]
+corrcoef = lambda true,estimated: np.corrcoef(true, estimated)[0,1]
+kendalltau = lambda true,estimated: stats.kendalltau(true, estimated)[0]
+spearmanrho = lambda true,estimated: 1-Bio.Cluster.distancematrix((true,estimated), dist="s")[1][0]
+func_metric = spearmanrho
 
 statistic_test = np.empty(0)
 for loop in xrange(NUM_FOLDS):

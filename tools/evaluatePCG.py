@@ -5,6 +5,8 @@ import pickle
 import copy
 import argparse
 import numpy as np
+from scipy import stats
+import Bio.Cluster
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
@@ -20,14 +22,24 @@ parser.add_argument('-m','--model', \
         help='Model name which you\'d like to run.', \
         metavar=None)
 
-parser.add_argument('-met','--metric', \
+parser.add_argument('-tune','--tune-metric', \
         action='store', \
         nargs=None, \
         const=None, \
         default=None, \
         type=str, \
         choices=None, \
-        help='Metric option which you\'d like to set.', \
+        help='Tune metric option which you\'d like to set.', \
+        metavar=None)
+
+parser.add_argument('-test','--test-metric', \
+        action='store', \
+        nargs=None, \
+        const=None, \
+        default=None, \
+        type=str, \
+        choices=None, \
+        help='Test metric option which you\'d like to set.', \
         metavar=None)
 
 # config
@@ -59,6 +71,14 @@ def evaluateEstimationInFold(func_metric,name_metric,num_folds,true_scores,arr_e
         statistic_test = np.append(statistic_test,evalue_test)
     print('mean:{0}, std:{1}'.format(statistic_test.mean(),statistic_test.std()))
 
+corrcoef = lambda true,estimated: np.corrcoef(true, estimated)[0,1]
+kendalltau = lambda true,estimated: stats.kendalltau(true, estimated)[0]
+spearmanrho = lambda true,estimated: 1-Bio.Cluster.distancematrix((true,estimated), dist="s")[1][0]
+def precisionAtK(true,estimated,top_k,threshold):
+    top_ranker_ture = np.array((true >= threshold))
+    id_top_k = estimated.argsort()[::-1][:top_k]
+    TP = top_ranker_ture[id_top_k].sum()
+    return TP/float(top_k)
 
 if __name__ == '__main__':
     #argparse
@@ -79,13 +99,23 @@ if __name__ == '__main__':
         add =  np.expand_dims(est['ability'],axis=0)
         estimated_abilities = np.append(estimated_abilities,add,axis=0)
 
-    if args.metric == 'cor':
-        func_metric = lambda true,estimated: np.corrcoef(true, estimated)[0,1]
+    if args.tune_metric == 'cor':
+        func_metric = corrcoef
         name_metric = 'corrcoef'
-    elif args.metric == 'rcor':
-        sys.exit()
+    elif args.tune_metric == 'ktau':
+        func_metric = kendalltau
+        name_metric = 'kendalltau'
+    elif args.tune_metric == 'srho':
+        func_metric = spearmanrho
+        name_metric = 'spearmanrho'
+    elif args.tune_metric == 'preck':
+        top_k = 10
+        threshold = 3
+        func_metric = lambda true,estimated: precisionAtK(true,estimated,top_k,threshold)
+        name_metric = 'precision@{}'.format(top_k)
     else:
-        print('Error: set metrics [cor|rcor|prec]')
+        print('Error: set metrics [cor|ktau|srho|preck]')
+        sys.exit()
 
     num_folds = NUM_FOLDS
     true_scores = true_ability

@@ -1,3 +1,9 @@
+-------- result mean grade --------
+mean:0.403270523339, std:0.0157834278613
+-------- result mean corrected --------
+mean:-0.117140814205, std:0.0143920859769
+-------- result mean diff --------
+mean:-0.205221453915, std:0.0102615527689
 -------- result PC1 --------
 test corrcoef:0.174295715043, best train corrcoef:0.356081777884, best model:66
 test corrcoef:0.232423309173, best train corrcoef:0.22252762167, best model:147
@@ -5,6 +11,13 @@ test corrcoef:0.208450916067, best train corrcoef:0.259170387598, best model:66
 test corrcoef:0.0904783423873, best train corrcoef:0.139496728471, best model:110
 test corrcoef:0.189141147599, best train corrcoef:0.271893299958, best model:126
 mean:0.178957886054, std:0.0483372622112
+-------- result PC2 --------
+test corrcoef:0.296267793646, best train corrcoef:0.459978898258, best model:31
+test corrcoef:0.363815478013, best train corrcoef:0.259103866322, best model:82
+test corrcoef:0.237109077265, best train corrcoef:0.404003488523, best model:121
+test corrcoef:0.361652636917, best train corrcoef:0.30849635658, best model:82
+test corrcoef:0.307833696111, best train corrcoef:0.412926167085, best model:22
+mean:0.31333573639, std:0.046935738769
 -------- result PG1 --------
 test corrcoef:0.47426950863, best train corrcoef:0.545175139462, best model:45
 test corrcoef:0.509477413827, best train corrcoef:0.518617857268, best model:105
