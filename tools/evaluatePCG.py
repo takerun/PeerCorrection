@@ -11,6 +11,7 @@ import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
 
+# parser settings
 parser = argparse.ArgumentParser()
 parser.add_argument('-m','--model', \
         action='store', \
@@ -26,7 +27,7 @@ parser.add_argument('-tune','--tune-metric', \
         action='store', \
         nargs=None, \
         const=None, \
-        default=None, \
+        default='cor', \
         type=str, \
         choices=None, \
         help='Tune metric option which you\'d like to set.', \
@@ -36,7 +37,7 @@ parser.add_argument('-test','--test-metric', \
         action='store', \
         nargs=None, \
         const=None, \
-        default=None, \
+        default='cor', \
         type=str, \
         choices=None, \
         help='Test metric option which you\'d like to set.', \
@@ -74,12 +75,14 @@ def evaluateEstimationInFold(func_metric,name_metric,num_folds,true_scores,arr_e
 corrcoef = lambda true,estimated: np.corrcoef(true, estimated)[0,1]
 kendalltau = lambda true,estimated: stats.kendalltau(true, estimated)[0]
 spearmanrho = lambda true,estimated: 1-Bio.Cluster.distancematrix((true,estimated), dist="s")[1][0]
+
 def precisionAtK(true,estimated,top_k,threshold):
     top_ranker_ture = np.array((true >= threshold))
     id_top_k = estimated.argsort()[::-1][:top_k]
     TP = top_ranker_ture[id_top_k].sum()
     return TP/float(top_k)
 
+# main
 if __name__ == '__main__':
     #argparse
     args = parser.parse_args()
