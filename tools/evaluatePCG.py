@@ -6,6 +6,7 @@ import copy
 import argparse
 import numpy as np
 from scipy import stats
+from sklearn import metrics
 import Bio.Cluster
 import pandas as pd
 import matplotlib
@@ -72,6 +73,30 @@ def evaluateEstimationInFold(func_metric,name_metric,num_folds,true_scores,arr_e
         statistic_test = np.append(statistic_test,evalue_test)
     print('mean:{0}, std:{1}'.format(statistic_test.mean(),statistic_test.std()))
 
+def evaluateEstimationInFold2(tune_metric,name_tune_metric,test_metric,name_test_metric,num_folds,true_scores,arr_estimated_scores):
+    #generate random permutation and fold that index
+    np.random.seed(12345678)
+    permu =np.random.permutation(len(true_scores))
+    idx_inFold = np.array_split(permu, num_folds)
+    statistic_test = np.empty(0)
+    for loop in xrange(num_folds):
+        buf_list = copy.copy(idx_inFold)
+        idx_train = buf_list.pop(loop)
+        idx_test = np.concatenate(buf_list)
+        #train
+        true_train = true_scores[idx_train]
+        arr_estimated_train = arr_estimated_scores[:,idx_train]
+        evalues_train = np.array([tune_metric(true_train, estimated_train) for estimated_train in arr_estimated_train])
+        id_best_model = evalues_train.argmax()
+        #test
+        true_test = true_scores[idx_test]
+        estimated_test_best = arr_estimated_scores[id_best_model,idx_test]
+        evalue_test = test_metric(true_test, estimated_test_best)
+        print('test {0}:{1}, best train {2}:{3}, best model:{4}'.format(name_test_metric,evalue_test,name_tune_metric,evalues_train.max(), id_best_model))
+        #accumulate
+        statistic_test = np.append(statistic_test,evalue_test)
+    print('mean:{0}, std:{1}'.format(statistic_test.mean(),statistic_test.std()))
+
 corrcoef = lambda true,estimated: np.corrcoef(true, estimated)[0,1]
 kendalltau = lambda true,estimated: stats.kendalltau(true, estimated)[0]
 spearmanrho = lambda true,estimated: 1-Bio.Cluster.distancematrix((true,estimated), dist="s")[1][0]
@@ -81,6 +106,10 @@ def precisionAtK(true,estimated,top_k,threshold):
     id_top_k = estimated.argsort()[::-1][:top_k]
     TP = top_ranker_ture[id_top_k].sum()
     return TP/float(top_k)
+
+def auc(true,estimated,threshold):
+    fpr, tpr, thresholds = metrics.roc_curve(true >= threshold, estimated, pos_label=1)
+    return metrics.auc(fpr, tpr)
 
 # main
 if __name__ == '__main__':
@@ -102,26 +131,55 @@ if __name__ == '__main__':
         add =  np.expand_dims(est['ability'],axis=0)
         estimated_abilities = np.append(estimated_abilities,add,axis=0)
 
+    # set tuning metric
     if args.tune_metric == 'cor':
-        func_metric = corrcoef
-        name_metric = 'corrcoef'
+        tune_metric = corrcoef
+        name_tune_metric = 'corrcoef'
     elif args.tune_metric == 'ktau':
-        func_metric = kendalltau
-        name_metric = 'kendalltau'
+        tune_metric = kendalltau
+        name_tune_metric = 'kendalltau'
     elif args.tune_metric == 'srho':
-        func_metric = spearmanrho
-        name_metric = 'spearmanrho'
+        tune_metric = spearmanrho
+        name_tune_metric = 'spearmanrho'
     elif args.tune_metric == 'preck':
         top_k = 10
         threshold = 3
-        func_metric = lambda true,estimated: precisionAtK(true,estimated,top_k,threshold)
-        name_metric = 'precision@{}'.format(top_k)
+        tune_metric = lambda true,estimated: precisionAtK(true,estimated,top_k,threshold)
+        name_tune_metric = 'precision@{}'.format(top_k)
+    elif args.tune_metric == 'auc':
+        threshold = 4
+        tune_metric = lambda true,estimated: auc(true,estimated,threshold)
+        name_tune_metric = 'auc'
     else:
-        print('Error: set metrics [cor|ktau|srho|preck]')
+        print('Error: set tune metrics [cor|ktau|srho|preck]')
         sys.exit()
+
+    # set test metric
+    if args.test_metric == 'cor':
+        test_metric = corrcoef
+        name_test_metric = 'corrcoef'
+    elif args.test_metric == 'ktau':
+        test_metric = kendalltau
+        name_test_metric = 'kendalltau'
+    elif args.test_metric == 'srho':
+        test_metric = spearmanrho
+        name_test_metric = 'spearmanrho'
+    elif args.test_metric == 'preck':
+        top_k = 10
+        threshold = 3
+        test_metric = lambda true,estimated: precisionAtK(true,estimated,top_k,threshold)
+        name_test_metric = 'precision@{}'.format(top_k)
+    elif args.test_metric == 'auc':
+        threshold = 3
+        test_metric = lambda true,estimated: auc(true,estimated,threshold)
+        name_test_metric = 'auc'
+    else:
+        print('Error: set test metrics [cor|ktau|srho|preck]')
+        sys.exit()
+
 
     num_folds = NUM_FOLDS
     true_scores = true_ability
     arr_estimated_scores = estimated_abilities
     print('-------- result {} --------'.format(args.model))
-    evaluateEstimationInFold(func_metric,name_metric,num_folds,true_scores,arr_estimated_scores)
+    evaluateEstimationInFold2(tune_metric,name_tune_metric,test_metric,name_test_metric,num_folds,true_scores,arr_estimated_scores)
