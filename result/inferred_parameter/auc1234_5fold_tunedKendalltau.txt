@@ -1,0 +1,70 @@
+-------- result PC1 --------
+test auc:0.438666666667, best train kendalltau:0.21290682941, best model:50
+test auc:0.46465803643, best train kendalltau:0.227205387016, best model:44
+test auc:0.441484899329, best train kendalltau:0.190089031208, best model:50
+test auc:0.507871878393, best train kendalltau:0.0426573878015, best model:50
+test auc:0.411895424837, best train kendalltau:0.116909622714, best model:30
+mean:0.452915381131, std:0.0321696289606
+-------- result PC2 --------
+test auc:0.529777777778, best train kendalltau:0.325685998809, best model:81
+test auc:0.581853591477, best train kendalltau:0.243177646209, best model:82
+test auc:0.54572147651, best train kendalltau:0.308180413321, best model:121
+test auc:0.692453854506, best train kendalltau:0.212531940993, best model:73
+test auc:0.564183006536, best train kendalltau:0.300734621587, best model:116
+mean:0.582797941361, std:0.057545858018
+-------- result PG1 --------
+test auc:0.795444444444, best train kendalltau:0.400149168348, best model:131
+test auc:0.837667544965, best train kendalltau:0.405296077014, best model:112
+test auc:0.798238255034, best train kendalltau:0.32798929032, best model:37
+test auc:0.831704668838, best train kendalltau:0.46092628766, best model:74
+test auc:0.771111111111, best train kendalltau:0.395339118915, best model:120
+mean:0.806833204878, std:0.0246940934568
+-------- result PG3 --------
+test auc:0.762444444444, best train kendalltau:0.44497165875, best model:120
+test auc:0.791155917058, best train kendalltau:0.407691915893, best model:120
+test auc:0.800859899329, best train kendalltau:0.288371536321, best model:126
+test auc:0.806596091205, best train kendalltau:0.458661293618, best model:49
+test auc:0.783267973856, best train kendalltau:0.369188282255, best model:49
+mean:0.788864865179, std:0.0154459701128
+-------- result PG4 --------
+test auc:0.803666666667, best train kendalltau:0.4731664511, best model:73
+test auc:0.818650475427, best train kendalltau:0.495539341453, best model:33
+test auc:0.819840604027, best train kendalltau:0.307418533436, best model:118
+test auc:0.836726384365, best train kendalltau:0.482066232058, best model:43
+test auc:0.798562091503, best train kendalltau:0.367649997745, best model:130
+mean:0.815489244398, std:0.0134628798965
+-------- result PG5 --------
+test auc:0.807333333333, best train kendalltau:0.484010602004, best model:90
+test auc:0.788979264521, best train kendalltau:0.50112963217, best model:108
+test auc:0.815436241611, best train kendalltau:0.318846731705, best model:90
+test auc:0.822747014115, best train kendalltau:0.474516251916, best model:138
+test auc:0.795947712418, best train kendalltau:0.357651148434, best model:138
+mean:0.8060887132, std:0.0123450191333
+-------- result PCG1 --------
+test auc:0.771555555556, best train kendalltau:0.41460803622, best model:149
+test auc:0.834574407149, best train kendalltau:0.421268336207, best model:85
+test auc:0.792785234899, best train kendalltau:0.317322971936, best model:133
+test auc:0.828990228013, best train kendalltau:0.454886303547, best model:69
+test auc:0.785098039216, best train kendalltau:0.391493407641, best model:102
+mean:0.802600692966, std:0.0248403406612
+-------- result PCG3 --------
+test auc:0.774555555556, best train kendalltau:0.450032262505, best model:125
+test auc:0.828846374155, best train kendalltau:0.395712721499, best model:33
+test auc:0.644505033557, best train kendalltau:0.33789372882, best model:147
+test auc:0.795466883822, best train kendalltau:0.434501357164, best model:103
+test auc:0.74954248366, best train kendalltau:0.388416838622, best model:103
+mean:0.75858326615, std:0.0626865193284
+-------- result PCG4 --------
+test auc:0.778888888889, best train kendalltau:0.462322300196, best model:54
+test auc:0.790468553099, best train kendalltau:0.472379565624, best model:17
+test auc:0.829383389262, best train kendalltau:0.323418011013, best model:73
+test auc:0.818675352877, best train kendalltau:0.464701277731, best model:2
+test auc:0.808366013072, best train kendalltau:0.346114014614, best model:48
+mean:0.80515643944, std:0.0183615124552
+-------- result PCG5 --------
+test auc:0.788, best train kendalltau:0.459430526622, best model:5
+test auc:0.787833657922, best train kendalltau:0.43644198244, best model:113
+test auc:0.75755033557, best train kendalltau:0.363035765012, best model:93
+test auc:0.783523344191, best train kendalltau:0.423931384965, best model:111
+test auc:0.73137254902, best train kendalltau:0.345344872359, best model:140
+mean:0.769655977341, std:0.0222324202402

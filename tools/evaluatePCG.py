@@ -11,6 +11,7 @@ import Bio.Cluster
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
+from ranking import RankingMeasures
 
 # parser settings
 parser = argparse.ArgumentParser()
@@ -23,7 +24,6 @@ parser.add_argument('-m','--model', \
         choices=None, \
         help='Model name which you\'d like to run.', \
         metavar=None)
-
 parser.add_argument('-tune','--tune-metric', \
         action='store', \
         nargs=None, \
@@ -33,7 +33,6 @@ parser.add_argument('-tune','--tune-metric', \
         choices=None, \
         help='Tune metric option which you\'d like to set.', \
         metavar=None)
-
 parser.add_argument('-test','--test-metric', \
         action='store', \
         nargs=None, \
@@ -42,6 +41,24 @@ parser.add_argument('-test','--test-metric', \
         type=str, \
         choices=None, \
         help='Test metric option which you\'d like to set.', \
+        metavar=None)
+parser.add_argument('-k','--top-k', \
+        action='store', \
+        nargs=None, \
+        const=None, \
+        default=10, \
+        type=int, \
+        choices=None, \
+        help='Number of top-k value which you\'d like to set.', \
+        metavar=None)
+parser.add_argument('-thre','--threshold', \
+        action='store', \
+        nargs=None, \
+        const=None, \
+        default=4, \
+        type=int, \
+        choices=None, \
+        help='Number of threshold value which you\'d like to set.', \
         metavar=None)
 
 # config
@@ -111,6 +128,10 @@ def auc(true,estimated,threshold):
     fpr, tpr, thresholds = metrics.roc_curve(true >= threshold, estimated, pos_label=1)
     return metrics.auc(fpr, tpr)
 
+def nDCG(true,estimated,top_k):
+    rm = RankingMeasures(estimated, true)
+    return rm.nDCG(k=top_k)
+
 # main
 if __name__ == '__main__':
     #argparse
@@ -142,16 +163,20 @@ if __name__ == '__main__':
         tune_metric = spearmanrho
         name_tune_metric = 'spearmanrho'
     elif args.tune_metric == 'preck':
-        top_k = 10
-        threshold = 3
+        top_k = args.top_k
+        threshold = args.threshold
         tune_metric = lambda true,estimated: precisionAtK(true,estimated,top_k,threshold)
         name_tune_metric = 'precision@{}'.format(top_k)
     elif args.tune_metric == 'auc':
-        threshold = 4
+        threshold = args.threshold
         tune_metric = lambda true,estimated: auc(true,estimated,threshold)
         name_tune_metric = 'auc'
+    elif args.tune_metric == 'ndcg':
+        top_k = args.top_k
+        tune_metric = lambda true,estimated: nDCG(true,estimated,top_k)
+        name_tune_metric = 'nDCG@{}'.format(top_k)
     else:
-        print('Error: set tune metrics [cor|ktau|srho|preck]')
+        print('Error: set tune metrics [cor|ktau|srho|preck|auc|ndcg]')
         sys.exit()
 
     # set test metric
@@ -165,16 +190,20 @@ if __name__ == '__main__':
         test_metric = spearmanrho
         name_test_metric = 'spearmanrho'
     elif args.test_metric == 'preck':
-        top_k = 10
-        threshold = 3
+        top_k = args.top_k
+        threshold = args.threshold
         test_metric = lambda true,estimated: precisionAtK(true,estimated,top_k,threshold)
         name_test_metric = 'precision@{}'.format(top_k)
     elif args.test_metric == 'auc':
-        threshold = 3
+        threshold = args.threshold
         test_metric = lambda true,estimated: auc(true,estimated,threshold)
         name_test_metric = 'auc'
+    elif args.test_metric == 'ndcg':
+        top_k = args.top_k
+        test_metric = lambda true,estimated: nDCG(true,estimated,top_k)
+        name_test_metric = 'nDCG@{}'.format(top_k)
     else:
-        print('Error: set test metrics [cor|ktau|srho|preck]')
+        print('Error: set test metrics [cor|ktau|srho|preck|auc|ndcg]')
         sys.exit()
 
 

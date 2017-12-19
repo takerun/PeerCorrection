@@ -1,3 +1,9 @@
+-------- result mean grade --------
+mean:0.26, std:0.0489897948557
+-------- result mean corrected --------
+mean:0.2, std:0.0632455532034
+-------- result mean diff --------
+mean:0.22, std:0.0748331477355
 -------- result PC1 --------
 test precision@10:0.4, best train kendalltau:0.21290682941, best model:50
 test precision@10:0.5, best train kendalltau:0.227205387016, best model:44

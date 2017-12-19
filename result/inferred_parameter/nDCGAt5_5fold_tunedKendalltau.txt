@@ -1,0 +1,76 @@
+-------- result mean grade --------
+mean:0.433366789711, std:0.0615124846816
+-------- result mean corrected --------
+mean:0.419328180268, std:0.0519362073529
+-------- result mean diff --------
+mean:0.46057914165, std:0.0967544384891
+-------- result PC1 --------
+test nDCG@5:0.40169418877, best train kendalltau:0.21290682941, best model:50
+test nDCG@5:0.682466377636, best train kendalltau:0.227205387016, best model:44
+test nDCG@5:0.561544377732, best train kendalltau:0.190089031208, best model:50
+test nDCG@5:0.732160972141, best train kendalltau:0.0426573878015, best model:50
+test nDCG@5:0.771040141601, best train kendalltau:0.116909622714, best model:30
+mean:0.629781211576, std:0.134083095783
+-------- result PC2 --------
+test nDCG@5:0.790504236131, best train kendalltau:0.325685998809, best model:81
+test nDCG@5:0.879078000096, best train kendalltau:0.243177646209, best model:82
+test nDCG@5:0.799152905615, best train kendalltau:0.308180413321, best model:121
+test nDCG@5:0.839115452856, best train kendalltau:0.212531940993, best model:73
+test nDCG@5:0.80888495288, best train kendalltau:0.300734621587, best model:116
+mean:0.823347109516, std:0.0323349366034
+-------- result PG1 --------
+test nDCG@5:0.635520070801, best train kendalltau:0.400149168348, best model:131
+test nDCG@5:0.724093834766, best train kendalltau:0.405296077014, best model:112
+test nDCG@5:0.661426236034, best train kendalltau:0.32798929032, best model:37
+test nDCG@5:0.584249429223, best train kendalltau:0.46092628766, best model:74
+test nDCG@5:0.899576452808, best train kendalltau:0.395339118915, best model:120
+mean:0.700973204726, std:0.109041578238
+-------- result PG3 --------
+test nDCG@5:0.745133976368, best train kendalltau:0.44497165875, best model:120
+test nDCG@5:0.639844405543, best train kendalltau:0.407691915893, best model:120
+test nDCG@5:0.745133976368, best train kendalltau:0.288371536321, best model:126
+test nDCG@5:0.324517381959, best train kendalltau:0.458661293618, best model:49
+test nDCG@5:0.623670287574, best train kendalltau:0.369188282255, best model:49
+mean:0.615660005562, std:0.154233650888
+-------- result PG4 --------
+test nDCG@5:0.679806952783, best train kendalltau:0.4731664511, best model:73
+test nDCG@5:0.964903476392, best train kendalltau:0.495539341453, best model:33
+test nDCG@5:0.543745193093, best train kendalltau:0.307418533436, best model:118
+test nDCG@5:0.621463688794, best train kendalltau:0.482066232058, best model:43
+test nDCG@5:0.90444247644, best train kendalltau:0.367649997745, best model:130
+mean:0.7428723575, std:0.163567514381
+-------- result PG5 --------
+test nDCG@5:0.780230499976, best train kendalltau:0.484010602004, best model:90
+test nDCG@5:0.726753259619, best train kendalltau:0.50112963217, best model:108
+test nDCG@5:0.665750570777, best train kendalltau:0.318846731705, best model:90
+test nDCG@5:0.666292259667, best train kendalltau:0.474516251916, best model:138
+test nDCG@5:0.696522759643, best train kendalltau:0.357651148434, best model:138
+mean:0.707109869936, std:0.0429447205953
+-------- result PCG1 --------
+test nDCG@5:0.86502161809, best train kendalltau:0.41460803622, best model:149
+test nDCG@5:0.874211976464, best train kendalltau:0.421268336207, best model:85
+test nDCG@5:0.929806952783, best train kendalltau:0.317322971936, best model:133
+test nDCG@5:0.964903476392, best train kendalltau:0.454886303547, best model:69
+test nDCG@5:0.934672976416, best train kendalltau:0.391493407641, best model:102
+mean:0.913723400029, std:0.0380788177146
+-------- result PCG3 --------
+test nDCG@5:0.785096523608, best train kendalltau:0.450032262505, best model:125
+test nDCG@5:0.939539000048, best train kendalltau:0.395712721499, best model:33
+test nDCG@5:0.719227811134, best train kendalltau:0.33789372882, best model:147
+test nDCG@5:0.745133976368, best train kendalltau:0.434501357164, best model:103
+test nDCG@5:0.832042830443, best train kendalltau:0.388416838622, best model:103
+mean:0.80420802832, std:0.0776735201437
+-------- result PCG4 --------
+test nDCG@5:0.876329712426, best train kendalltau:0.462322300196, best model:54
+test nDCG@5:0.969769500024, best train kendalltau:0.472379565624, best model:17
+test nDCG@5:0.569651358326, best train kendalltau:0.323418011013, best model:73
+test nDCG@5:0.929806952783, best train kendalltau:0.464701277731, best model:2
+test nDCG@5:0.869345952832, best train kendalltau:0.346114014614, best model:48
+mean:0.842980695278, std:0.141513540123
+-------- result PCG5 --------
+test nDCG@5:0.794286881983, best train kendalltau:0.459430526622, best model:5
+test nDCG@5:0.674940929151, best train kendalltau:0.43644198244, best model:113
+test nDCG@5:0.600965236083, best train kendalltau:0.363035765012, best model:93
+test nDCG@5:0.869345952832, best train kendalltau:0.423931384965, best model:111
+test nDCG@5:0.684131287526, best train kendalltau:0.345344872359, best model:140
+mean:0.724734057515, std:0.0950756092595

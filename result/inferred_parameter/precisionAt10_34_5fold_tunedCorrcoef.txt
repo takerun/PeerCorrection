@@ -1,3 +1,9 @@
+-------- result mean grade --------
+mean:0.26, std:0.0489897948557
+-------- result mean corrected --------
+mean:0.2, std:0.0632455532034
+-------- result mean diff --------
+mean:0.22, std:0.0748331477355
 -------- result PC1 --------
 test precision@10:0.3, best train corrcoef:0.356081777884, best model:66
 test precision@10:0.5, best train corrcoef:0.22252762167, best model:147

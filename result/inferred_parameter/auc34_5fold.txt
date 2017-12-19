@@ -1,3 +1,9 @@
+-------- result mean grade --------
+mean:0.722888412387, std:0.0146711603954
+-------- result mean corrected --------
+mean:0.583546904091, std:0.014755094254
+-------- result mean diff --------
+mean:0.627086439276, std:0.0130041246771
 -------- result PC1 --------
 test auc:0.614435579196, best train auc:0.725806451613, best model:50
 test auc:0.631746825943, best train auc:0.568493150685, best model:44

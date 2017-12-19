@@ -1,0 +1,76 @@
+-------- result mean grade --------
+mean:0.809710582133, std:0.0114353459757
+-------- result mean corrected --------
+mean:0.498294429778, std:0.024857893933
+-------- result mean diff --------
+mean:0.610724520624, std:0.0411989469572
+-------- result PC1 --------
+test auc:0.474222222222, best train auc:0.607692307692, best model:110
+test auc:0.472906403941, best train auc:0.599567099567, best model:67
+test auc:0.453544463087, best train auc:0.6125, best model:38
+test auc:0.549402823018, best train auc:0.403329065301, best model:110
+test auc:0.464705882353, best train auc:0.547222222222, best model:64
+mean:0.482956358924, std:0.0340310412463
+-------- result PC2 --------
+test auc:0.538777777778, best train auc:0.889743589744, best model:63
+test auc:0.61370145492, best train auc:0.829004329004, best model:73
+test auc:0.562395134228, best train auc:0.745833333333, best model:145
+test auc:0.692453854506, best train auc:0.580025608195, best model:73
+test auc:0.568496732026, best train auc:0.704166666667, best model:49
+mean:0.595164990692, std:0.0543567858164
+-------- result PG1 --------
+test auc:0.793444444444, best train auc:0.894871794872, best model:96
+test auc:0.823003780502, best train auc:0.753246753247, best model:29
+test auc:0.783766778523, best train auc:0.970833333333, best model:39
+test auc:0.81460369164, best train auc:0.796414852753, best model:29
+test auc:0.787712418301, best train auc:0.888888888889, best model:6
+mean:0.800506222682, std:0.01548313839
+-------- result PG3 --------
+test auc:0.759222222222, best train auc:0.892307692308, best model:61
+test auc:0.786229808684, best train auc:0.755411255411, best model:61
+test auc:0.784500838926, best train auc:0.933333333333, best model:49
+test auc:0.819896851249, best train auc:0.783610755442, best model:126
+test auc:0.779869281046, best train auc:0.847222222222, best model:4
+mean:0.785943800425, std:0.0195239141884
+-------- result PG4 --------
+test auc:0.787, best train auc:0.902564102564, best model:53
+test auc:0.790353992439, best train auc:0.867965367965, best model:3
+test auc:0.804844798658, best train auc:0.920833333333, best model:0
+test auc:0.77266558089, best train auc:0.830985915493, best model:119
+test auc:0.799215686275, best train auc:0.879166666667, best model:98
+mean:0.790816011652, std:0.0110596106815
+-------- result PG5 --------
+test auc:0.707777777778, best train auc:0.925641025641, best model:55
+test auc:0.738801695498, best train auc:0.874458874459, best model:37
+test auc:0.796770134228, best train auc:0.954166666667, best model:138
+test auc:0.729370249729, best train auc:0.848911651729, best model:65
+test auc:0.821437908497, best train auc:0.861111111111, best model:90
+mean:0.758831553146, std:0.0429756750747
+-------- result PCG1 --------
+test auc:0.806888888889, best train auc:0.9, best model:62
+test auc:0.7893229465, best train auc:0.811688311688, best model:43
+test auc:0.771916946309, best train auc:0.975, best model:97
+test auc:0.796009771987, best train auc:0.802816901408, best model:55
+test auc:0.795032679739, best train auc:0.868055555556, best model:45
+mean:0.791834246685, std:0.0114657116685
+-------- result PCG3 --------
+test auc:0.774555555556, best train auc:0.864102564103, best model:125
+test auc:0.81578645893, best train auc:0.779220779221, best model:104
+test auc:0.796560402685, best train auc:0.925, best model:104
+test auc:0.818132464712, best train auc:0.79257362356, best model:33
+test auc:0.738562091503, best train auc:0.848611111111, best model:22
+mean:0.788719394677, std:0.0295824456834
+-------- result PCG4 --------
+test auc:0.807333333333, best train auc:0.902564102564, best model:72
+test auc:0.810974911215, best train auc:0.854978354978, best model:138
+test auc:0.815645973154, best train auc:0.879166666667, best model:72
+test auc:0.792752442997, best train auc:0.811779769526, best model:32
+test auc:0.772549019608, best train auc:0.866666666667, best model:66
+mean:0.799851136062, std:0.0156524473138
+-------- result PCG5 --------
+test auc:0.736444444444, best train auc:0.864102564103, best model:87
+test auc:0.825524115019, best train auc:0.796536796537, best model:46
+test auc:0.807781040268, best train auc:0.941666666667, best model:46
+test auc:0.783523344191, best train auc:0.800256081946, best model:111
+test auc:0.756993464052, best train auc:0.843055555556, best model:113
+mean:0.782053281595, std:0.0324405687079
