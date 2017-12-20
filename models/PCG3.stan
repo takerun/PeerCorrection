@@ -18,7 +18,7 @@ parameters{
 }
 
 transformed parameters{
-  real<lower=0.0001> reliability[vNum];
+  real<lower=0.00001> reliability[vNum];
   for(i in 1:vNum){
     reliability[i] = hyper[4]*ability[senderOrigin[i]+1]+hyper[3];
   }

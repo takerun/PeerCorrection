@@ -7,14 +7,15 @@ data{
   int receiver[N];
   int value[N];
   int diff[N];
+  int senderOrigin[vNum];
   real hyper[6];
 }
 
 parameters{
-  real<lower=0, upper=4> ability[uNum];
-  real<lower=0.0001> reliability[vNum];
-  real<lower=-2, upper=2> bias[vNum];
-  real<lower=-2, upper=2> noise;
+  real ability[uNum];
+  real<lower=0.00001> reliability[vNum];
+  real bias[vNum];
+  real noise;
 }
 
 model{
