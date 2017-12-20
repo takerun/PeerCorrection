@@ -12,7 +12,7 @@ data{
 }
 
 parameters{
-  real ability[uNum];
+  real<lower=0> ability[uNum];
   real<lower=0.00001> reliability[vNum];
   real bias[vNum];
   real noise;
