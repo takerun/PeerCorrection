@@ -10,15 +10,15 @@ import pystan
 RECORD = True
 
 # path information
-PG3PC2_path = '../models/PG3PC2.stan'
-save_param_dir = '../result/inferred_parameter/PG3PC2'
+PC2_path = '../models/PC2a.stan'
+save_param_dir = '../result/inferred_parameter/PC2a'
 
 # function
-def recordPG3PC2Info(hyper_list, model_file, csv_file):
+def recordPC2aInfo(hyper_list, model_file, csv_file):
     if os.path.exists(csv_file):
         df = pd.read_csv(csv_file)
     else:
-        df = pd.DataFrame(columns=['file','mu0','gamma0','theta0','theta1','eta0','kappa0'])
+        df = pd.DataFrame(columns=['file','mu0','gamma0','eta0','kappa0'])
     add_srs = pd.Series([model_file]+hyper_list, index=df.columns)
     df = df.append(add_srs, ignore_index=True)
     df.to_csv(csv_file, index=False)
@@ -32,7 +32,7 @@ def timeStamp():
     todaydetail = datetime.datetime.today()
     return todaydetail.strftime("%Y%m%d%H%M%S")
 
-class PG3PC2:
+class PC2a:
     def __init__(self, groundtruth_DataFrame, review_DataFrame):
         '''
             正解とレビューのdataFrameを受け取る。
@@ -44,7 +44,6 @@ class PG3PC2:
         # data
         self.receiver = self.rDF['receiver_id'].get_values().astype(np.int64)
         self.sender_origin = self.rDF['sender_id'].get_values().astype(np.int64)
-        self.value = self.rDF['value'].get_values().astype(np.int64)
         self.diff = self.rDF['diff'].get_values().astype(np.int64)
         # total number
         self.reviewNum = len(self.receiver)
@@ -60,18 +59,18 @@ class PG3PC2:
         # for stan
         self.stanData = {
             'N':self.reviewNum, 'uNum':self.userNum, 'vNum':self.reviewerNum,
-            'sender':self.sender, 'receiver':self.receiver, 'value':self.value,
-            'diff':self.diff, 'senderOrigin':self.sender_origin_id, 'hyper':[1]*6
+            'sender':self.sender, 'receiver':self.receiver, 'diff':self.diff,
+            'senderOrigin':self.sender_origin_id, 'hyper':[1]*4
             }
-        self.stanmodel = pystan.StanModel(file=PG3PC2_path)
+        self.stanmodel = pystan.StanModel(file=PC2a_path)
 
     def fit(self, hyper_list, iteration=5000, chains=4, warmup=500, n_jobs=-1, algorithm='NUTS'):
         '''
             ハイパーパラメータを受け取り、数を確認。
             stanによるパラメータ推定を実行、結果をstan_fitに格納。
         '''
-        if len(hyper_list) != 6:
-            print('NError: {} given. Set 6 hyper parameters.'.format(len(hyper_list)))
+        if len(hyper_list) != 4:
+            print('NError: {} given. Set 4 hyper parameters.'.format(len(hyper_list)))
             sys.exit(1)
         self.stanData['hyper'] = hyper_list
         stan_fit = self.stanmodel.sampling(data=self.stanData, algorithm=algorithm,
@@ -88,16 +87,14 @@ class PG3PC2:
         ext = stan_fit.extract()
         inferred_ability = ext['ability'].mean(axis=0)
         if RECORD == True:
-            inferred_reliability = ext['reliability'].mean(axis=0)
             inferred_bias = ext['bias'].mean(axis=0)
             inferred_noise = ext['noise'].mean(axis=0)
-            parameters = {'ability':inferred_ability, 'reliability':inferred_reliability,
-                    'bias':inferred_bias, 'noise':inferred_noise}
+            parameters = {'ability':inferred_ability, 'bias':inferred_bias, 'noise':inferred_noise}
             # save
-            pkl_name = 'PG3PC2-{}.pkl'.format(timeStamp())
+            pkl_name = 'PC2a-{}.pkl'.format(timeStamp())
             saveStanExtract(parameters, os.path.join(save_param_dir,pkl_name))
             # record table
-            recordPG3PC2Info(hyper_list,pkl_name,os.path.join(save_param_dir,'models.csv'))
+            recordPC2aInfo(hyper_list,pkl_name,os.path.join(save_param_dir,'models.csv'))
         # calculate corrcoef
         cor = np.corrcoef(self.grade, inferred_ability)[0,1]
         return cor

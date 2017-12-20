@@ -14,7 +14,6 @@ parameters{
   real<lower=0> ability[uNum];
   real bias[vNum];
   real noise0;
-  real noise1;
 }
 
 model{

@@ -18,7 +18,7 @@ def recordPCG5Info(hyper_list, model_file, csv_file):
     if os.path.exists(csv_file):
         df = pd.read_csv(csv_file)
     else:
-        df = pd.DataFrame(columns=['file','mu0','gamma0','beta0','eta0','lambda0','kappa0'])
+        df = pd.DataFrame(columns=['file','mu0','gamma0','beta0','eta0','kappa0','lambda0'])
     add_srs = pd.Series([model_file]+hyper_list, index=df.columns)
     df = df.append(add_srs, ignore_index=True)
     df.to_csv(csv_file, index=False)

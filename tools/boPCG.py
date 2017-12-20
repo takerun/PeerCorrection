@@ -190,6 +190,28 @@ if __name__ == '__main__':
                     target=Y)
         name_result_file = 'resultPC2.txt'
         label = 'PC2'
+    elif args.model == 'PC2a':
+        from PC2a import PC2a
+        snapshot_form = 'PC2a-hyper4-RAM5000w500-{0}-{1}'
+        trainModel = PC2a(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,eta0,kappa0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,eta0,kappa0])
+            return cor
+        pbounds = {'mu0': (0.05, 2.0e1),
+                   'gamma0': (1.0e-2, 3.0e1),
+                   'eta0': (1.0e-2, 1.0e1),
+                   'kappa0': (1.0, 1.0e2),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    eta0=X[keys.index('eta0')], kappa0=X[keys.index('kappa0')],
+                    target=Y)
+        name_result_file = 'resultPC2a.txt'
+        label = 'PC2a'
     elif args.model == 'PCG1':
         from PCG1 import PCG1
         snapshot_form = 'PCG1-hyper6-RAM5000w500-{0}-{1}'
@@ -267,15 +289,15 @@ if __name__ == '__main__':
         from PCG5 import PCG5
         snapshot_form = 'PCG5-hyper6-RAM5000w500-{0}-{1}'
         trainModel = PCG5(gDF, rDF)
-        def evaluate_BO(mu0,gamma0,beta0,eta0,lambda0,kappa0):
-            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,lambda0,kappa0])
+        def evaluate_BO(mu0,gamma0,beta0,eta0,kappa0,lambda0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,kappa0,lambda0])
             return cor
         pbounds = {'mu0': (0.0, 4.0),
                    'gamma0': (1.0e-2, 1.0e1),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0e-2, 1.0e2),
-                   'lambda0': (1.0, 1.0e2),
                    'kappa0': (1.0, 1.0e2),
+                   'lambda0': (1.0, 1.0e2),
                    }
         def npzSave(path,bo):
             keys = bo.keys
@@ -284,7 +306,7 @@ if __name__ == '__main__':
             np.savez(path,
                     mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
                     beta0=X[keys.index('beta0')],eta0=X[keys.index('eta0')],
-                    lambda0=X[keys.index('lambda0')] ,kappa0=X[keys.index('kappa0')],
+                    kappa0=X[keys.index('kappa0')],lambda0=X[keys.index('lambda0')],
                     target=Y)
         name_result_file = 'resultPCG5.txt'
         label = 'PCG5'
@@ -299,7 +321,7 @@ if __name__ == '__main__':
                    'gamma0': (1.0e-2, 3.0e1),
                    'alpha0': (1.0, 1.0e2),
                    'beta0': (1.0, 1.0e2),
-                   'eta0': (1.0, 1.0e1),
+                   'eta0': (1.0e-2, 1.0e1),
                    'kappa0': (1.0, 1.0e2),
                    }
         def npzSave(path,bo):
@@ -324,7 +346,7 @@ if __name__ == '__main__':
                    'gamma0': (1.0e-2, 3.0e1),
                    'theta0': (0.0, 1.0),
                    'theta1': (1.0e-2, 1.0e1),
-                   'eta0': (1.0, 1.0e1),
+                   'eta0': (1.0e-2, 1.0e1),
                    'kappa0': (1.0, 1.0e2),
                    }
         def npzSave(path,bo):
@@ -348,7 +370,7 @@ if __name__ == '__main__':
         pbounds = {'mu0': (0.0, 15.0),
                    'gamma0': (1.0e-2, 3.0e1),
                    'beta0': (1.0, 1.0e2),
-                   'eta0': (1.0, 1.0e2),
+                   'eta0': (1.0e-2, 1.0e2),
                    'kappa0': (1.0, 1.0e2),
                    }
         def npzSave(path,bo):
@@ -365,15 +387,15 @@ if __name__ == '__main__':
         from PG5PC2 import PG5PC2
         snapshot_form = 'PG5PC2-hyper6-RAM5000w500-{0}-{1}'
         trainModel = PG5PC2(gDF, rDF)
-        def evaluate_BO(mu0,gamma0,beta0,eta0,lambda0,kappa0):
-            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,lambda0,kappa0])
+        def evaluate_BO(mu0,gamma0,beta0,eta0,kappa0,lambda0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,kappa0,lambda0])
             return cor
         pbounds = {'mu0': (0.0, 15.0),
                    'gamma0': (1.0e-2, 3.0e1),
                    'beta0': (1.0, 1.0e2),
-                   'eta0': (1.0, 1.0e2),
-                   'lambda0': (1.0, 1.0e2),
+                   'eta0': (1.0e-2, 1.0e2),
                    'kappa0': (1.0, 1.0e2),
+                   'lambda0': (1.0, 1.0e2),
                    }
         def npzSave(path,bo):
             keys = bo.keys
@@ -382,7 +404,7 @@ if __name__ == '__main__':
             np.savez(path,
                     mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
                     beta0=X[keys.index('beta0')],eta0=X[keys.index('eta0')],
-                    lambda0=X[keys.index('lambda0')] ,kappa0=X[keys.index('kappa0')],
+                    kappa0=X[keys.index('kappa0')],lambda0=X[keys.index('lambda0')],
                     target=Y)
         name_result_file = 'resultPG5PC2.txt'
         label = 'PG5PC2'
