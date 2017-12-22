@@ -10,7 +10,7 @@ import pystan
 RECORD = True
 
 # path information
-PC2_path = '../models/PC2a.stan'
+PC2a_path = '../models/PC2a.stan'
 save_param_dir = '../result/inferred_parameter/PC2a'
 
 # function

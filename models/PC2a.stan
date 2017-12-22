@@ -7,13 +7,13 @@ data{
   int receiver[N];
   int diff[N];
   int senderOrigin[vNum];
-  real hyper[5];
+  real hyper[4];
 }
 
 parameters{
-  real<lower=0> ability[uNum];
+  real ability[uNum];
   real bias[vNum];
-  real noise0;
+  real noise;
 }
 
 model{
@@ -24,9 +24,9 @@ model{
   for(i in 1:vNum){
     bias[i] ~ normal(0,1/hyper[3]);
   }
-  noise0 ~ normal(0,hyper[4]);
+  noise ~ normal(0,hyper[4]);
   //posterior
   for(i in 1:N){
-    diff[i] ~ poisson(1/(ability[receiver[i]+1]+bias[sender[i]+1]))+noise0;
+    diff[i] ~ poisson(exp(-(ability[receiver[i]+1]+bias[sender[i]+1]+noise)));
   }
 }

@@ -197,7 +197,7 @@ if __name__ == '__main__':
         def evaluate_BO(mu0,gamma0,eta0,kappa0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,eta0,kappa0])
             return cor
-        pbounds = {'mu0': (0.05, 2.0e1),
+        pbounds = {'mu0': (-3.0, 3.0),
                    'gamma0': (1.0e-2, 3.0e1),
                    'eta0': (1.0e-2, 1.0e1),
                    'kappa0': (1.0, 1.0e2),
