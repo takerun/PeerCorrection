@@ -1,0 +1,3158 @@
+INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_f3f60fb0a83d9f561d1433381b93b2c0 NOW.
+[31mInitialization[0m
+[94m-----------------------------------------------------------------------------[0m
+ Step |   Time |      Value |      eta0 |    gamma0 |    kappa0 |       mu0 | 
+# 
+#  Elapsed Time: 24.8002 seconds (Warm-up)
+#                193.046 seconds (Sampling)
+#                217.846 seconds (Total)
+# 
+# 
+#  Elapsed Time: 31.1598 seconds (Warm-up)
+#                204.607 seconds (Sampling)
+#                235.767 seconds (Total)
+# 
+# 
+#  Elapsed Time: 32.1368 seconds (Warm-up)
+#                205.6 seconds (Sampling)
+#                237.737 seconds (Total)
+# 
+# 
+#  Elapsed Time: 34.4967 seconds (Warm-up)
+#                205.386 seconds (Sampling)
+#                239.883 seconds (Total)
+# 
+    1 | 04m00s | [35m   0.31764[0m | [32m   0.6910[0m | [32m  13.4502[0m | [32m   7.3078[0m | [32m  -1.1136[0m | 
+# 
+#  Elapsed Time: 20.551 seconds (Warm-up)
+#                51.4695 seconds (Sampling)
+#                72.0205 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.7876 seconds (Warm-up)
+#                51.7333 seconds (Sampling)
+#                72.5208 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.8261 seconds (Warm-up)
+#                51.6992 seconds (Sampling)
+#                73.5253 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.4944 seconds (Warm-up)
+#                51.8589 seconds (Sampling)
+#                76.3533 seconds (Total)
+# 
+    2 | 01m17s |    0.28106 |    8.2352 |   27.4354 |   76.3529 |   -0.0972 | 
+# 
+#  Elapsed Time: 14.2871 seconds (Warm-up)
+#                51.6885 seconds (Sampling)
+#                65.9756 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.3406 seconds (Warm-up)
+#                51.7229 seconds (Sampling)
+#                68.0636 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.9107 seconds (Warm-up)
+#                51.7792 seconds (Sampling)
+#                68.6899 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.0652 seconds (Warm-up)
+#                51.7627 seconds (Sampling)
+#                72.828 seconds (Total)
+# 
+    3 | 01m13s | [35m   0.33726[0m | [32m   4.6431[0m | [32m   6.8358[0m | [32m  73.5026[0m | [32m   0.0721[0m | 
+# 
+#  Elapsed Time: 22.7962 seconds (Warm-up)
+#                51.4738 seconds (Sampling)
+#                74.27 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.8778 seconds (Warm-up)
+#                51.5345 seconds (Sampling)
+#                75.4122 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.7273 seconds (Warm-up)
+#                51.7424 seconds (Sampling)
+#                75.4696 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.5421 seconds (Warm-up)
+#                51.8215 seconds (Sampling)
+#                76.3636 seconds (Total)
+# 
+    4 | 01m16s |    0.29424 |    7.5901 |   21.6663 |   26.9824 |    2.6039 | 
+# 
+#  Elapsed Time: 17.9926 seconds (Warm-up)
+#                103.217 seconds (Sampling)
+#                121.21 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.9189 seconds (Warm-up)
+#                102.897 seconds (Sampling)
+#                125.816 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.0044 seconds (Warm-up)
+#                103.127 seconds (Sampling)
+#                126.131 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.9293 seconds (Warm-up)
+#                103.289 seconds (Sampling)
+#                127.218 seconds (Total)
+# 
+    5 | 02m07s |    0.31184 |    1.1919 |   15.8311 |   75.1135 |    2.9002 | 
+# 
+#  Elapsed Time: 21.9978 seconds (Warm-up)
+#                103.394 seconds (Sampling)
+#                125.392 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.8702 seconds (Warm-up)
+#                103.009 seconds (Sampling)
+#                125.879 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.2124 seconds (Warm-up)
+#                103.09 seconds (Sampling)
+#                126.302 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.9239 seconds (Warm-up)
+#                103.749 seconds (Sampling)
+#                127.673 seconds (Total)
+# 
+    6 | 02m08s |    0.27983 |    5.9709 |    1.2819 |   64.0543 |    0.8790 | 
+# 
+#  Elapsed Time: 14.9482 seconds (Warm-up)
+#                103.416 seconds (Sampling)
+#                118.364 seconds (Total)
+# 
+# 
+#  Elapsed Time: 15.7315 seconds (Warm-up)
+#                103.159 seconds (Sampling)
+#                118.89 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.3751 seconds (Warm-up)
+#                102.933 seconds (Sampling)
+#                119.308 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.1203 seconds (Warm-up)
+#                103.617 seconds (Sampling)
+#                120.738 seconds (Total)
+# 
+    7 | 02m01s |    0.33367 |    2.1020 |    8.5958 |   63.9686 |    2.5151 | 
+# 
+#  Elapsed Time: 19.6021 seconds (Warm-up)
+#                51.7585 seconds (Sampling)
+#                71.3605 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.5592 seconds (Warm-up)
+#                51.6737 seconds (Sampling)
+#                73.2329 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.5313 seconds (Warm-up)
+#                51.7825 seconds (Sampling)
+#                75.3138 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.1203 seconds (Warm-up)
+#                51.7465 seconds (Sampling)
+#                75.8669 seconds (Total)
+# 
+    8 | 01m16s |    0.30262 |    6.7321 |   18.5621 |   52.7800 |    0.9145 | 
+# 
+#  Elapsed Time: 19.0688 seconds (Warm-up)
+#                51.7126 seconds (Sampling)
+#                70.7813 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.1821 seconds (Warm-up)
+#                51.618 seconds (Sampling)
+#                70.8001 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.9281 seconds (Warm-up)
+#                51.6052 seconds (Sampling)
+#                72.5332 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.6224 seconds (Warm-up)
+#                51.7381 seconds (Sampling)
+#                73.3605 seconds (Total)
+# 
+    9 | 01m13s |    0.29166 |    3.8452 |   24.4106 |   86.1044 |    2.1146 | 
+# 
+#  Elapsed Time: 20.5658 seconds (Warm-up)
+#                51.7919 seconds (Sampling)
+#                72.3577 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.7036 seconds (Warm-up)
+#                51.5853 seconds (Sampling)
+#                75.2889 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.9161 seconds (Warm-up)
+#                51.5429 seconds (Sampling)
+#                75.4591 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.3866 seconds (Warm-up)
+#                51.7726 seconds (Sampling)
+#                76.1592 seconds (Total)
+# 
+   10 | 01m16s |    0.28185 |    9.1168 |   26.6347 |   59.5447 |   -2.0221 | 
+# 
+#  Elapsed Time: 18.6297 seconds (Warm-up)
+#                51.8983 seconds (Sampling)
+#                70.5281 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.3323 seconds (Warm-up)
+#                52.0062 seconds (Sampling)
+#                71.3385 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.3903 seconds (Warm-up)
+#                52.0252 seconds (Sampling)
+#                73.4155 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.4747 seconds (Warm-up)
+#                52.8374 seconds (Sampling)
+#                77.3121 seconds (Total)
+# 
+   11 | 01m17s |    0.28598 |    3.8669 |   27.0025 |   56.6501 |   -2.3746 | 
+# 
+#  Elapsed Time: 32.4491 seconds (Warm-up)
+#                205.542 seconds (Sampling)
+#                237.991 seconds (Total)
+# 
+# 
+#  Elapsed Time: 35.5079 seconds (Warm-up)
+#                206.15 seconds (Sampling)
+#                241.658 seconds (Total)
+# 
+# 
+#  Elapsed Time: 39.5573 seconds (Warm-up)
+#                356.836 seconds (Sampling)
+#                396.393 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.7811 seconds (Warm-up)
+#                416.532 seconds (Sampling)
+#                462.314 seconds (Total)
+# 
+   12 | 07m43s |    0.31079 |    0.4470 |   15.7207 |   59.1012 |    2.4795 | 
+# 
+#  Elapsed Time: 20.3477 seconds (Warm-up)
+#                103.528 seconds (Sampling)
+#                123.875 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.9105 seconds (Warm-up)
+#                103.743 seconds (Sampling)
+#                127.654 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.07 seconds (Warm-up)
+#                103.509 seconds (Sampling)
+#                128.579 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.6874 seconds (Warm-up)
+#                103.949 seconds (Sampling)
+#                128.636 seconds (Total)
+# 
+   13 | 02m09s |    0.28649 |    1.4535 |   26.6699 |   23.8425 |    2.8381 | 
+# 
+#  Elapsed Time: 17.4552 seconds (Warm-up)
+#                103.408 seconds (Sampling)
+#                120.864 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.4309 seconds (Warm-up)
+#                103.385 seconds (Sampling)
+#                121.816 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.3787 seconds (Warm-up)
+#                103.524 seconds (Sampling)
+#                122.902 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.5373 seconds (Warm-up)
+#                220.445 seconds (Sampling)
+#                238.983 seconds (Total)
+# 
+   14 | 03m59s |    0.30203 |    1.8495 |   19.7389 |   45.7082 |    2.6026 | 
+# 
+#  Elapsed Time: 17.8976 seconds (Warm-up)
+#                51.818 seconds (Sampling)
+#                69.7156 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.5995 seconds (Warm-up)
+#                51.6486 seconds (Sampling)
+#                71.2482 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.2109 seconds (Warm-up)
+#                52.119 seconds (Sampling)
+#                73.3298 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.1486 seconds (Warm-up)
+#                51.5917 seconds (Sampling)
+#                74.7402 seconds (Total)
+# 
+   15 | 01m15s |    0.29170 |    6.9084 |   23.0558 |   60.5568 |    2.2961 | 
+# 
+#  Elapsed Time: 16.0146 seconds (Warm-up)
+#                103.709 seconds (Sampling)
+#                119.723 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.7453 seconds (Warm-up)
+#                104.142 seconds (Sampling)
+#                120.887 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.9382 seconds (Warm-up)
+#                103.982 seconds (Sampling)
+#                120.92 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.171 seconds (Warm-up)
+#                103.765 seconds (Sampling)
+#                120.936 seconds (Total)
+# 
+   16 | 02m01s | [35m   0.33986[0m | [32m   1.6176[0m | [32m   6.3923[0m | [32m  43.9628[0m | [32m   0.4279[0m | 
+# 
+#  Elapsed Time: 17.2108 seconds (Warm-up)
+#                51.8663 seconds (Sampling)
+#                69.077 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.1204 seconds (Warm-up)
+#                51.7245 seconds (Sampling)
+#                73.8449 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4969 seconds (Warm-up)
+#                51.9504 seconds (Sampling)
+#                74.4473 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.7259 seconds (Warm-up)
+#                51.7058 seconds (Sampling)
+#                77.4317 seconds (Total)
+# 
+   17 | 01m18s |    0.28144 |    8.1457 |   27.6576 |   71.4073 |    1.9678 | 
+# 
+#  Elapsed Time: 31.902 seconds (Warm-up)
+#                206.593 seconds (Sampling)
+#                238.495 seconds (Total)
+# 
+# 
+#  Elapsed Time: 44.7027 seconds (Warm-up)
+#                249.495 seconds (Sampling)
+#                294.198 seconds (Total)
+# 
+# 
+#  Elapsed Time: 37.5935 seconds (Warm-up)
+#                368.231 seconds (Sampling)
+#                405.824 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.9729 seconds (Warm-up)
+#                419.138 seconds (Sampling)
+#                468.111 seconds (Total)
+# 
+   18 | 07m49s |    0.31297 |    0.3475 |   15.0961 |   58.7123 |    2.9274 | 
+# 
+#  Elapsed Time: 19.0664 seconds (Warm-up)
+#                52.0122 seconds (Sampling)
+#                71.0786 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.5462 seconds (Warm-up)
+#                51.7538 seconds (Sampling)
+#                71.3 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.9529 seconds (Warm-up)
+#                51.7823 seconds (Sampling)
+#                74.7351 seconds (Total)
+# 
+# 
+#  Elapsed Time: 30.9549 seconds (Warm-up)
+#                52.2269 seconds (Sampling)
+#                83.1818 seconds (Total)
+# 
+   19 | 01m23s |    0.29934 |    7.2643 |   19.6470 |   13.2121 |    2.0465 | 
+# 
+#  Elapsed Time: 21.2884 seconds (Warm-up)
+#                103.74 seconds (Sampling)
+#                125.028 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.7577 seconds (Warm-up)
+#                131.916 seconds (Sampling)
+#                151.674 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.1495 seconds (Warm-up)
+#                139.409 seconds (Sampling)
+#                160.558 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.0877 seconds (Warm-up)
+#                278.775 seconds (Sampling)
+#                299.863 seconds (Total)
+# 
+   20 | 05m00s |    0.30023 |    4.9356 |    1.6560 |   60.3633 |    2.2099 | 
+# 
+#  Elapsed Time: 21.8284 seconds (Warm-up)
+#                52.1247 seconds (Sampling)
+#                73.9531 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0852 seconds (Warm-up)
+#                52.0554 seconds (Sampling)
+#                74.1405 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4569 seconds (Warm-up)
+#                51.7874 seconds (Sampling)
+#                74.2443 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.5993 seconds (Warm-up)
+#                51.8243 seconds (Sampling)
+#                76.4235 seconds (Total)
+# 
+   21 | 01m16s |    0.28161 |    3.9744 |   29.1353 |   36.7407 |    1.3250 | 
+# 
+#  Elapsed Time: 19.1819 seconds (Warm-up)
+#                52.0044 seconds (Sampling)
+#                71.1863 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.2981 seconds (Warm-up)
+#                51.9579 seconds (Sampling)
+#                73.256 seconds (Total)
+# 
+# 
+#  Elapsed Time: 31.79 seconds (Warm-up)
+#                52.327 seconds (Sampling)
+#                84.117 seconds (Total)
+# 
+# 
+#  Elapsed Time: 34.0627 seconds (Warm-up)
+#                51.781 seconds (Sampling)
+#                85.8436 seconds (Total)
+# 
+   22 | 01m26s |    0.30489 |    7.8344 |   16.6974 |   61.1638 |   -2.3506 | 
+# 
+#  Elapsed Time: 16.5038 seconds (Warm-up)
+#                52.0464 seconds (Sampling)
+#                68.5502 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.5829 seconds (Warm-up)
+#                52.1696 seconds (Sampling)
+#                70.7525 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.6167 seconds (Warm-up)
+#                51.8481 seconds (Sampling)
+#                72.4649 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.8591 seconds (Warm-up)
+#                51.8431 seconds (Sampling)
+#                75.7022 seconds (Total)
+# 
+   23 | 01m16s |    0.32924 |    7.6708 |    7.2818 |   59.2930 |    0.2242 | 
+# 
+#  Elapsed Time: 19.8575 seconds (Warm-up)
+#                51.968 seconds (Sampling)
+#                71.8255 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.2577 seconds (Warm-up)
+#                51.7269 seconds (Sampling)
+#                73.9846 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.97 seconds (Warm-up)
+#                52.0339 seconds (Sampling)
+#                74.004 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.3235 seconds (Warm-up)
+#                51.722 seconds (Sampling)
+#                75.0455 seconds (Total)
+# 
+   24 | 01m15s |    0.32449 |    9.0715 |    3.8528 |   21.0123 |    2.6905 | 
+# 
+#  Elapsed Time: 24.6624 seconds (Warm-up)
+#                103.391 seconds (Sampling)
+#                128.053 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.0773 seconds (Warm-up)
+#                103.732 seconds (Sampling)
+#                128.809 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.4531 seconds (Warm-up)
+#                103.696 seconds (Sampling)
+#                129.149 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.0261 seconds (Warm-up)
+#                115.537 seconds (Sampling)
+#                139.563 seconds (Total)
+# 
+   25 | 02m20s |    0.28313 |    4.2344 |    1.2625 |   47.5436 |    0.4514 | 
+# 
+#  Elapsed Time: 18.5378 seconds (Warm-up)
+#                103.538 seconds (Sampling)
+#                122.076 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.7046 seconds (Warm-up)
+#                103.229 seconds (Sampling)
+#                123.934 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.8764 seconds (Warm-up)
+#                103.953 seconds (Sampling)
+#                126.83 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.6571 seconds (Warm-up)
+#                103.163 seconds (Sampling)
+#                127.82 seconds (Total)
+# 
+   26 | 02m08s |    0.32778 |    1.5859 |   10.3217 |    3.6075 |   -0.1992 | 
+# 
+#  Elapsed Time: 16.7595 seconds (Warm-up)
+#                52.0059 seconds (Sampling)
+#                68.7653 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.7334 seconds (Warm-up)
+#                103.662 seconds (Sampling)
+#                120.396 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.5753 seconds (Warm-up)
+#                103.265 seconds (Sampling)
+#                120.84 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.8885 seconds (Warm-up)
+#                103.496 seconds (Sampling)
+#                122.384 seconds (Total)
+# 
+   27 | 02m03s |    0.31343 |    1.9743 |   15.3320 |   40.9522 |   -2.8238 | 
+# 
+#  Elapsed Time: 15.2508 seconds (Warm-up)
+#                52.3124 seconds (Sampling)
+#                67.5633 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.1477 seconds (Warm-up)
+#                51.8317 seconds (Sampling)
+#                70.9794 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.2785 seconds (Warm-up)
+#                52.0088 seconds (Sampling)
+#                72.2873 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.1954 seconds (Warm-up)
+#                51.8602 seconds (Sampling)
+#                73.0556 seconds (Total)
+# 
+   28 | 01m13s |    0.29011 |    3.1032 |   24.9402 |   77.1491 |    0.7506 | 
+# 
+#  Elapsed Time: 17.292 seconds (Warm-up)
+#                103.918 seconds (Sampling)
+#                121.21 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.0214 seconds (Warm-up)
+#                103.701 seconds (Sampling)
+#                122.722 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.3639 seconds (Warm-up)
+#                103.7 seconds (Sampling)
+#                123.064 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.2404 seconds (Warm-up)
+#                103.952 seconds (Sampling)
+#                123.192 seconds (Total)
+# 
+   29 | 02m03s |    0.30712 |    1.8881 |   17.6053 |   23.8103 |   -1.5647 | 
+# 
+#  Elapsed Time: 19.6405 seconds (Warm-up)
+#                51.8922 seconds (Sampling)
+#                71.5327 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.9701 seconds (Warm-up)
+#                52.0691 seconds (Sampling)
+#                73.0392 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.75 seconds (Warm-up)
+#                52.1563 seconds (Sampling)
+#                73.9063 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.2596 seconds (Warm-up)
+#                52.3791 seconds (Sampling)
+#                74.6387 seconds (Total)
+# 
+   30 | 01m15s |    0.28210 |    3.2051 |   29.2826 |   60.4336 |    1.6247 | 
+# 
+#  Elapsed Time: 19.03 seconds (Warm-up)
+#                52.0821 seconds (Sampling)
+#                71.1122 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.881 seconds (Warm-up)
+#                51.9402 seconds (Sampling)
+#                71.8212 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.3127 seconds (Warm-up)
+#                52.0786 seconds (Sampling)
+#                72.3913 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.7911 seconds (Warm-up)
+#                51.94 seconds (Sampling)
+#                73.7311 seconds (Total)
+# 
+   31 | 01m14s |    0.33142 |    7.8232 |    5.3759 |   41.5042 |    0.3695 | 
+# 
+#  Elapsed Time: 17.4895 seconds (Warm-up)
+#                103.947 seconds (Sampling)
+#                121.437 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.5861 seconds (Warm-up)
+#                103.298 seconds (Sampling)
+#                122.884 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.0731 seconds (Warm-up)
+#                104.015 seconds (Sampling)
+#                124.088 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.9818 seconds (Warm-up)
+#                104.058 seconds (Sampling)
+#                126.04 seconds (Total)
+# 
+   32 | 02m06s |    0.32227 |    2.4476 |    2.2912 |   45.2932 |    1.4991 | 
+# 
+#  Elapsed Time: 20.4235 seconds (Warm-up)
+#                51.7677 seconds (Sampling)
+#                72.1912 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.9929 seconds (Warm-up)
+#                51.9885 seconds (Sampling)
+#                73.9814 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.7795 seconds (Warm-up)
+#                51.8646 seconds (Sampling)
+#                74.6441 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.2391 seconds (Warm-up)
+#                51.9224 seconds (Sampling)
+#                75.1614 seconds (Total)
+# 
+   33 | 01m15s |    0.28890 |    8.6208 |   23.6749 |   83.3977 |    2.9410 | 
+# 
+#  Elapsed Time: 43.193 seconds (Warm-up)
+#                103.604 seconds (Sampling)
+#                146.797 seconds (Total)
+# 
+# 
+#  Elapsed Time: 47.1021 seconds (Warm-up)
+#                206.976 seconds (Sampling)
+#                254.078 seconds (Total)
+# 
+# 
+#  Elapsed Time: 49.3303 seconds (Warm-up)
+#                206.933 seconds (Sampling)
+#                256.264 seconds (Total)
+# 
+# 
+#  Elapsed Time: 57.9259 seconds (Warm-up)
+#                417.45 seconds (Sampling)
+#                475.376 seconds (Total)
+# 
+   34 | 07m56s |    0.29211 |    0.4457 |   23.3824 |   61.2057 |    1.6467 | 
+# 
+#  Elapsed Time: 19.2836 seconds (Warm-up)
+#                51.6939 seconds (Sampling)
+#                70.9775 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.5467 seconds (Warm-up)
+#                51.7511 seconds (Sampling)
+#                73.2978 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0323 seconds (Warm-up)
+#                51.8912 seconds (Sampling)
+#                73.9235 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.5311 seconds (Warm-up)
+#                51.9165 seconds (Sampling)
+#                76.4476 seconds (Total)
+# 
+   35 | 01m16s |    0.28850 |    4.2303 |   25.4764 |   14.3118 |    2.9804 | 
+# 
+#  Elapsed Time: 23.7221 seconds (Warm-up)
+#                51.6945 seconds (Sampling)
+#                75.4166 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.8833 seconds (Warm-up)
+#                51.8622 seconds (Sampling)
+#                75.7455 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.8616 seconds (Warm-up)
+#                51.8233 seconds (Sampling)
+#                77.6849 seconds (Total)
+# 
+# 
+#  Elapsed Time: 26.7488 seconds (Warm-up)
+#                51.7583 seconds (Sampling)
+#                78.5071 seconds (Total)
+# 
+   36 | 01m19s |    0.28764 |    5.5690 |   25.5558 |   43.7160 |   -0.8585 | 
+# 
+#  Elapsed Time: 28.0663 seconds (Warm-up)
+#                103.786 seconds (Sampling)
+#                131.852 seconds (Total)
+# 
+# 
+#  Elapsed Time: 30.1722 seconds (Warm-up)
+#                110.703 seconds (Sampling)
+#                140.875 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.1732 seconds (Warm-up)
+#                205.596 seconds (Sampling)
+#                232.769 seconds (Total)
+# 
+# 
+#  Elapsed Time: 30.8152 seconds (Warm-up)
+#                203.232 seconds (Sampling)
+#                234.047 seconds (Total)
+# 
+   37 | 03m54s |    0.28868 |    1.0255 |   25.4556 |   90.6242 |    0.7428 | 
+# 
+#  Elapsed Time: 17.0713 seconds (Warm-up)
+#                103.392 seconds (Sampling)
+#                120.464 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.5444 seconds (Warm-up)
+#                103.68 seconds (Sampling)
+#                123.224 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.2186 seconds (Warm-up)
+#                103.783 seconds (Sampling)
+#                126.002 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.3488 seconds (Warm-up)
+#                103.284 seconds (Sampling)
+#                126.632 seconds (Total)
+# 
+   38 | 02m07s |    0.32458 |    1.5491 |   11.3806 |   36.8539 |   -0.7154 | 
+# 
+#  Elapsed Time: 19.5915 seconds (Warm-up)
+#                51.6957 seconds (Sampling)
+#                71.2872 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.9658 seconds (Warm-up)
+#                51.8744 seconds (Sampling)
+#                71.8403 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.5521 seconds (Warm-up)
+#                51.7381 seconds (Sampling)
+#                75.2902 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.7173 seconds (Warm-up)
+#                51.735 seconds (Sampling)
+#                75.4524 seconds (Total)
+# 
+   39 | 01m16s |    0.32209 |    9.0724 |    9.1944 |   11.5103 |    2.1833 | 
+# 
+#  Elapsed Time: 15.1892 seconds (Warm-up)
+#                104.613 seconds (Sampling)
+#                119.802 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.6293 seconds (Warm-up)
+#                103.253 seconds (Sampling)
+#                120.882 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.2898 seconds (Warm-up)
+#                103.742 seconds (Sampling)
+#                123.031 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.3549 seconds (Warm-up)
+#                758.893 seconds (Sampling)
+#                777.248 seconds (Total)
+# 
+   40 | 12m58s |    0.32615 |    2.3164 |   11.0521 |   70.5856 |    2.2926 | 
+# 
+#  Elapsed Time: 16.9302 seconds (Warm-up)
+#                51.6918 seconds (Sampling)
+#                68.622 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.4422 seconds (Warm-up)
+#                51.9073 seconds (Sampling)
+#                69.3495 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.9768 seconds (Warm-up)
+#                51.7462 seconds (Sampling)
+#                71.723 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.8921 seconds (Warm-up)
+#                51.8512 seconds (Sampling)
+#                79.7433 seconds (Total)
+# 
+   41 | 01m20s |    0.30448 |    9.0173 |   16.4188 |   53.8507 |   -0.8383 | 
+# 
+#  Elapsed Time: 21.8446 seconds (Warm-up)
+#                103.597 seconds (Sampling)
+#                125.442 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0988 seconds (Warm-up)
+#                103.799 seconds (Sampling)
+#                125.897 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.0454 seconds (Warm-up)
+#                104.084 seconds (Sampling)
+#                127.129 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.9483 seconds (Warm-up)
+#                104.13 seconds (Sampling)
+#                128.078 seconds (Total)
+# 
+   42 | 02m08s |    0.30408 |    1.2775 |   18.7250 |   95.3390 |   -0.4345 | 
+# 
+#  Elapsed Time: 15.0058 seconds (Warm-up)
+#                52.0452 seconds (Sampling)
+#                67.051 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.432 seconds (Warm-up)
+#                52.2721 seconds (Sampling)
+#                73.7041 seconds (Total)
+# 
+# 
+#  Elapsed Time: 15.3161 seconds (Warm-up)
+#                368.779 seconds (Sampling)
+#                384.095 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.454 seconds (Warm-up)
+#                536.861 seconds (Sampling)
+#                557.315 seconds (Total)
+# 
+   43 | 09m18s |    0.29204 |    2.7837 |   24.4129 |   37.5903 |   -1.5350 | 
+# 
+#  Elapsed Time: 15.8879 seconds (Warm-up)
+#                52.2443 seconds (Sampling)
+#                68.1323 seconds (Total)
+# 
+# 
+#  Elapsed Time: 14.483 seconds (Warm-up)
+#                374.38 seconds (Sampling)
+#                388.863 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.6543 seconds (Warm-up)
+#                450.278 seconds (Sampling)
+#                466.933 seconds (Total)
+# 
+# 
+#  Elapsed Time: 14.4899 seconds (Warm-up)
+#                527.366 seconds (Sampling)
+#                541.855 seconds (Total)
+# 
+   44 | 09m02s |    0.33791 |    2.9365 |    7.1432 |   38.5828 |   -2.3339 | 
+# 
+#  Elapsed Time: 20.2164 seconds (Warm-up)
+#                52.3768 seconds (Sampling)
+#                72.5933 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.8799 seconds (Warm-up)
+#                104.074 seconds (Sampling)
+#                123.953 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.3393 seconds (Warm-up)
+#                104.766 seconds (Sampling)
+#                124.106 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.9813 seconds (Warm-up)
+#                103.961 seconds (Sampling)
+#                124.942 seconds (Total)
+# 
+   45 | 02m05s |    0.30225 |    4.0070 |    1.6556 |   84.0053 |    0.2390 | 
+# 
+#  Elapsed Time: 21.2355 seconds (Warm-up)
+#                51.9479 seconds (Sampling)
+#                73.1834 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0298 seconds (Warm-up)
+#                51.664 seconds (Sampling)
+#                73.6938 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.3638 seconds (Warm-up)
+#                51.6928 seconds (Sampling)
+#                74.0566 seconds (Total)
+# 
+# 
+#  Elapsed Time: 26.4235 seconds (Warm-up)
+#                52.8256 seconds (Sampling)
+#                79.2491 seconds (Total)
+# 
+   46 | 01m19s |    0.29959 |    7.3827 |   19.4109 |   61.3066 |    1.3679 | 
+# 
+#  Elapsed Time: 22.1681 seconds (Warm-up)
+#                104.031 seconds (Sampling)
+#                126.199 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.7009 seconds (Warm-up)
+#                103.555 seconds (Sampling)
+#                127.256 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.5232 seconds (Warm-up)
+#                104.61 seconds (Sampling)
+#                128.133 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.7765 seconds (Warm-up)
+#                103.553 seconds (Sampling)
+#                128.329 seconds (Total)
+# 
+   47 | 02m08s |    0.29886 |    1.1217 |   20.7170 |   69.5752 |   -1.0563 | 
+# 
+#  Elapsed Time: 21.4025 seconds (Warm-up)
+#                51.7512 seconds (Sampling)
+#                73.1537 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.8604 seconds (Warm-up)
+#                52.2066 seconds (Sampling)
+#                74.0671 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.5242 seconds (Warm-up)
+#                52.0537 seconds (Sampling)
+#                74.5779 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.8427 seconds (Warm-up)
+#                51.8537 seconds (Sampling)
+#                75.6964 seconds (Total)
+# 
+   48 | 01m16s |    0.30118 |    4.7794 |   19.8255 |   19.0432 |   -1.5883 | 
+# 
+#  Elapsed Time: 14.7684 seconds (Warm-up)
+#                51.8214 seconds (Sampling)
+#                66.5898 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.8321 seconds (Warm-up)
+#                52.1282 seconds (Sampling)
+#                69.9602 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.9203 seconds (Warm-up)
+#                52.3753 seconds (Sampling)
+#                71.2956 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.8597 seconds (Warm-up)
+#                51.9366 seconds (Sampling)
+#                72.7963 seconds (Total)
+# 
+   49 | 01m13s |    0.32892 |    5.5156 |    9.0589 |   78.0389 |    1.1542 | 
+# 
+#  Elapsed Time: 18.0489 seconds (Warm-up)
+#                52.0487 seconds (Sampling)
+#                70.0976 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.4158 seconds (Warm-up)
+#                51.8982 seconds (Sampling)
+#                70.314 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.8992 seconds (Warm-up)
+#                52.0863 seconds (Sampling)
+#                72.9854 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.8331 seconds (Warm-up)
+#                52.0309 seconds (Sampling)
+#                74.864 seconds (Total)
+# 
+   50 | 01m15s |    0.30279 |    3.6113 |   19.6578 |   71.3430 |   -1.7112 | 
+# 
+#  Elapsed Time: 22.791 seconds (Warm-up)
+#                51.7521 seconds (Sampling)
+#                74.5431 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.3824 seconds (Warm-up)
+#                52.4898 seconds (Sampling)
+#                74.8722 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.4043 seconds (Warm-up)
+#                52.6489 seconds (Sampling)
+#                76.0532 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.8053 seconds (Warm-up)
+#                52.2842 seconds (Sampling)
+#                80.0895 seconds (Total)
+# 
+   51 | 01m20s |    0.29868 |    8.8707 |   18.9077 |   41.9872 |   -1.3766 | 
+# 
+#  Elapsed Time: 20.1179 seconds (Warm-up)
+#                52.1522 seconds (Sampling)
+#                72.2702 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0561 seconds (Warm-up)
+#                52.1021 seconds (Sampling)
+#                74.1582 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.5322 seconds (Warm-up)
+#                51.7715 seconds (Sampling)
+#                74.3037 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.1003 seconds (Warm-up)
+#                51.8364 seconds (Sampling)
+#                75.9367 seconds (Total)
+# 
+   52 | 01m16s |    0.28494 |    4.3387 |   27.3053 |   63.4865 |   -1.6957 | 
+# 
+#  Elapsed Time: 16.8631 seconds (Warm-up)
+#                51.8271 seconds (Sampling)
+#                68.6902 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.3813 seconds (Warm-up)
+#                52.0717 seconds (Sampling)
+#                69.453 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.3205 seconds (Warm-up)
+#                51.9256 seconds (Sampling)
+#                71.2461 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.6922 seconds (Warm-up)
+#                52.0158 seconds (Sampling)
+#                71.708 seconds (Total)
+# 
+   53 | 01m12s |    0.33491 |    6.2569 |    5.8569 |   84.0329 |    1.7805 | 
+# 
+#  Elapsed Time: 17.0126 seconds (Warm-up)
+#                52.0032 seconds (Sampling)
+#                69.0157 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.9505 seconds (Warm-up)
+#                51.9976 seconds (Sampling)
+#                71.9481 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.7285 seconds (Warm-up)
+#                52.0384 seconds (Sampling)
+#                72.7669 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.8452 seconds (Warm-up)
+#                51.9635 seconds (Sampling)
+#                75.8088 seconds (Total)
+# 
+   54 | 01m16s |    0.31677 |    9.6169 |   10.9919 |    1.6389 |    0.0478 | 
+# 
+#  Elapsed Time: 18.1681 seconds (Warm-up)
+#                52.182 seconds (Sampling)
+#                70.3501 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.014 seconds (Warm-up)
+#                103.29 seconds (Sampling)
+#                122.304 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.6325 seconds (Warm-up)
+#                103.184 seconds (Sampling)
+#                123.817 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.5407 seconds (Warm-up)
+#                103.822 seconds (Sampling)
+#                124.363 seconds (Total)
+# 
+   55 | 02m05s |    0.28052 |    2.3055 |   29.8320 |   12.5018 |   -0.7294 | 
+# 
+#  Elapsed Time: 17.9337 seconds (Warm-up)
+#                51.6739 seconds (Sampling)
+#                69.6076 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.9442 seconds (Warm-up)
+#                51.8606 seconds (Sampling)
+#                70.8048 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.2504 seconds (Warm-up)
+#                51.9688 seconds (Sampling)
+#                76.2193 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.1242 seconds (Warm-up)
+#                52.7506 seconds (Sampling)
+#                79.8748 seconds (Total)
+# 
+   56 | 01m20s |    0.29067 |    5.9326 |   23.9589 |   45.5762 |   -1.6556 | 
+# 
+#  Elapsed Time: 19.6828 seconds (Warm-up)
+#                51.976 seconds (Sampling)
+#                71.6588 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.1153 seconds (Warm-up)
+#                51.9042 seconds (Sampling)
+#                73.0195 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.047 seconds (Warm-up)
+#                51.6305 seconds (Sampling)
+#                74.6775 seconds (Total)
+# 
+# 
+#  Elapsed Time: 28.839 seconds (Warm-up)
+#                51.7018 seconds (Sampling)
+#                80.5409 seconds (Total)
+# 
+   57 | 01m21s |    0.28100 |    7.2980 |   28.1039 |   94.0149 |    0.2358 | 
+# 
+#  Elapsed Time: 19.9393 seconds (Warm-up)
+#                52.0646 seconds (Sampling)
+#                72.0039 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.9609 seconds (Warm-up)
+#                51.8228 seconds (Sampling)
+#                72.7837 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.1313 seconds (Warm-up)
+#                51.9539 seconds (Sampling)
+#                75.0852 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.6906 seconds (Warm-up)
+#                52.2918 seconds (Sampling)
+#                75.9824 seconds (Total)
+# 
+   58 | 01m16s |    0.30178 |    6.7628 |   18.7710 |   56.8986 |    1.1757 | 
+# 
+#  Elapsed Time: 18.1385 seconds (Warm-up)
+#                51.8265 seconds (Sampling)
+#                69.965 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0315 seconds (Warm-up)
+#                51.9856 seconds (Sampling)
+#                74.0171 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.6565 seconds (Warm-up)
+#                51.8332 seconds (Sampling)
+#                76.4897 seconds (Total)
+# 
+# 
+#  Elapsed Time: 28.4723 seconds (Warm-up)
+#                51.8782 seconds (Sampling)
+#                80.3505 seconds (Total)
+# 
+   59 | 01m20s |    0.28431 |    5.0668 |   27.4932 |   26.9689 |   -2.3743 | 
+# 
+#  Elapsed Time: 22.487 seconds (Warm-up)
+#                103.293 seconds (Sampling)
+#                125.78 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.0853 seconds (Warm-up)
+#                209.3 seconds (Sampling)
+#                233.385 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.5635 seconds (Warm-up)
+#                209.485 seconds (Sampling)
+#                234.049 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.7389 seconds (Warm-up)
+#                209.333 seconds (Sampling)
+#                234.072 seconds (Total)
+# 
+   60 | 03m54s | [35m   0.34087[0m | [32m   0.9157[0m | [32m   5.2184[0m | [32m  70.9826[0m | [32m  -2.0113[0m | 
+# 
+#  Elapsed Time: 17.6231 seconds (Warm-up)
+#                51.9118 seconds (Sampling)
+#                69.5349 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.6761 seconds (Warm-up)
+#                51.8177 seconds (Sampling)
+#                71.4938 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.4448 seconds (Warm-up)
+#                51.8323 seconds (Sampling)
+#                73.2771 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.8397 seconds (Warm-up)
+#                52.443 seconds (Sampling)
+#                74.2827 seconds (Total)
+# 
+   61 | 01m15s |    0.28517 |    6.2068 |   26.5420 |   11.0705 |    0.2281 | 
+# 
+#  Elapsed Time: 14.2174 seconds (Warm-up)
+#                51.9592 seconds (Sampling)
+#                66.1767 seconds (Total)
+# 
+# 
+#  Elapsed Time: 14.8262 seconds (Warm-up)
+#                52.0564 seconds (Sampling)
+#                66.8826 seconds (Total)
+# 
+# 
+#  Elapsed Time: 15.3758 seconds (Warm-up)
+#                56.2989 seconds (Sampling)
+#                71.6746 seconds (Total)
+# 
+# 
+#  Elapsed Time: 14.9713 seconds (Warm-up)
+#                120.975 seconds (Sampling)
+#                135.946 seconds (Total)
+# 
+   62 | 02m16s |    0.34043 |    3.6747 |    5.5674 |   35.7453 |    2.8076 | 
+# 
+#  Elapsed Time: 19.9683 seconds (Warm-up)
+#                51.7782 seconds (Sampling)
+#                71.7465 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.9183 seconds (Warm-up)
+#                51.7136 seconds (Sampling)
+#                73.6319 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.6131 seconds (Warm-up)
+#                51.8888 seconds (Sampling)
+#                76.5019 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.2736 seconds (Warm-up)
+#                51.9362 seconds (Sampling)
+#                77.2097 seconds (Total)
+# 
+   63 | 01m17s |    0.29115 |    8.2205 |   22.6764 |   93.4512 |   -2.9953 | 
+# 
+#  Elapsed Time: 19.1229 seconds (Warm-up)
+#                52.0016 seconds (Sampling)
+#                71.1245 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.0427 seconds (Warm-up)
+#                51.8345 seconds (Sampling)
+#                71.8772 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4013 seconds (Warm-up)
+#                51.9253 seconds (Sampling)
+#                74.3266 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.6679 seconds (Warm-up)
+#                52.9794 seconds (Sampling)
+#                76.6473 seconds (Total)
+# 
+   64 | 01m17s |    0.32512 |    4.0768 |   11.1807 |   67.8383 |    0.5755 | 
+# 
+#  Elapsed Time: 18.0351 seconds (Warm-up)
+#                51.8732 seconds (Sampling)
+#                69.9083 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.7782 seconds (Warm-up)
+#                52.1269 seconds (Sampling)
+#                69.9051 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.1737 seconds (Warm-up)
+#                52.3012 seconds (Sampling)
+#                71.4748 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.3262 seconds (Warm-up)
+#                51.7976 seconds (Sampling)
+#                72.1237 seconds (Total)
+# 
+   65 | 01m12s |    0.32969 |    6.7328 |    3.7122 |   48.7129 |   -2.0920 | 
+# 
+#  Elapsed Time: 19.0445 seconds (Warm-up)
+#                51.724 seconds (Sampling)
+#                70.7684 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.1483 seconds (Warm-up)
+#                51.8706 seconds (Sampling)
+#                72.0189 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.1724 seconds (Warm-up)
+#                51.9182 seconds (Sampling)
+#                72.0906 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.7748 seconds (Warm-up)
+#                51.8373 seconds (Sampling)
+#                74.6121 seconds (Total)
+# 
+   66 | 01m15s |    0.28613 |    6.3963 |   25.8876 |   52.6819 |    0.1821 | 
+# 
+#  Elapsed Time: 14.4414 seconds (Warm-up)
+#                51.8975 seconds (Sampling)
+#                66.339 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.8244 seconds (Warm-up)
+#                51.9345 seconds (Sampling)
+#                68.7589 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.0453 seconds (Warm-up)
+#                51.655 seconds (Sampling)
+#                69.7003 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.4409 seconds (Warm-up)
+#                51.6941 seconds (Sampling)
+#                70.135 seconds (Total)
+# 
+   67 | 01m10s |    0.31257 |    8.9471 |   13.0417 |   80.1661 |    1.7757 | 
+# 
+#  Elapsed Time: 41.5698 seconds (Warm-up)
+#                205.965 seconds (Sampling)
+#                247.535 seconds (Total)
+# 
+# 
+#  Elapsed Time: 50.7411 seconds (Warm-up)
+#                207.039 seconds (Sampling)
+#                257.78 seconds (Total)
+# 
+# 
+#  Elapsed Time: 39.2832 seconds (Warm-up)
+#                416.978 seconds (Sampling)
+#                456.261 seconds (Total)
+# 
+# 
+#  Elapsed Time: 49.3898 seconds (Warm-up)
+#                418.081 seconds (Sampling)
+#                467.47 seconds (Total)
+# 
+   68 | 07m48s |    0.30223 |    0.4189 |   19.0457 |   17.3540 |   -1.2715 | 
+# 
+#  Elapsed Time: 20.0312 seconds (Warm-up)
+#                51.7772 seconds (Sampling)
+#                71.8084 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.8805 seconds (Warm-up)
+#                53.3347 seconds (Sampling)
+#                74.2152 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0659 seconds (Warm-up)
+#                53.2313 seconds (Sampling)
+#                75.2971 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.2716 seconds (Warm-up)
+#                53.3152 seconds (Sampling)
+#                76.5868 seconds (Total)
+# 
+   69 | 01m17s |    0.32605 |    7.3367 |    3.3894 |   47.4574 |    2.1170 | 
+# 
+#  Elapsed Time: 33.7534 seconds (Warm-up)
+#                207.017 seconds (Sampling)
+#                240.77 seconds (Total)
+# 
+# 
+#  Elapsed Time: 34.9304 seconds (Warm-up)
+#                206.79 seconds (Sampling)
+#                241.72 seconds (Total)
+# 
+# 
+#  Elapsed Time: 35.9105 seconds (Warm-up)
+#                207.093 seconds (Sampling)
+#                243.003 seconds (Total)
+# 
+# 
+#  Elapsed Time: 28.1179 seconds (Warm-up)
+#                392.219 seconds (Sampling)
+#                420.337 seconds (Total)
+# 
+   70 | 07m01s |    0.29476 |    0.6828 |   22.5504 |   76.2758 |    0.8334 | 
+# 
+#  Elapsed Time: 14.036 seconds (Warm-up)
+#                103.698 seconds (Sampling)
+#                117.734 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.4135 seconds (Warm-up)
+#                103.816 seconds (Sampling)
+#                120.229 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.7781 seconds (Warm-up)
+#                103.236 seconds (Sampling)
+#                121.014 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.9385 seconds (Warm-up)
+#                105.333 seconds (Sampling)
+#                123.272 seconds (Total)
+# 
+   71 | 02m03s |    0.29359 |    2.4695 |   23.6241 |   38.0150 |    0.6280 | 
+# 
+#  Elapsed Time: 20.8394 seconds (Warm-up)
+#                51.7025 seconds (Sampling)
+#                72.5419 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.636 seconds (Warm-up)
+#                51.8771 seconds (Sampling)
+#                73.5131 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.4245 seconds (Warm-up)
+#                51.8708 seconds (Sampling)
+#                76.2953 seconds (Total)
+# 
+# 
+#  Elapsed Time: 26.2456 seconds (Warm-up)
+#                51.7448 seconds (Sampling)
+#                77.9904 seconds (Total)
+# 
+   72 | 01m18s |    0.27955 |    5.5454 |   29.5897 |    6.3752 |   -1.5200 | 
+# 
+#  Elapsed Time: 17.7925 seconds (Warm-up)
+#                103.901 seconds (Sampling)
+#                121.693 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.6739 seconds (Warm-up)
+#                103.807 seconds (Sampling)
+#                125.481 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4763 seconds (Warm-up)
+#                103.537 seconds (Sampling)
+#                126.014 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.3428 seconds (Warm-up)
+#                204.75 seconds (Sampling)
+#                228.093 seconds (Total)
+# 
+   73 | 03m49s |    0.30870 |    1.3591 |   16.7763 |   12.7846 |   -2.9851 | 
+# 
+#  Elapsed Time: 14.8877 seconds (Warm-up)
+#                52.1345 seconds (Sampling)
+#                67.0222 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.1597 seconds (Warm-up)
+#                51.9488 seconds (Sampling)
+#                70.1085 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.5214 seconds (Warm-up)
+#                51.897 seconds (Sampling)
+#                72.4184 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.2322 seconds (Warm-up)
+#                52.144 seconds (Sampling)
+#                73.3761 seconds (Total)
+# 
+   74 | 01m14s |    0.32581 |    4.2005 |   10.8426 |   71.5336 |    1.6075 | 
+# 
+#  Elapsed Time: 37.4844 seconds (Warm-up)
+#                418.219 seconds (Sampling)
+#                455.704 seconds (Total)
+# 
+# 
+#  Elapsed Time: 38.3444 seconds (Warm-up)
+#                417.776 seconds (Sampling)
+#                456.12 seconds (Total)
+# 
+# 
+#  Elapsed Time: 75.783 seconds (Warm-up)
+#                419.317 seconds (Sampling)
+#                495.1 seconds (Total)
+# 
+# 
+#  Elapsed Time: 48.9727 seconds (Warm-up)
+#                830.196 seconds (Sampling)
+#                879.169 seconds (Total)
+# 
+   75 | 14m40s |    0.33590 |    0.1403 |    3.6230 |   44.7694 |    0.1667 | 
+# 
+#  Elapsed Time: 13.4147 seconds (Warm-up)
+#                51.986 seconds (Sampling)
+#                65.4008 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.8906 seconds (Warm-up)
+#                52.1412 seconds (Sampling)
+#                71.0318 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.4448 seconds (Warm-up)
+#                52.1741 seconds (Sampling)
+#                72.6189 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4487 seconds (Warm-up)
+#                52.3493 seconds (Sampling)
+#                74.798 seconds (Total)
+# 
+   76 | 01m15s |    0.33656 |    3.9626 |    7.3852 |   34.6260 |    2.7060 | 
+# 
+#  Elapsed Time: 18.1286 seconds (Warm-up)
+#                51.7878 seconds (Sampling)
+#                69.9164 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.5793 seconds (Warm-up)
+#                51.8678 seconds (Sampling)
+#                72.447 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.7228 seconds (Warm-up)
+#                51.9749 seconds (Sampling)
+#                73.6977 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.0093 seconds (Warm-up)
+#                52.0242 seconds (Sampling)
+#                75.0335 seconds (Total)
+# 
+   77 | 01m15s |    0.28809 |    5.9772 |   25.5417 |   27.6133 |    1.1625 | 
+# 
+#  Elapsed Time: 21.2549 seconds (Warm-up)
+#                103.395 seconds (Sampling)
+#                124.65 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.6476 seconds (Warm-up)
+#                103.473 seconds (Sampling)
+#                129.121 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.0745 seconds (Warm-up)
+#                104.056 seconds (Sampling)
+#                129.13 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.1244 seconds (Warm-up)
+#                205.961 seconds (Sampling)
+#                233.085 seconds (Total)
+# 
+   78 | 03m53s |    0.30602 |    1.2046 |   17.9812 |   68.8208 |   -2.5122 | 
+# 
+#  Elapsed Time: 18.6049 seconds (Warm-up)
+#                51.9391 seconds (Sampling)
+#                70.5439 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.7058 seconds (Warm-up)
+#                52.1014 seconds (Sampling)
+#                72.8072 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.4053 seconds (Warm-up)
+#                51.7091 seconds (Sampling)
+#                73.1144 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.5483 seconds (Warm-up)
+#                51.7204 seconds (Sampling)
+#                75.2687 seconds (Total)
+# 
+   79 | 01m15s |    0.30911 |    7.9855 |   14.9667 |   13.4743 |   -1.9629 | 
+# 
+#  Elapsed Time: 64.1981 seconds (Warm-up)
+#                206.42 seconds (Sampling)
+#                270.618 seconds (Total)
+# 
+# 
+#  Elapsed Time: 67.2865 seconds (Warm-up)
+#                418.395 seconds (Sampling)
+#                485.681 seconds (Total)
+# 
+# 
+#  Elapsed Time: 67.431 seconds (Warm-up)
+#                418.631 seconds (Sampling)
+#                486.062 seconds (Total)
+# 
+# 
+#  Elapsed Time: 58.2602 seconds (Warm-up)
+#                826.743 seconds (Sampling)
+#                885.003 seconds (Total)
+# 
+   80 | 14m46s |    0.30780 |    0.0567 |   16.8324 |   37.3880 |    1.9169 | 
+# 
+#  Elapsed Time: 16.3973 seconds (Warm-up)
+#                53.4559 seconds (Sampling)
+#                69.8532 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.1403 seconds (Warm-up)
+#                53.318 seconds (Sampling)
+#                73.4583 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.8157 seconds (Warm-up)
+#                53.3391 seconds (Sampling)
+#                74.1548 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.7881 seconds (Warm-up)
+#                51.6913 seconds (Sampling)
+#                76.4794 seconds (Total)
+# 
+   81 | 01m17s |    0.30505 |    8.0962 |   16.6333 |   55.9154 |   -2.6263 | 
+# 
+#  Elapsed Time: 22.382 seconds (Warm-up)
+#                51.7874 seconds (Sampling)
+#                74.1694 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.6301 seconds (Warm-up)
+#                51.8537 seconds (Sampling)
+#                74.4838 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.4657 seconds (Warm-up)
+#                52.0288 seconds (Sampling)
+#                75.4944 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.7072 seconds (Warm-up)
+#                52.0093 seconds (Sampling)
+#                75.7164 seconds (Total)
+# 
+   82 | 01m16s |    0.28281 |    4.9399 |   28.3402 |   92.8312 |    1.9496 | 
+# 
+#  Elapsed Time: 18.3675 seconds (Warm-up)
+#                53.1183 seconds (Sampling)
+#                71.4858 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.8894 seconds (Warm-up)
+#                51.9141 seconds (Sampling)
+#                72.8035 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0319 seconds (Warm-up)
+#                53.2972 seconds (Sampling)
+#                75.3291 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.0247 seconds (Warm-up)
+#                53.7673 seconds (Sampling)
+#                78.792 seconds (Total)
+# 
+   83 | 01m19s |    0.31606 |    8.0201 |    2.6712 |   80.7191 |    0.5211 | 
+# 
+#  Elapsed Time: 16.4024 seconds (Warm-up)
+#                51.7638 seconds (Sampling)
+#                68.1662 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0856 seconds (Warm-up)
+#                51.9001 seconds (Sampling)
+#                73.9857 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4606 seconds (Warm-up)
+#                51.759 seconds (Sampling)
+#                74.2196 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.2063 seconds (Warm-up)
+#                51.8967 seconds (Sampling)
+#                79.103 seconds (Total)
+# 
+   84 | 01m19s |    0.30727 |    7.0879 |   16.5300 |   90.6722 |    2.2664 | 
+# 
+#  Elapsed Time: 15.4512 seconds (Warm-up)
+#                103.944 seconds (Sampling)
+#                119.395 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.2755 seconds (Warm-up)
+#                103.494 seconds (Sampling)
+#                122.77 seconds (Total)
+# 
+# 
+#  Elapsed Time: 15.7846 seconds (Warm-up)
+#                388.707 seconds (Sampling)
+#                404.492 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.9303 seconds (Warm-up)
+#                434.92 seconds (Sampling)
+#                453.851 seconds (Total)
+# 
+   85 | 07m34s |    0.32388 |    2.5235 |   11.9479 |   25.7611 |    0.7838 | 
+# 
+#  Elapsed Time: 21.93 seconds (Warm-up)
+#                51.695 seconds (Sampling)
+#                73.625 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4485 seconds (Warm-up)
+#                51.7047 seconds (Sampling)
+#                74.1532 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.5516 seconds (Warm-up)
+#                51.9184 seconds (Sampling)
+#                75.4699 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.9042 seconds (Warm-up)
+#                51.8847 seconds (Sampling)
+#                76.7889 seconds (Total)
+# 
+   86 | 01m17s |    0.29185 |    4.9790 |   24.1349 |   94.0894 |    2.4920 | 
+# 
+#  Elapsed Time: 20.8492 seconds (Warm-up)
+#                51.9347 seconds (Sampling)
+#                72.7839 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.7971 seconds (Warm-up)
+#                52.0229 seconds (Sampling)
+#                76.82 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.4963 seconds (Warm-up)
+#                51.8164 seconds (Sampling)
+#                77.3127 seconds (Total)
+# 
+# 
+#  Elapsed Time: 26.2789 seconds (Warm-up)
+#                52.1085 seconds (Sampling)
+#                78.3873 seconds (Total)
+# 
+   87 | 01m19s |    0.29631 |    8.4512 |   20.1941 |   45.2415 |   -1.2027 | 
+# 
+#  Elapsed Time: 16.756 seconds (Warm-up)
+#                52.0641 seconds (Sampling)
+#                68.8201 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.4408 seconds (Warm-up)
+#                52.3397 seconds (Sampling)
+#                70.7805 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.3513 seconds (Warm-up)
+#                51.7895 seconds (Sampling)
+#                73.1407 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.8203 seconds (Warm-up)
+#                51.8653 seconds (Sampling)
+#                73.6856 seconds (Total)
+# 
+   88 | 01m14s |    0.31707 |    4.1313 |   13.8193 |   92.2748 |   -1.1282 | 
+# 
+#  Elapsed Time: 70.6397 seconds (Warm-up)
+#                420.582 seconds (Sampling)
+#                491.222 seconds (Total)
+# 
+# 
+#  Elapsed Time: 66.8134 seconds (Warm-up)
+#                831.372 seconds (Sampling)
+#                898.185 seconds (Total)
+# 
+# 
+#  Elapsed Time: 65.8701 seconds (Warm-up)
+#                832.729 seconds (Sampling)
+#                898.599 seconds (Total)
+# 
+# 
+#  Elapsed Time: 108.505 seconds (Warm-up)
+#                831.847 seconds (Sampling)
+#                940.352 seconds (Total)
+# 
+   89 | 15m41s |    0.30189 |    0.0317 |    1.6703 |   44.0843 |    0.7140 | 
+# 
+#  Elapsed Time: 15.5193 seconds (Warm-up)
+#                51.9508 seconds (Sampling)
+#                67.4702 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.821 seconds (Warm-up)
+#                52.0102 seconds (Sampling)
+#                69.8312 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.8525 seconds (Warm-up)
+#                51.9122 seconds (Sampling)
+#                71.7647 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.1664 seconds (Warm-up)
+#                51.9158 seconds (Sampling)
+#                74.0822 seconds (Total)
+# 
+   90 | 01m14s |    0.32090 |    7.9782 |   10.3094 |   89.4527 |    1.4203 | 
+# 
+#  Elapsed Time: 20.3399 seconds (Warm-up)
+#                51.7785 seconds (Sampling)
+#                72.1183 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.7574 seconds (Warm-up)
+#                51.8922 seconds (Sampling)
+#                73.6496 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.1502 seconds (Warm-up)
+#                51.791 seconds (Sampling)
+#                73.9412 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.1758 seconds (Warm-up)
+#                51.915 seconds (Sampling)
+#                77.0909 seconds (Total)
+# 
+   91 | 01m17s |    0.31241 |    5.7591 |   14.8490 |    5.0633 |   -2.5740 | 
+# 
+#  Elapsed Time: 12.819 seconds (Warm-up)
+#                52.3953 seconds (Sampling)
+#                65.2144 seconds (Total)
+# 
+# 
+#  Elapsed Time: 14.4597 seconds (Warm-up)
+#                103.515 seconds (Sampling)
+#                117.974 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.1469 seconds (Warm-up)
+#                107.992 seconds (Sampling)
+#                124.139 seconds (Total)
+# 
+# 
+#  Elapsed Time: 15.1575 seconds (Warm-up)
+#                496.228 seconds (Sampling)
+#                511.385 seconds (Total)
+# 
+   92 | 08m32s | [35m   0.34130[0m | [32m   2.4996[0m | [32m   5.6025[0m | [32m  14.0595[0m | [32m  -1.7676[0m | 
+# 
+#  Elapsed Time: 48.7919 seconds (Warm-up)
+#                206.377 seconds (Sampling)
+#                255.168 seconds (Total)
+# 
+# 
+#  Elapsed Time: 50.2637 seconds (Warm-up)
+#                812.263 seconds (Sampling)
+#                862.526 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.6406 seconds (Warm-up)
+#                826.803 seconds (Sampling)
+#                882.443 seconds (Total)
+# 
+# 
+#  Elapsed Time: 77.583 seconds (Warm-up)
+#                1590.24 seconds (Sampling)
+#                1667.82 seconds (Total)
+# 
+   93 | 27m49s |    0.32040 |    0.1055 |   12.3818 |   10.6947 |    2.9799 | 
+# 
+#  Elapsed Time: 19.2533 seconds (Warm-up)
+#                51.5737 seconds (Sampling)
+#                70.827 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.1425 seconds (Warm-up)
+#                51.9639 seconds (Sampling)
+#                74.1064 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.9153 seconds (Warm-up)
+#                51.7584 seconds (Sampling)
+#                74.6736 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.7952 seconds (Warm-up)
+#                51.8103 seconds (Sampling)
+#                76.6055 seconds (Total)
+# 
+   94 | 01m17s |    0.28076 |    9.9341 |   26.8193 |   66.0783 |   -0.8593 | 
+# 
+#  Elapsed Time: 66.4471 seconds (Warm-up)
+#                206.263 seconds (Sampling)
+#                272.71 seconds (Total)
+# 
+# 
+#  Elapsed Time: 67.1192 seconds (Warm-up)
+#                208.256 seconds (Sampling)
+#                275.376 seconds (Total)
+# 
+# 
+#  Elapsed Time: 66.8812 seconds (Warm-up)
+#                243.226 seconds (Sampling)
+#                310.107 seconds (Total)
+# 
+# 
+#  Elapsed Time: 70.0487 seconds (Warm-up)
+#                416.067 seconds (Sampling)
+#                486.116 seconds (Total)
+# 
+   95 | 08m07s |    0.10714 |    9.1000 |    0.1846 |   92.3548 |   -0.0615 | 
+# 
+#  Elapsed Time: 12.7193 seconds (Warm-up)
+#                52.0826 seconds (Sampling)
+#                64.8019 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.1825 seconds (Warm-up)
+#                52.3722 seconds (Sampling)
+#                68.5548 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.3997 seconds (Warm-up)
+#                51.8998 seconds (Sampling)
+#                74.2995 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.1751 seconds (Warm-up)
+#                103.386 seconds (Sampling)
+#                126.561 seconds (Total)
+# 
+   96 | 02m07s |    0.32906 |    3.6531 |    9.8773 |   10.7416 |    1.9188 | 
+# 
+#  Elapsed Time: 17.27 seconds (Warm-up)
+#                51.8086 seconds (Sampling)
+#                69.0787 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.5879 seconds (Warm-up)
+#                51.7817 seconds (Sampling)
+#                71.3696 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.988 seconds (Warm-up)
+#                51.7315 seconds (Sampling)
+#                72.7195 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.0091 seconds (Warm-up)
+#                51.8485 seconds (Sampling)
+#                72.8576 seconds (Total)
+# 
+   97 | 01m13s |    0.32097 |    7.4632 |   10.6699 |   66.0913 |   -0.6751 | 
+# 
+#  Elapsed Time: 18.6928 seconds (Warm-up)
+#                52.0125 seconds (Sampling)
+#                70.7053 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.5473 seconds (Warm-up)
+#                103.195 seconds (Sampling)
+#                120.742 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.2415 seconds (Warm-up)
+#                103.155 seconds (Sampling)
+#                121.397 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.2105 seconds (Warm-up)
+#                103.432 seconds (Sampling)
+#                125.643 seconds (Total)
+# 
+   98 | 02m06s |    0.32154 |    1.5453 |   12.3453 |   50.2630 |   -2.1614 | 
+# 
+#  Elapsed Time: 17.8189 seconds (Warm-up)
+#                51.9304 seconds (Sampling)
+#                69.7493 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.701 seconds (Warm-up)
+#                51.7578 seconds (Sampling)
+#                70.4589 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.1342 seconds (Warm-up)
+#                51.9056 seconds (Sampling)
+#                72.0399 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.005 seconds (Warm-up)
+#                248.521 seconds (Sampling)
+#                269.526 seconds (Total)
+# 
+   99 | 04m30s |    0.31348 |    3.4533 |   15.4822 |   17.0102 |   -2.9504 | 
+# 
+#  Elapsed Time: 18.7207 seconds (Warm-up)
+#                51.8293 seconds (Sampling)
+#                70.5499 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.1542 seconds (Warm-up)
+#                51.8182 seconds (Sampling)
+#                70.9724 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.5165 seconds (Warm-up)
+#                51.8985 seconds (Sampling)
+#                71.415 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.5641 seconds (Warm-up)
+#                51.9644 seconds (Sampling)
+#                72.5284 seconds (Total)
+# 
+  100 | 01m13s |    0.32532 |    3.9613 |   11.1684 |   65.8902 |   -1.4977 | 
+# 
+#  Elapsed Time: 16.0046 seconds (Warm-up)
+#                51.8416 seconds (Sampling)
+#                67.8462 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.4973 seconds (Warm-up)
+#                51.6487 seconds (Sampling)
+#                69.1459 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.1906 seconds (Warm-up)
+#                51.6681 seconds (Sampling)
+#                69.8587 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.3405 seconds (Warm-up)
+#                52.2171 seconds (Sampling)
+#                73.5576 seconds (Total)
+# 
+  101 | 01m14s |    0.32717 |    7.6980 |    8.2601 |   79.0871 |   -1.2693 | 
+# 
+#  Elapsed Time: 19.1763 seconds (Warm-up)
+#                51.6898 seconds (Sampling)
+#                70.8661 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.1144 seconds (Warm-up)
+#                51.7586 seconds (Sampling)
+#                70.8731 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.1389 seconds (Warm-up)
+#                51.9168 seconds (Sampling)
+#                71.0557 seconds (Total)
+# 
+# 
+#  Elapsed Time: 28.3628 seconds (Warm-up)
+#                51.8978 seconds (Sampling)
+#                80.2605 seconds (Total)
+# 
+  102 | 01m20s |    0.30468 |    8.6618 |   16.5943 |   12.4681 |    0.2644 | 
+# 
+#  Elapsed Time: 17.8628 seconds (Warm-up)
+#                51.8433 seconds (Sampling)
+#                69.706 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.9909 seconds (Warm-up)
+#                51.8491 seconds (Sampling)
+#                70.8401 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.8341 seconds (Warm-up)
+#                51.9765 seconds (Sampling)
+#                71.8105 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.2813 seconds (Warm-up)
+#                51.9599 seconds (Sampling)
+#                74.2412 seconds (Total)
+# 
+  103 | 01m14s |    0.31374 |    9.4714 |    2.8177 |   23.2675 |   -2.1810 | 
+# 
+#  Elapsed Time: 23.2414 seconds (Warm-up)
+#                103.676 seconds (Sampling)
+#                126.917 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.2096 seconds (Warm-up)
+#                104.149 seconds (Sampling)
+#                127.359 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.1343 seconds (Warm-up)
+#                140.692 seconds (Sampling)
+#                167.827 seconds (Total)
+# 
+# 
+#  Elapsed Time: 30.5558 seconds (Warm-up)
+#                207.028 seconds (Sampling)
+#                237.584 seconds (Total)
+# 
+  104 | 03m58s |    0.33219 |    0.8215 |    8.6813 |   67.6493 |    1.0916 | 
+# 
+#  Elapsed Time: 17.1906 seconds (Warm-up)
+#                52.0622 seconds (Sampling)
+#                69.2528 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.499 seconds (Warm-up)
+#                51.8399 seconds (Sampling)
+#                72.3389 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.2753 seconds (Warm-up)
+#                51.887 seconds (Sampling)
+#                74.1624 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.3282 seconds (Warm-up)
+#                52.039 seconds (Sampling)
+#                75.3672 seconds (Total)
+# 
+  105 | 01m15s |    0.28779 |    5.3010 |   25.7652 |   80.2005 |    2.5300 | 
+# 
+#  Elapsed Time: 15.7142 seconds (Warm-up)
+#                51.8642 seconds (Sampling)
+#                67.5785 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.6445 seconds (Warm-up)
+#                52.1497 seconds (Sampling)
+#                68.7942 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.71 seconds (Warm-up)
+#                51.8995 seconds (Sampling)
+#                70.6095 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.689 seconds (Warm-up)
+#                52.1489 seconds (Sampling)
+#                70.8379 seconds (Total)
+# 
+  106 | 01m11s |    0.33635 |    4.2756 |    7.3214 |   20.1224 |    1.3494 | 
+# 
+#  Elapsed Time: 77.1397 seconds (Warm-up)
+#                418.683 seconds (Sampling)
+#                495.823 seconds (Total)
+# 
+# 
+#  Elapsed Time: 80.7478 seconds (Warm-up)
+#                417.452 seconds (Sampling)
+#                498.2 seconds (Total)
+# 
+# 
+#  Elapsed Time: 81.245 seconds (Warm-up)
+#                417.689 seconds (Sampling)
+#                498.934 seconds (Total)
+# 
+# 
+#  Elapsed Time: 101.684 seconds (Warm-up)
+#                417.36 seconds (Sampling)
+#                519.044 seconds (Total)
+# 
+  107 | 08m40s |    0.28244 |    0.0718 |   28.0038 |   21.6313 |    0.6405 | 
+# 
+#  Elapsed Time: 20.4323 seconds (Warm-up)
+#                51.7916 seconds (Sampling)
+#                72.2239 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0263 seconds (Warm-up)
+#                51.7003 seconds (Sampling)
+#                73.7266 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.1671 seconds (Warm-up)
+#                51.9049 seconds (Sampling)
+#                75.0721 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.5335 seconds (Warm-up)
+#                51.9349 seconds (Sampling)
+#                76.4684 seconds (Total)
+# 
+  108 | 01m17s |    0.31581 |    6.3834 |   13.2451 |   13.8379 |   -0.9333 | 
+# 
+#  Elapsed Time: 22.2513 seconds (Warm-up)
+#                52.4573 seconds (Sampling)
+#                74.7086 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.9951 seconds (Warm-up)
+#                52.5576 seconds (Sampling)
+#                75.5527 seconds (Total)
+# 
+# 
+#  Elapsed Time: 26.0929 seconds (Warm-up)
+#                51.7276 seconds (Sampling)
+#                77.8205 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.1118 seconds (Warm-up)
+#                53.1167 seconds (Sampling)
+#                80.2285 seconds (Total)
+# 
+  109 | 01m20s |    0.28052 |    4.3375 |   29.5577 |   73.5969 |    1.0406 | 
+# 
+#  Elapsed Time: 73.6052 seconds (Warm-up)
+#                206.875 seconds (Sampling)
+#                280.481 seconds (Total)
+# 
+# 
+#  Elapsed Time: 80.1823 seconds (Warm-up)
+#                419.375 seconds (Sampling)
+#                499.558 seconds (Total)
+# 
+# 
+#  Elapsed Time: 83.29 seconds (Warm-up)
+#                419.13 seconds (Sampling)
+#                502.42 seconds (Total)
+# 
+# 
+#  Elapsed Time: 80.1733 seconds (Warm-up)
+#                708.695 seconds (Sampling)
+#                788.868 seconds (Total)
+# 
+  110 | 13m10s |    0.08103 |    0.2177 |    0.1153 |   20.2158 |   -2.0873 | 
+# 
+#  Elapsed Time: 47.2728 seconds (Warm-up)
+#                207.2 seconds (Sampling)
+#                254.473 seconds (Total)
+# 
+# 
+#  Elapsed Time: 56.891 seconds (Warm-up)
+#                206.757 seconds (Sampling)
+#                263.648 seconds (Total)
+# 
+# 
+#  Elapsed Time: 49.9215 seconds (Warm-up)
+#                417.838 seconds (Sampling)
+#                467.76 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.2803 seconds (Warm-up)
+#                418.556 seconds (Sampling)
+#                473.836 seconds (Total)
+# 
+  111 | 07m54s |    0.30480 |    0.2191 |   18.0275 |   74.4113 |    0.9747 | 
+# 
+#  Elapsed Time: 26.8998 seconds (Warm-up)
+#                103.603 seconds (Sampling)
+#                130.503 seconds (Total)
+# 
+# 
+#  Elapsed Time: 26.7021 seconds (Warm-up)
+#                103.981 seconds (Sampling)
+#                130.683 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.5613 seconds (Warm-up)
+#                103.575 seconds (Sampling)
+#                131.136 seconds (Total)
+# 
+# 
+#  Elapsed Time: 29.4953 seconds (Warm-up)
+#                206.869 seconds (Sampling)
+#                236.365 seconds (Total)
+# 
+  112 | 03m57s |    0.27553 |    1.6222 |    1.0999 |   70.4067 |   -2.9827 | 
+# 
+#  Elapsed Time: 14.5029 seconds (Warm-up)
+#                52.0347 seconds (Sampling)
+#                66.5376 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.6532 seconds (Warm-up)
+#                51.9669 seconds (Sampling)
+#                74.62 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.249 seconds (Warm-up)
+#                51.9459 seconds (Sampling)
+#                75.1949 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.3963 seconds (Warm-up)
+#                104.177 seconds (Sampling)
+#                123.574 seconds (Total)
+# 
+  113 | 02m04s |    0.29441 |    3.0775 |   23.0433 |   81.5449 |    0.6380 | 
+# 
+#  Elapsed Time: 43.8682 seconds (Warm-up)
+#                103.822 seconds (Sampling)
+#                147.69 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.518 seconds (Warm-up)
+#                103.667 seconds (Sampling)
+#                149.185 seconds (Total)
+# 
+# 
+#  Elapsed Time: 49.3522 seconds (Warm-up)
+#                103.684 seconds (Sampling)
+#                153.036 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.7303 seconds (Warm-up)
+#                206.584 seconds (Sampling)
+#                252.314 seconds (Total)
+# 
+  114 | 04m13s |    0.18941 |    5.2233 |    0.4288 |   73.8943 |   -2.4887 | 
+# 
+#  Elapsed Time: 21.5253 seconds (Warm-up)
+#                51.9416 seconds (Sampling)
+#                73.4669 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.8714 seconds (Warm-up)
+#                51.9616 seconds (Sampling)
+#                73.833 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.0286 seconds (Warm-up)
+#                51.7063 seconds (Sampling)
+#                76.7349 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.786 seconds (Warm-up)
+#                51.7766 seconds (Sampling)
+#                77.5626 seconds (Total)
+# 
+  115 | 01m18s |    0.30521 |    8.3148 |   16.3496 |   62.5402 |    0.2047 | 
+# 
+#  Elapsed Time: 14.9868 seconds (Warm-up)
+#                51.89 seconds (Sampling)
+#                66.8768 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.7166 seconds (Warm-up)
+#                52.0518 seconds (Sampling)
+#                68.7684 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.3451 seconds (Warm-up)
+#                52.0263 seconds (Sampling)
+#                70.3714 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.311 seconds (Warm-up)
+#                51.9206 seconds (Sampling)
+#                73.2316 seconds (Total)
+# 
+  116 | 01m13s |    0.32941 |    4.0909 |    9.6556 |   84.9661 |   -2.0979 | 
+# 
+#  Elapsed Time: 19.5167 seconds (Warm-up)
+#                103.497 seconds (Sampling)
+#                123.013 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.7605 seconds (Warm-up)
+#                103.77 seconds (Sampling)
+#                123.531 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.1005 seconds (Warm-up)
+#                104.102 seconds (Sampling)
+#                125.203 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.7887 seconds (Warm-up)
+#                103.839 seconds (Sampling)
+#                125.628 seconds (Total)
+# 
+  117 | 02m06s |    0.31167 |    2.6684 |    1.8715 |   89.5074 |    1.5248 | 
+# 
+#  Elapsed Time: 68.1162 seconds (Warm-up)
+#                123.334 seconds (Sampling)
+#                191.45 seconds (Total)
+# 
+# 
+#  Elapsed Time: 69.2484 seconds (Warm-up)
+#                195.851 seconds (Sampling)
+#                265.099 seconds (Total)
+# 
+# 
+#  Elapsed Time: 67.0841 seconds (Warm-up)
+#                207.598 seconds (Sampling)
+#                274.682 seconds (Total)
+# 
+# 
+#  Elapsed Time: 64.7154 seconds (Warm-up)
+#                211.173 seconds (Sampling)
+#                275.889 seconds (Total)
+# 
+  118 | 04m36s |    0.13795 |    0.8059 |    0.2316 |   93.4666 |    1.5687 | 
+# 
+#  Elapsed Time: 15.8691 seconds (Warm-up)
+#                103.728 seconds (Sampling)
+#                119.597 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.762 seconds (Warm-up)
+#                103.483 seconds (Sampling)
+#                120.245 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.7196 seconds (Warm-up)
+#                386.182 seconds (Sampling)
+#                404.901 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.1963 seconds (Warm-up)
+#                678.408 seconds (Sampling)
+#                696.604 seconds (Total)
+# 
+  119 | 11m37s |    0.32000 |    2.1292 |   13.0127 |   32.1948 |    2.1147 | 
+# 
+#  Elapsed Time: 13.8083 seconds (Warm-up)
+#                51.857 seconds (Sampling)
+#                65.6653 seconds (Total)
+# 
+# 
+#  Elapsed Time: 15.4283 seconds (Warm-up)
+#                51.8711 seconds (Sampling)
+#                67.2993 seconds (Total)
+# 
+# 
+#  Elapsed Time: 15.7468 seconds (Warm-up)
+#                52.1319 seconds (Sampling)
+#                67.8786 seconds (Total)
+# 
+# 
+#  Elapsed Time: 14.6347 seconds (Warm-up)
+#                54.629 seconds (Sampling)
+#                69.2637 seconds (Total)
+# 
+  120 | 01m09s |    0.33687 |    4.1956 |    6.9501 |   66.0526 |   -1.9664 | 
+# 
+#  Elapsed Time: 17.4116 seconds (Warm-up)
+#                51.7767 seconds (Sampling)
+#                69.1883 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.1872 seconds (Warm-up)
+#                51.7664 seconds (Sampling)
+#                70.9536 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.575 seconds (Warm-up)
+#                51.995 seconds (Sampling)
+#                73.57 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.1988 seconds (Warm-up)
+#                51.9141 seconds (Sampling)
+#                75.1128 seconds (Total)
+# 
+  121 | 01m15s |    0.28169 |    7.4988 |   27.5739 |   81.7043 |   -0.8521 | 
+# 
+#  Elapsed Time: 15.2782 seconds (Warm-up)
+#                51.9239 seconds (Sampling)
+#                67.2022 seconds (Total)
+# 
+# 
+#  Elapsed Time: 15.3531 seconds (Warm-up)
+#                52.0991 seconds (Sampling)
+#                67.4522 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.0224 seconds (Warm-up)
+#                51.842 seconds (Sampling)
+#                67.8644 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.5881 seconds (Warm-up)
+#                52.0234 seconds (Sampling)
+#                70.6116 seconds (Total)
+# 
+  122 | 01m11s |    0.33383 |    5.4508 |    7.4694 |   70.7838 |   -2.8685 | 
+# 
+#  Elapsed Time: 20.0358 seconds (Warm-up)
+#                103.358 seconds (Sampling)
+#                123.394 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.0378 seconds (Warm-up)
+#                103.97 seconds (Sampling)
+#                124.008 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.6166 seconds (Warm-up)
+#                103.724 seconds (Sampling)
+#                126.34 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4948 seconds (Warm-up)
+#                103.94 seconds (Sampling)
+#                126.435 seconds (Total)
+# 
+  123 | 02m07s |    0.29981 |    1.4368 |   20.5865 |   72.5392 |    2.6516 | 
+# 
+#  Elapsed Time: 17.6356 seconds (Warm-up)
+#                52.0392 seconds (Sampling)
+#                69.6748 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.4204 seconds (Warm-up)
+#                51.773 seconds (Sampling)
+#                71.1935 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.8265 seconds (Warm-up)
+#                51.86 seconds (Sampling)
+#                75.6866 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.8008 seconds (Warm-up)
+#                52.2451 seconds (Sampling)
+#                80.0459 seconds (Total)
+# 
+  124 | 01m20s |    0.33195 |    6.8134 |    6.7990 |   74.8123 |   -1.5678 | 
+# 
+#  Elapsed Time: 22.3738 seconds (Warm-up)
+#                51.7802 seconds (Sampling)
+#                74.154 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.563 seconds (Warm-up)
+#                53.2727 seconds (Sampling)
+#                75.8357 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.2727 seconds (Warm-up)
+#                53.6579 seconds (Sampling)
+#                78.9306 seconds (Total)
+# 
+# 
+#  Elapsed Time: 28.2772 seconds (Warm-up)
+#                52.9352 seconds (Sampling)
+#                81.2124 seconds (Total)
+# 
+  125 | 01m21s |    0.30308 |    3.7778 |   19.5191 |   79.4354 |   -2.2863 | 
+# 
+#  Elapsed Time: 15.8973 seconds (Warm-up)
+#                51.9062 seconds (Sampling)
+#                67.8035 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.2332 seconds (Warm-up)
+#                51.9275 seconds (Sampling)
+#                71.1607 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.1092 seconds (Warm-up)
+#                106.329 seconds (Sampling)
+#                125.438 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.0957 seconds (Warm-up)
+#                566.578 seconds (Sampling)
+#                582.674 seconds (Total)
+# 
+  126 | 09m43s |    0.32792 |    2.8922 |   10.4633 |   54.7986 |    1.8972 | 
+# 
+#  Elapsed Time: 22.1997 seconds (Warm-up)
+#                51.8722 seconds (Sampling)
+#                74.0719 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.3975 seconds (Warm-up)
+#                52.0249 seconds (Sampling)
+#                74.4224 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.1468 seconds (Warm-up)
+#                51.8414 seconds (Sampling)
+#                74.9882 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.1757 seconds (Warm-up)
+#                52.1319 seconds (Sampling)
+#                77.3076 seconds (Total)
+# 
+  127 | 01m17s |    0.28327 |    4.0395 |   28.4077 |   47.1214 |   -1.7272 | 
+# 
+#  Elapsed Time: 19.8645 seconds (Warm-up)
+#                51.6795 seconds (Sampling)
+#                71.544 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.5796 seconds (Warm-up)
+#                53.2301 seconds (Sampling)
+#                73.8097 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4015 seconds (Warm-up)
+#                53.4908 seconds (Sampling)
+#                75.8923 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.9536 seconds (Warm-up)
+#                53.1953 seconds (Sampling)
+#                76.1489 seconds (Total)
+# 
+  128 | 01m16s |    0.30233 |    5.7441 |   19.1032 |   29.5300 |    0.1908 | 
+# 
+#  Elapsed Time: 23.2518 seconds (Warm-up)
+#                103.975 seconds (Sampling)
+#                127.226 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.2056 seconds (Warm-up)
+#                194.024 seconds (Sampling)
+#                221.229 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.9006 seconds (Warm-up)
+#                206.049 seconds (Sampling)
+#                225.95 seconds (Total)
+# 
+# 
+#  Elapsed Time: 27.1714 seconds (Warm-up)
+#                221.651 seconds (Sampling)
+#                248.823 seconds (Total)
+# 
+  129 | 04m09s |    0.33385 |    1.1620 |    8.4124 |   35.9262 |   -2.0384 | 
+# 
+#  Elapsed Time: 19.8508 seconds (Warm-up)
+#                51.9301 seconds (Sampling)
+#                71.7809 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.6693 seconds (Warm-up)
+#                103.23 seconds (Sampling)
+#                120.9 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.2272 seconds (Warm-up)
+#                103.206 seconds (Sampling)
+#                121.434 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4978 seconds (Warm-up)
+#                103.533 seconds (Sampling)
+#                126.031 seconds (Total)
+# 
+  130 | 02m06s |    0.30644 |    1.9984 |   17.9033 |   49.2788 |    1.0779 | 
+# 
+#  Elapsed Time: 16.3591 seconds (Warm-up)
+#                51.6889 seconds (Sampling)
+#                68.048 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.877 seconds (Warm-up)
+#                51.8827 seconds (Sampling)
+#                68.7597 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.6125 seconds (Warm-up)
+#                51.9333 seconds (Sampling)
+#                71.5458 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.6017 seconds (Warm-up)
+#                52.2632 seconds (Sampling)
+#                71.865 seconds (Total)
+# 
+  131 | 01m12s |    0.31548 |    6.9286 |   13.0989 |   66.8671 |    1.1804 | 
+# 
+#  Elapsed Time: 19.9179 seconds (Warm-up)
+#                103.309 seconds (Sampling)
+#                123.227 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.4388 seconds (Warm-up)
+#                103.262 seconds (Sampling)
+#                123.701 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.4443 seconds (Warm-up)
+#                103.764 seconds (Sampling)
+#                126.209 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.068 seconds (Warm-up)
+#                103.564 seconds (Sampling)
+#                126.632 seconds (Total)
+# 
+  132 | 02m07s |    0.31149 |    1.4729 |   15.8640 |   53.8501 |   -0.3680 | 
+# 
+#  Elapsed Time: 19.574 seconds (Warm-up)
+#                52.0049 seconds (Sampling)
+#                71.5789 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.6987 seconds (Warm-up)
+#                52.1161 seconds (Sampling)
+#                71.8148 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.14 seconds (Warm-up)
+#                51.8552 seconds (Sampling)
+#                71.9952 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0631 seconds (Warm-up)
+#                51.7871 seconds (Sampling)
+#                73.8502 seconds (Total)
+# 
+  133 | 01m14s |    0.32486 |    8.7090 |    3.7762 |   44.2648 |    0.9562 | 
+# 
+#  Elapsed Time: 19.671 seconds (Warm-up)
+#                51.6785 seconds (Sampling)
+#                71.3495 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.5391 seconds (Warm-up)
+#                51.8432 seconds (Sampling)
+#                71.3823 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.2286 seconds (Warm-up)
+#                51.7938 seconds (Sampling)
+#                73.0225 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.0269 seconds (Warm-up)
+#                52.6919 seconds (Sampling)
+#                76.7189 seconds (Total)
+# 
+  134 | 01m17s |    0.28638 |    8.9827 |   24.6833 |   17.2627 |    1.4063 | 
+# 
+#  Elapsed Time: 15.2404 seconds (Warm-up)
+#                51.7182 seconds (Sampling)
+#                66.9586 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.9527 seconds (Warm-up)
+#                51.9092 seconds (Sampling)
+#                69.8619 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.8782 seconds (Warm-up)
+#                51.8054 seconds (Sampling)
+#                73.6836 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.066 seconds (Warm-up)
+#                55.7658 seconds (Sampling)
+#                77.8318 seconds (Total)
+# 
+  135 | 01m18s |    0.29251 |    3.6305 |   23.8183 |    7.2851 |    0.1603 | 
+# 
+#  Elapsed Time: 31.6101 seconds (Warm-up)
+#                103.489 seconds (Sampling)
+#                135.099 seconds (Total)
+# 
+# 
+#  Elapsed Time: 33.3644 seconds (Warm-up)
+#                103.134 seconds (Sampling)
+#                136.498 seconds (Total)
+# 
+# 
+#  Elapsed Time: 33.8305 seconds (Warm-up)
+#                199.989 seconds (Sampling)
+#                233.819 seconds (Total)
+# 
+# 
+#  Elapsed Time: 38.7811 seconds (Warm-up)
+#                205.504 seconds (Sampling)
+#                244.285 seconds (Total)
+# 
+  136 | 04m05s |    0.29762 |    0.5848 |   21.2698 |   57.4073 |   -1.9842 | 
+# 
+#  Elapsed Time: 17.9288 seconds (Warm-up)
+#                51.889 seconds (Sampling)
+#                69.8179 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.1899 seconds (Warm-up)
+#                51.6038 seconds (Sampling)
+#                71.7937 seconds (Total)
+# 
+# 
+#  Elapsed Time: 20.6016 seconds (Warm-up)
+#                51.896 seconds (Sampling)
+#                72.4976 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.7769 seconds (Warm-up)
+#                51.6838 seconds (Sampling)
+#                73.4607 seconds (Total)
+# 
+  137 | 01m14s |    0.30254 |    7.1760 |   18.1726 |   22.6430 |    1.7789 | 
+# 
+#  Elapsed Time: 20.338 seconds (Warm-up)
+#                51.672 seconds (Sampling)
+#                72.01 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.0133 seconds (Warm-up)
+#                51.8654 seconds (Sampling)
+#                73.8787 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.7856 seconds (Warm-up)
+#                51.8226 seconds (Sampling)
+#                75.6082 seconds (Total)
+# 
+# 
+#  Elapsed Time: 26.6167 seconds (Warm-up)
+#                52.2721 seconds (Sampling)
+#                78.8887 seconds (Total)
+# 
+  138 | 01m19s |    0.29725 |    9.7804 |   19.1642 |   98.0482 |   -2.4963 | 
+# 
+#  Elapsed Time: 40.0264 seconds (Warm-up)
+#                418.486 seconds (Sampling)
+#                458.513 seconds (Total)
+# 
+# 
+#  Elapsed Time: 42.673 seconds (Warm-up)
+#                419.29 seconds (Sampling)
+#                461.963 seconds (Total)
+# 
+# 
+#  Elapsed Time: 51.0839 seconds (Warm-up)
+#                417.678 seconds (Sampling)
+#                468.762 seconds (Total)
+# 
+# 
+#  Elapsed Time: 56.3895 seconds (Warm-up)
+#                417.024 seconds (Sampling)
+#                473.414 seconds (Total)
+# 
+  139 | 07m54s |    0.33405 |    0.2535 |    8.0768 |   96.3743 |    1.9836 | 
+# 
+#  Elapsed Time: 17.378 seconds (Warm-up)
+#                51.8791 seconds (Sampling)
+#                69.2571 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.0587 seconds (Warm-up)
+#                51.9065 seconds (Sampling)
+#                69.9651 seconds (Total)
+# 
+# 
+#  Elapsed Time: 15.7145 seconds (Warm-up)
+#                181.403 seconds (Sampling)
+#                197.117 seconds (Total)
+# 
+# 
+#  Elapsed Time: 16.7264 seconds (Warm-up)
+#                251.817 seconds (Sampling)
+#                268.544 seconds (Total)
+# 
+  140 | 04m29s |    0.29470 |    2.7255 |   22.9397 |   79.4451 |    1.1055 | 
+# 
+#  Elapsed Time: 40.8527 seconds (Warm-up)
+#                206.07 seconds (Sampling)
+#                246.922 seconds (Total)
+# 
+# 
+#  Elapsed Time: 55.5943 seconds (Warm-up)
+#                417.23 seconds (Sampling)
+#                472.824 seconds (Total)
+# 
+# 
+#  Elapsed Time: 61.9988 seconds (Warm-up)
+#                830.007 seconds (Sampling)
+#                892.005 seconds (Total)
+# 
+# 
+#  Elapsed Time: 102.515 seconds (Warm-up)
+#                829.569 seconds (Sampling)
+#                932.084 seconds (Total)
+# 
+  141 | 15m33s |    0.32601 |    0.1061 |   10.5182 |   19.4848 |    0.6816 | 
+# 
+#  Elapsed Time: 39.6426 seconds (Warm-up)
+#                103.638 seconds (Sampling)
+#                143.281 seconds (Total)
+# 
+# 
+#  Elapsed Time: 41.6952 seconds (Warm-up)
+#                103.359 seconds (Sampling)
+#                145.055 seconds (Total)
+# 
+# 
+#  Elapsed Time: 43.6364 seconds (Warm-up)
+#                103.714 seconds (Sampling)
+#                147.351 seconds (Total)
+# 
+# 
+#  Elapsed Time: 45.1011 seconds (Warm-up)
+#                105.872 seconds (Sampling)
+#                150.974 seconds (Total)
+# 
+  142 | 02m31s |    0.19598 |    6.6267 |    0.4809 |   73.3869 |   -2.2332 | 
+# 
+#  Elapsed Time: 16.6932 seconds (Warm-up)
+#                52.3782 seconds (Sampling)
+#                69.0713 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.5036 seconds (Warm-up)
+#                52.3842 seconds (Sampling)
+#                69.8878 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.4388 seconds (Warm-up)
+#                52.111 seconds (Sampling)
+#                71.5499 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.5996 seconds (Warm-up)
+#                52.1919 seconds (Sampling)
+#                71.7915 seconds (Total)
+# 
+  143 | 01m12s |    0.32953 |    8.3451 |    5.1550 |   29.9244 |   -0.7504 | 
+# 
+#  Elapsed Time: 22.0976 seconds (Warm-up)
+#                51.6339 seconds (Sampling)
+#                73.7315 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.7752 seconds (Warm-up)
+#                51.9945 seconds (Sampling)
+#                75.7697 seconds (Total)
+# 
+# 
+#  Elapsed Time: 25.4115 seconds (Warm-up)
+#                52.13 seconds (Sampling)
+#                77.5415 seconds (Total)
+# 
+# 
+#  Elapsed Time: 28.0235 seconds (Warm-up)
+#                51.6004 seconds (Sampling)
+#                79.6239 seconds (Total)
+# 
+  144 | 01m20s |    0.29781 |    9.7586 |   18.9835 |    6.3991 |   -0.7383 | 
+# 
+#  Elapsed Time: 21.2654 seconds (Warm-up)
+#                52.1439 seconds (Sampling)
+#                73.4092 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.3727 seconds (Warm-up)
+#                52.2014 seconds (Sampling)
+#                73.5741 seconds (Total)
+# 
+# 
+#  Elapsed Time: 22.8818 seconds (Warm-up)
+#                52.1533 seconds (Sampling)
+#                75.0351 seconds (Total)
+# 
+# 
+#  Elapsed Time: 23.961 seconds (Warm-up)
+#                52.0333 seconds (Sampling)
+#                75.9943 seconds (Total)
+# 
+  145 | 01m16s |    0.29569 |    5.9746 |   21.8189 |   49.1420 |   -2.9677 | 
+# 
+#  Elapsed Time: 19.1284 seconds (Warm-up)
+#                52.1974 seconds (Sampling)
+#                71.3258 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.9752 seconds (Warm-up)
+#                52.2563 seconds (Sampling)
+#                72.2315 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.3096 seconds (Warm-up)
+#                51.8944 seconds (Sampling)
+#                76.204 seconds (Total)
+# 
+# 
+#  Elapsed Time: 26.6876 seconds (Warm-up)
+#                51.9653 seconds (Sampling)
+#                78.6528 seconds (Total)
+# 
+  146 | 01m19s |    0.29340 |    6.1975 |   22.7106 |   21.6964 |    2.5220 | 
+# 
+#  Elapsed Time: 14.3921 seconds (Warm-up)
+#                51.7287 seconds (Sampling)
+#                66.1208 seconds (Total)
+# 
+# 
+#  Elapsed Time: 17.2507 seconds (Warm-up)
+#                52.4417 seconds (Sampling)
+#                69.6924 seconds (Total)
+# 
+# 
+#  Elapsed Time: 18.1405 seconds (Warm-up)
+#                51.9825 seconds (Sampling)
+#                70.123 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.1784 seconds (Warm-up)
+#                51.9187 seconds (Sampling)
+#                71.0971 seconds (Total)
+# 
+  147 | 01m11s |    0.33727 |    3.9263 |    7.0669 |   96.0982 |   -2.8759 | 
+# 
+#  Elapsed Time: 19.2144 seconds (Warm-up)
+#                52.0364 seconds (Sampling)
+#                71.2509 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.6291 seconds (Warm-up)
+#                52.143 seconds (Sampling)
+#                73.7721 seconds (Total)
+# 
+# 
+#  Elapsed Time: 24.8429 seconds (Warm-up)
+#                52.0085 seconds (Sampling)
+#                76.8514 seconds (Total)
+# 
+# 
+#  Elapsed Time: 29.7377 seconds (Warm-up)
+#                52.099 seconds (Sampling)
+#                81.8366 seconds (Total)
+# 
+  148 | 01m22s |    0.28727 |    9.1241 |   24.0512 |   19.0601 |   -0.0046 | 
+# 
+#  Elapsed Time: 17.4822 seconds (Warm-up)
+#                51.9764 seconds (Sampling)
+#                69.4586 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.1903 seconds (Warm-up)
+#                51.9407 seconds (Sampling)
+#                71.131 seconds (Total)
+# 
+# 
+#  Elapsed Time: 19.7312 seconds (Warm-up)
+#                52.1463 seconds (Sampling)
+#                71.8775 seconds (Total)
+# 
+# 
+#  Elapsed Time: 21.3889 seconds (Warm-up)
+#                52.084 seconds (Sampling)
+#                73.473 seconds (Total)
+# 
+  149 | 01m14s |    0.32235 |    5.8441 |   11.2390 |   82.4452 |   -2.3334 | 
+# 
+#  Elapsed Time: 88.8261 seconds (Warm-up)
+#                789.953 seconds (Sampling)
+#                878.779 seconds (Total)
+# 
+# 
+#  Elapsed Time: 96.0588 seconds (Warm-up)
+#                842.02 seconds (Sampling)
+#                938.079 seconds (Total)
+# 
+# 
+#  Elapsed Time: 113.51 seconds (Warm-up)
+#                831.164 seconds (Sampling)
+#                944.674 seconds (Total)
+# 
+# 
+#  Elapsed Time: 115.483 seconds (Warm-up)
+#                835.516 seconds (Sampling)
+#                950.999 seconds (Total)
+# 
+  150 | 15m52s |    0.30401 |    0.1084 |   18.3432 |   20.2082 |   -2.5306 | 
+[31mBayesian Optimization[0m
+[94m-----------------------------------------------------------------------------[0m
+ Step |   Time |      Value |      eta0 |    gamma0 |    kappa0 |       mu0 | 
+Save: ../result/snapshot/ability_estimation_bo/PC2a-hyper4-RAM5000w500-full-20171222211608
