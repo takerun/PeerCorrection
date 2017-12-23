@@ -31,6 +31,6 @@ model{
   //posterior
   for(i in 1:N){
     value[i] ~ normal(ability[receiver[i]+1]+bias[sender[i]+1],1/reliability[sender[i]+1]);
-    diff[i] ~ poisson(1/(ability[receiver[i]+1]+bias[sender[i]+1]+noise));
+    diff[i] ~ poisson(exp(-(ability[receiver[i]+1]+bias[sender[i]+1]+noise)));
   }
 }

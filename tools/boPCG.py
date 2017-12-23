@@ -317,7 +317,7 @@ if __name__ == '__main__':
         def evaluate_BO(mu0,gamma0,alpha0,beta0,eta0,kappa0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,alpha0,beta0,eta0,kappa0])
             return cor
-        pbounds = {'mu0': (0.0, 15.0),
+        pbounds = {'mu0': (0.0, 4.0),
                    'gamma0': (1.0e-2, 3.0e1),
                    'alpha0': (1.0, 1.0e2),
                    'beta0': (1.0, 1.0e2),
@@ -342,7 +342,7 @@ if __name__ == '__main__':
         def evaluate_BO(mu0,gamma0,theta0,theta1,eta0,kappa0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,theta0,theta1,eta0,kappa0])
             return cor
-        pbounds = {'mu0': (0.0, 15.0),
+        pbounds = {'mu0': (0.0, 4.0),
                    'gamma0': (1.0e-2, 3.0e1),
                    'theta0': (0.0, 1.0),
                    'theta1': (1.0e-2, 1.0e1),
@@ -367,7 +367,7 @@ if __name__ == '__main__':
         def evaluate_BO(mu0,gamma0,beta0,eta0,kappa0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,kappa0])
             return cor
-        pbounds = {'mu0': (0.0, 15.0),
+        pbounds = {'mu0': (0.0, 4.0),
                    'gamma0': (1.0e-2, 3.0e1),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0e-2, 1.0e2),
@@ -390,7 +390,7 @@ if __name__ == '__main__':
         def evaluate_BO(mu0,gamma0,beta0,eta0,kappa0,lambda0):
             cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,kappa0,lambda0])
             return cor
-        pbounds = {'mu0': (0.0, 15.0),
+        pbounds = {'mu0': (0.0, 4.0),
                    'gamma0': (1.0e-2, 3.0e1),
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0e-2, 1.0e2),
