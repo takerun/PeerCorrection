@@ -1,0 +1,139 @@
+-------- result mean grade --------
+mean:0.2, std:0.126491106407
+-------- result mean corrected --------
+mean:0.24, std:0.08
+-------- result mean diff --------
+mean:0.32, std:0.16
+-------- result PC1 --------
+test precision@5:0.6, best train corrcoef:0.356081777884, best model:66
+test precision@5:0.8, best train corrcoef:0.22252762167, best model:147
+test precision@5:0.6, best train corrcoef:0.259170387598, best model:66
+test precision@5:0.4, best train corrcoef:0.139496728471, best model:110
+test precision@5:0.6, best train corrcoef:0.271893299958, best model:126
+mean:0.6, std:0.126491106407
+-------- result PC2 --------
+test precision@5:0.6, best train corrcoef:0.459978898258, best model:31
+test precision@5:0.8, best train corrcoef:0.259103866322, best model:82
+test precision@5:0.6, best train corrcoef:0.404003488523, best model:121
+test precision@5:0.6, best train corrcoef:0.30849635658, best model:82
+test precision@5:0.6, best train corrcoef:0.412926167085, best model:22
+mean:0.64, std:0.08
+-------- result PC2a --------
+test precision@5:0.6, best train corrcoef:0.4324957239, best model:74
+test precision@5:0.8, best train corrcoef:0.264900218881, best model:59
+test precision@5:0.6, best train corrcoef:0.36231423369, best model:59
+test precision@5:0.6, best train corrcoef:0.290757901798, best model:99
+test precision@5:0.6, best train corrcoef:0.411029764032, best model:2
+mean:0.64, std:0.08
+-------- result PG1 --------
+test precision@5:0.6, best train corrcoef:0.545175139462, best model:45
+test precision@5:1.0, best train corrcoef:0.518617857268, best model:105
+test precision@5:1.0, best train corrcoef:0.435591790436, best model:113
+test precision@5:0.6, best train corrcoef:0.607691093172, best model:55
+test precision@5:0.8, best train corrcoef:0.53948370408, best model:32
+mean:0.8, std:0.1788854382
+-------- result PG3 --------
+test precision@5:0.8, best train corrcoef:0.564789288942, best model:120
+test precision@5:0.8, best train corrcoef:0.455707970526, best model:120
+test precision@5:0.8, best train corrcoef:0.420705783773, best model:126
+test precision@5:0.8, best train corrcoef:0.611081418385, best model:126
+test precision@5:0.8, best train corrcoef:0.484100880398, best model:126
+mean:0.8, std:0.0
+-------- result PG4 --------
+test precision@5:0.8, best train corrcoef:0.615864369855, best model:73
+test precision@5:0.2, best train corrcoef:0.560998150653, best model:64
+test precision@5:1.0, best train corrcoef:0.428514227262, best model:36
+test precision@5:0.6, best train corrcoef:0.6468058569, best model:73
+test precision@5:0.6, best train corrcoef:0.522880844299, best model:98
+mean:0.64, std:0.265329983228
+-------- result PG5 --------
+test precision@5:1.0, best train corrcoef:0.561304594407, best model:64
+test precision@5:0.8, best train corrcoef:0.565845098589, best model:56
+test precision@5:0.4, best train corrcoef:0.463000098489, best model:31
+test precision@5:0.4, best train corrcoef:0.623702748374, best model:138
+test precision@5:0.8, best train corrcoef:0.568263959624, best model:146
+mean:0.68, std:0.24
+-------- result PCG1 --------
+test precision@5:0.4, best train corrcoef:0.560467093556, best model:137
+test precision@5:1.0, best train corrcoef:0.512613714442, best model:116
+test precision@5:0.8, best train corrcoef:0.437042894678, best model:52
+test precision@5:0.6, best train corrcoef:0.615834957426, best model:72
+test precision@5:0.8, best train corrcoef:0.540326117384, best model:116
+mean:0.72, std:0.203960780544
+-------- result PCG3 --------
+test precision@5:1.0, best train corrcoef:0.534193543583, best model:125
+test precision@5:0.8, best train corrcoef:0.4790460038, best model:103
+test precision@5:0.8, best train corrcoef:0.428194734748, best model:125
+test precision@5:0.8, best train corrcoef:0.561845819218, best model:103
+test precision@5:0.8, best train corrcoef:0.504183498358, best model:103
+mean:0.84, std:0.08
+-------- result PCG4 --------
+test precision@5:0.8, best train corrcoef:0.597950420369, best model:54
+test precision@5:1.0, best train corrcoef:0.534293310728, best model:1
+test precision@5:0.8, best train corrcoef:0.429058883029, best model:54
+test precision@5:0.8, best train corrcoef:0.62993645949, best model:2
+test precision@5:0.6, best train corrcoef:0.510072809454, best model:48
+mean:0.8, std:0.126491106407
+-------- result PCG5 --------
+test precision@5:0.8, best train corrcoef:0.537032799618, best model:110
+test precision@5:0.8, best train corrcoef:0.502161882963, best model:5
+test precision@5:0.4, best train corrcoef:0.45011896981, best model:93
+test precision@5:0.6, best train corrcoef:0.572600684055, best model:111
+test precision@5:0.8, best train corrcoef:0.544528066472, best model:5
+mean:0.68, std:0.16
+-------- result PG1PC2 --------
+test precision@5:0.8, best train corrcoef:0.541579324344, best model:45
+test precision@5:1.0, best train corrcoef:0.425473172751, best model:22
+test precision@5:0.6, best train corrcoef:0.434949353162, best model:82
+test precision@5:0.6, best train corrcoef:0.453444474965, best model:30
+test precision@5:0.6, best train corrcoef:0.505663645643, best model:0
+mean:0.72, std:0.16
+-------- result PG3PC2 --------
+test precision@5:1.0, best train corrcoef:0.561035788466, best model:73
+test precision@5:0.6, best train corrcoef:0.39288155031, best model:51
+test precision@5:0.8, best train corrcoef:0.462193304943, best model:67
+test precision@5:0.4, best train corrcoef:0.48467733813, best model:110
+test precision@5:0.8, best train corrcoef:0.460455284705, best model:67
+mean:0.72, std:0.203960780544
+-------- result PG4PC2 --------
+test precision@5:0.4, best train corrcoef:0.5521169211, best model:26
+test precision@5:1.0, best train corrcoef:0.414358247928, best model:75
+test precision@5:0.6, best train corrcoef:0.429568582758, best model:75
+test precision@5:0.6, best train corrcoef:0.42381652497, best model:75
+test precision@5:0.6, best train corrcoef:0.472437589728, best model:75
+mean:0.64, std:0.195959179423
+-------- result PG5PC2 --------
+test precision@5:0.6, best train corrcoef:0.586588489264, best model:7
+test precision@5:1.0, best train corrcoef:0.455291352401, best model:7
+test precision@5:0.8, best train corrcoef:0.471522266416, best model:81
+test precision@5:0.4, best train corrcoef:0.421879162461, best model:99
+test precision@5:0.8, best train corrcoef:0.459782523034, best model:110
+mean:0.72, std:0.203960780544
+-------- result PG1PC2a --------
+test precision@5:0.2, best train corrcoef:0.559066660399, best model:41
+test precision@5:1.0, best train corrcoef:0.515339550057, best model:87
+test precision@5:0.8, best train corrcoef:0.422105099456, best model:139
+test precision@5:0.6, best train corrcoef:0.585292678773, best model:77
+test precision@5:0.6, best train corrcoef:0.537305939228, best model:87
+mean:0.64, std:0.265329983228
+-------- result PG3PC2a --------
+test precision@5:0.8, best train corrcoef:0.526699768298, best model:106
+test precision@5:0.8, best train corrcoef:0.493397647313, best model:44
+test precision@5:0.8, best train corrcoef:0.447421285954, best model:106
+test precision@5:0.0, best train corrcoef:0.520709125818, best model:92
+test precision@5:0.8, best train corrcoef:0.507029961085, best model:44
+mean:0.64, std:0.32
+-------- result PG4PC2a --------
+test precision@5:0.2, best train corrcoef:0.581795680604, best model:67
+test precision@5:1.0, best train corrcoef:0.530062222718, best model:143
+test precision@5:0.2, best train corrcoef:0.413454568237, best model:48
+test precision@5:0.8, best train corrcoef:0.604227007691, best model:54
+test precision@5:0.6, best train corrcoef:0.50170054947, best model:143
+mean:0.56, std:0.32
+-------- result PG5PC2a --------
+test precision@5:0.8, best train corrcoef:0.571515070334, best model:82
+test precision@5:0.8, best train corrcoef:0.486785983374, best model:104
+test precision@5:0.8, best train corrcoef:0.463938292424, best model:130
+test precision@5:0.8, best train corrcoef:0.484536776812, best model:82
+test precision@5:0.8, best train corrcoef:0.503643650127, best model:104
+mean:0.8, std:0.0

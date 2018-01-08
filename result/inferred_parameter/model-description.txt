@@ -1,0 +1,7 @@
+* PC2 is inverse proportionality
+* PC2a is exponential
+* PG1PC2 is exponential
+* PG1PC2a is scale,exponential
+
+- PCG1 is sigmoid
+- PCG1a is scale,sigmoid

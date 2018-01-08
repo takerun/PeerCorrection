@@ -2,6 +2,7 @@
 
 import os,sys
 import copy
+import argparse
 import numpy as np
 from scipy import stats
 import Bio.Cluster
@@ -9,21 +10,47 @@ from sklearn import metrics
 import pandas as pd
 from ranking import RankingMeasures
 
+# parser settings
+parser = argparse.ArgumentParser()
+parser.add_argument('-test','--test-metric', \
+        action='store', \
+        nargs=None, \
+        const=None, \
+        default='cor', \
+        type=str, \
+        choices=None, \
+        help='Test metric option which you\'d like to set.', \
+        metavar=None)
+parser.add_argument('-k','--top-k', \
+        action='store', \
+        nargs=None, \
+        const=None, \
+        default=10, \
+        type=int, \
+        choices=None, \
+        help='Number of top-k value which you\'d like to set.', \
+        metavar=None)
+parser.add_argument('-thre','--threshold', \
+        action='store', \
+        nargs=None, \
+        const=None, \
+        default=4, \
+        type=int, \
+        choices=None, \
+        help='Number of threshold value which you\'d like to set.', \
+        metavar=None)
+
 # config
 NUM_FOLDS = 5
+GROUNDTRUTH = '../dataset/open_peer_review_v3/peer_review/translated_groundtruth.csv'
+PEER_REVIEW = '../dataset/open_peer_review_v3/peer_review/peer_review_forPG3.csv'
 
-# path information
-groundtruth_csv = '../dataset/open_peer_review_v3/peer_review/translated_groundtruth.csv'
-peer_review_csv = '../dataset/open_peer_review_v3/peer_review/peer_review_forPG3.csv'
-
-# load dataset
-gDF = pd.read_csv(groundtruth_csv)
-rDF = pd.read_csv(peer_review_csv)
-
-# calculate true ability
+# load true ability
+gDF = pd.read_csv(GROUNDTRUTH)
 true_ability = gDF['grade'].get_values()
 
 # calculate mean grades
+rDF = pd.read_csv(PEER_REVIEW)
 mean_grades = rDF[['receiver_id','value']].groupby(['receiver_id']).mean()['value'].get_values()
 mean_corrected = rDF[['receiver_id','corrected']].groupby(['receiver_id']).mean()['corrected'].get_values()
 mean_diff = rDF[['receiver_id','diff']].groupby(['receiver_id']).mean()['diff'].get_values()
@@ -42,24 +69,35 @@ def precisionAtK(true,estimated,top_k,threshold):
     id_top_k = estimated.argsort()[::-1][:top_k]
     TP = top_ranker_ture[id_top_k].sum()
     return TP/float(top_k)
-precAt10_4 = lambda true,estimated: precisionAtK(true,estimated,10,4)
-precAt5_4 = lambda true,estimated: precisionAtK(true,estimated,5,4)
-precAt3_4 = lambda true,estimated: precisionAtK(true,estimated,3,4)
-precAt10_34 = lambda true,estimated: precisionAtK(true,estimated,10,3)
-precAt5_34 = lambda true,estimated: precisionAtK(true,estimated,5,3)
 def auc(true,estimated,threshold):
     fpr, tpr, thresholds = metrics.roc_curve(true >= threshold, estimated, pos_label=1)
     return metrics.auc(fpr, tpr)
-auc4 = lambda true,estimated: auc(true,estimated,4)
-auc34 = lambda true,estimated: auc(true,estimated,3)
-auc234 = lambda true,estimated: auc(true,estimated,2)
-auc1234 = lambda true,estimated: auc(true,estimated,1)
 def nDCG(true,estimated,top_k):
     rm = RankingMeasures(estimated, true)
     return rm.nDCG(k=top_k)
-ndcgAt10 = lambda true,estimated: nDCG(true,estimated,10)
-ndcgAt5 =  lambda true,estimated: nDCG(true,estimated,5)
-func_metric = precAt5_34
+
+#argparse
+args = parser.parse_args()
+# set test metric
+if args.test_metric == 'cor':
+    func_metric = corrcoef
+elif args.test_metric == 'ktau':
+    func_metric = kendalltau
+elif args.test_metric == 'srho':
+    func_metric = spearmanrho
+elif args.test_metric == 'preck':
+    top_k = args.top_k
+    threshold = args.threshold
+    func_metric = lambda true,estimated: precisionAtK(true,estimated,top_k,threshold)
+elif args.test_metric == 'auc':
+    threshold = args.threshold
+    func_metric = lambda true,estimated: auc(true,estimated,threshold)
+elif args.test_metric == 'ndcg':
+    top_k = args.top_k
+    func_metric = lambda true,estimated: nDCG(true,estimated,top_k)
+else:
+    print('Error: set test metrics [cor|ktau|srho|preck|auc|ndcg]')
+    sys.exit()
 
 statistic_test = np.empty(0)
 for loop in xrange(NUM_FOLDS):

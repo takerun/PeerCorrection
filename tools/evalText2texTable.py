@@ -6,7 +6,7 @@ import collections
 import numpy as np
 
 # path info
-eval_dir = '../result/inferred_parameter'
+eval_dir = '../result/inferred_parameter/evaluations'
 
 # 2017/12/19
 metrics_test = ['precisionAt3_4','precisionAt5_4','precisionAt5_34','precisionAt10_34','nDCGAt5','nDCGAt10']

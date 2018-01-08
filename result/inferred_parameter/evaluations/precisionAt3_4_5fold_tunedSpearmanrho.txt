@@ -1,0 +1,139 @@
+-------- result mean grade --------
+mean:0.0, std:0.0
+-------- result mean corrected --------
+mean:0.0, std:0.0
+-------- result mean diff --------
+mean:0.0666666666667, std:0.133333333333
+-------- result PC1 --------
+test precision@3:0.333333333333, best train spearmanrho:0.264802064606, best model:50
+test precision@3:0.666666666667, best train spearmanrho:0.290258589942, best model:44
+test precision@3:0.666666666667, best train spearmanrho:0.250741621874, best model:50
+test precision@3:0.666666666667, best train spearmanrho:0.0539224662538, best model:50
+test precision@3:0.666666666667, best train spearmanrho:0.15326057137, best model:30
+mean:0.6, std:0.133333333333
+-------- result PC2 --------
+test precision@3:0.666666666667, best train spearmanrho:0.419384390183, best model:81
+test precision@3:1.0, best train spearmanrho:0.309031656706, best model:82
+test precision@3:1.0, best train spearmanrho:0.398257619799, best model:121
+test precision@3:1.0, best train spearmanrho:0.270986305599, best model:82
+test precision@3:1.0, best train spearmanrho:0.374680414231, best model:116
+mean:0.933333333333, std:0.133333333333
+-------- result PC2a --------
+test precision@3:0.666666666667, best train spearmanrho:0.396951296882, best model:74
+test precision@3:1.0, best train spearmanrho:0.341602989416, best model:89
+test precision@3:0.333333333333, best train spearmanrho:0.364319453717, best model:54
+test precision@3:0.333333333333, best train spearmanrho:0.252003765512, best model:54
+test precision@3:1.0, best train spearmanrho:0.347201568766, best model:59
+mean:0.666666666667, std:0.298142397
+-------- result PG1 --------
+test precision@3:0.333333333333, best train spearmanrho:0.506003599421, best model:131
+test precision@3:0.666666666667, best train spearmanrho:0.513839998788, best model:112
+test precision@3:0.333333333333, best train spearmanrho:0.408159216122, best model:37
+test precision@3:0.333333333333, best train spearmanrho:0.568379433631, best model:82
+test precision@3:0.666666666667, best train spearmanrho:0.49413027094, best model:120
+mean:0.466666666667, std:0.163299316186
+-------- result PG3 --------
+test precision@3:0.0, best train spearmanrho:0.568266878789, best model:120
+test precision@3:0.0, best train spearmanrho:0.529358407306, best model:120
+test precision@3:0.333333333333, best train spearmanrho:0.360121651203, best model:126
+test precision@3:0.0, best train spearmanrho:0.562461702086, best model:49
+test precision@3:0.666666666667, best train spearmanrho:0.469438425816, best model:49
+mean:0.2, std:0.266666666667
+-------- result PG4 --------
+test precision@3:0.333333333333, best train spearmanrho:0.592725817762, best model:73
+test precision@3:1.0, best train spearmanrho:0.621392222416, best model:33
+test precision@3:0.333333333333, best train spearmanrho:0.390229618947, best model:118
+test precision@3:0.333333333333, best train spearmanrho:0.58896494377, best model:43
+test precision@3:1.0, best train spearmanrho:0.462544267079, best model:130
+mean:0.6, std:0.326598632371
+-------- result PG5 --------
+test precision@3:0.0, best train spearmanrho:0.610569283301, best model:90
+test precision@3:0.0, best train spearmanrho:0.635140987857, best model:108
+test precision@3:0.333333333333, best train spearmanrho:0.396123143944, best model:90
+test precision@3:0.333333333333, best train spearmanrho:0.58698834912, best model:138
+test precision@3:0.333333333333, best train spearmanrho:0.45078508143, best model:138
+mean:0.2, std:0.163299316186
+-------- result PCG1 --------
+test precision@3:0.666666666667, best train spearmanrho:0.51127995453, best model:149
+test precision@3:1.0, best train spearmanrho:0.539209007928, best model:85
+test precision@3:1.0, best train spearmanrho:0.39853035838, best model:133
+test precision@3:1.0, best train spearmanrho:0.562726855027, best model:69
+test precision@3:1.0, best train spearmanrho:0.493054586598, best model:116
+mean:0.933333333333, std:0.133333333333
+-------- result PCG3 --------
+test precision@3:0.0, best train spearmanrho:0.574733561297, best model:125
+test precision@3:0.0, best train spearmanrho:0.512651986653, best model:125
+test precision@3:0.666666666667, best train spearmanrho:0.427535513599, best model:147
+test precision@3:0.333333333333, best train spearmanrho:0.544142044351, best model:103
+test precision@3:0.666666666667, best train spearmanrho:0.489778638829, best model:103
+mean:0.333333333333, std:0.298142397
+-------- result PCG4 --------
+test precision@3:0.666666666667, best train spearmanrho:0.572993852021, best model:54
+test precision@3:1.0, best train spearmanrho:0.597631979709, best model:115
+test precision@3:0.0, best train spearmanrho:0.412783913806, best model:73
+test precision@3:1.0, best train spearmanrho:0.576599174799, best model:2
+test precision@3:1.0, best train spearmanrho:0.435652158527, best model:48
+mean:0.733333333333, std:0.388730126323
+-------- result PCG5 --------
+test precision@3:0.333333333333, best train spearmanrho:0.580181598242, best model:5
+test precision@3:0.0, best train spearmanrho:0.558922584299, best model:113
+test precision@3:0.666666666667, best train spearmanrho:0.458627711875, best model:5
+test precision@3:1.0, best train spearmanrho:0.527328937417, best model:111
+test precision@3:0.333333333333, best train spearmanrho:0.439808211667, best model:140
+mean:0.466666666667, std:0.33993463424
+-------- result PG1PC2 --------
+test precision@3:0.333333333333, best train spearmanrho:0.506816226781, best model:101
+test precision@3:1.0, best train spearmanrho:0.441915764094, best model:90
+test precision@3:0.333333333333, best train spearmanrho:0.426302260883, best model:113
+test precision@3:0.0, best train spearmanrho:0.359776383581, best model:118
+test precision@3:0.333333333333, best train spearmanrho:0.423086209623, best model:143
+mean:0.4, std:0.326598632371
+-------- result PG3PC2 --------
+test precision@3:0.333333333333, best train spearmanrho:0.569674669849, best model:71
+test precision@3:1.0, best train spearmanrho:0.471653192857, best model:51
+test precision@3:0.333333333333, best train spearmanrho:0.4304526306, best model:71
+test precision@3:0.333333333333, best train spearmanrho:0.479962980247, best model:28
+test precision@3:0.666666666667, best train spearmanrho:0.467042583418, best model:51
+mean:0.533333333333, std:0.266666666667
+-------- result PG4PC2 --------
+test precision@3:0.333333333333, best train spearmanrho:0.569377087999, best model:26
+test precision@3:1.0, best train spearmanrho:0.472890705498, best model:14
+test precision@3:0.333333333333, best train spearmanrho:0.42034944489, best model:132
+test precision@3:0.666666666667, best train spearmanrho:0.329681524789, best model:14
+test precision@3:1.0, best train spearmanrho:0.4155808666, best model:74
+mean:0.666666666667, std:0.298142397
+-------- result PG5PC2 --------
+test precision@3:0.333333333333, best train spearmanrho:0.611633710687, best model:62
+test precision@3:0.333333333333, best train spearmanrho:0.477407626637, best model:5
+test precision@3:0.333333333333, best train spearmanrho:0.446757654486, best model:77
+test precision@3:0.666666666667, best train spearmanrho:0.350592449901, best model:99
+test precision@3:0.666666666667, best train spearmanrho:0.38159902034, best model:51
+mean:0.466666666667, std:0.163299316186
+-------- result PG1PC2a --------
+test precision@3:1.0, best train spearmanrho:0.505534335735, best model:18
+test precision@3:1.0, best train spearmanrho:0.510845218197, best model:76
+test precision@3:0.333333333333, best train spearmanrho:0.422756659325, best model:11
+test precision@3:0.333333333333, best train spearmanrho:0.548492963063, best model:57
+test precision@3:0.666666666667, best train spearmanrho:0.490023112543, best model:77
+mean:0.666666666667, std:0.298142397
+-------- result PG3PC2a --------
+test precision@3:0.333333333333, best train spearmanrho:0.549988485931, best model:129
+test precision@3:1.0, best train spearmanrho:0.508642445696, best model:44
+test precision@3:0.333333333333, best train spearmanrho:0.434946888093, best model:129
+test precision@3:0.333333333333, best train spearmanrho:0.562232706365, best model:94
+test precision@3:0.666666666667, best train spearmanrho:0.475770295011, best model:44
+mean:0.533333333333, std:0.266666666667
+-------- result PG4PC2a --------
+test precision@3:0.333333333333, best train spearmanrho:0.570693315412, best model:67
+test precision@3:0.666666666667, best train spearmanrho:0.575802256722, best model:59
+test precision@3:0.333333333333, best train spearmanrho:0.400818990824, best model:102
+test precision@3:0.666666666667, best train spearmanrho:0.556363184446, best model:107
+test precision@3:0.0, best train spearmanrho:0.466186925419, best model:48
+mean:0.4, std:0.249443825785
+-------- result PG5PC2a --------
+test precision@3:0.333333333333, best train spearmanrho:0.607456119333, best model:145
+test precision@3:0.333333333333, best train spearmanrho:0.614387900868, best model:145
+test precision@3:0.333333333333, best train spearmanrho:0.44157562144, best model:46
+test precision@3:0.333333333333, best train spearmanrho:0.471345509668, best model:145
+test precision@3:0.333333333333, best train spearmanrho:0.426631078477, best model:56
+mean:0.333333333333, std:0.0

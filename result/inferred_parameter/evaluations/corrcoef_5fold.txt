@@ -1,0 +1,139 @@
+-------- result mean grade --------
+mean:0.403270523339, std:0.0157834278613
+-------- result mean corrected --------
+mean:0.117140814205, std:0.0143920859769
+-------- result mean diff --------
+mean:0.205221453915, std:0.0102615527689
+-------- result PC1 --------
+test corrcoef:0.174295715043, best train corrcoef:0.356081777884, best model:66
+test corrcoef:0.232423309173, best train corrcoef:0.22252762167, best model:147
+test corrcoef:0.208450916067, best train corrcoef:0.259170387598, best model:66
+test corrcoef:0.0904783423873, best train corrcoef:0.139496728471, best model:110
+test corrcoef:0.189141147599, best train corrcoef:0.271893299958, best model:126
+mean:0.178957886054, std:0.0483372622112
+-------- result PC2 --------
+test corrcoef:0.296267793646, best train corrcoef:0.459978898258, best model:31
+test corrcoef:0.363815478013, best train corrcoef:0.259103866322, best model:82
+test corrcoef:0.237109077265, best train corrcoef:0.404003488523, best model:121
+test corrcoef:0.361652636917, best train corrcoef:0.30849635658, best model:82
+test corrcoef:0.307833696111, best train corrcoef:0.412926167085, best model:22
+mean:0.31333573639, std:0.046935738769
+-------- result PC2a --------
+test corrcoef:0.317494022902, best train corrcoef:0.4324957239, best model:74
+test corrcoef:0.35533769839, best train corrcoef:0.264900218881, best model:59
+test corrcoef:0.336893268398, best train corrcoef:0.36231423369, best model:59
+test corrcoef:0.338357926181, best train corrcoef:0.290757901798, best model:99
+test corrcoef:0.316911550943, best train corrcoef:0.411029764032, best model:2
+mean:0.332998893363, std:0.014436836176
+-------- result PG1 --------
+test corrcoef:0.47426950863, best train corrcoef:0.545175139462, best model:45
+test corrcoef:0.509477413827, best train corrcoef:0.518617857268, best model:105
+test corrcoef:0.525348545448, best train corrcoef:0.435591790436, best model:113
+test corrcoef:0.447090616546, best train corrcoef:0.607691093172, best model:55
+test corrcoef:0.501063009565, best train corrcoef:0.53948370408, best model:32
+mean:0.491449818803, std:0.0276746568889
+-------- result PG3 --------
+test corrcoef:0.454976559064, best train corrcoef:0.564789288942, best model:120
+test corrcoef:0.501585281959, best train corrcoef:0.455707970526, best model:120
+test corrcoef:0.538351444933, best train corrcoef:0.420705783773, best model:126
+test corrcoef:0.489728303051, best train corrcoef:0.611081418385, best model:126
+test corrcoef:0.526296277445, best train corrcoef:0.484100880398, best model:126
+mean:0.50218757329, std:0.0292353596258
+-------- result PG4 --------
+test corrcoef:0.507170594987, best train corrcoef:0.615864369855, best model:73
+test corrcoef:0.466551689922, best train corrcoef:0.560998150653, best model:64
+test corrcoef:0.560447591195, best train corrcoef:0.428514227262, best model:36
+test corrcoef:0.506348013048, best train corrcoef:0.6468058569, best model:73
+test corrcoef:0.473270079912, best train corrcoef:0.522880844299, best model:98
+mean:0.502757593813, std:0.0332892848835
+-------- result PG5 --------
+test corrcoef:0.451398237911, best train corrcoef:0.561304594407, best model:64
+test corrcoef:0.494638829159, best train corrcoef:0.565845098589, best model:56
+test corrcoef:0.503468797012, best train corrcoef:0.463000098489, best model:31
+test corrcoef:0.464599067154, best train corrcoef:0.623702748374, best model:138
+test corrcoef:0.445918904083, best train corrcoef:0.568263959624, best model:146
+mean:0.472004767064, std:0.0230747985033
+-------- result PCG1 --------
+test corrcoef:0.440517604543, best train corrcoef:0.560467093556, best model:137
+test corrcoef:0.508828971788, best train corrcoef:0.512613714442, best model:116
+test corrcoef:0.530009005469, best train corrcoef:0.437042894678, best model:52
+test corrcoef:0.436749348795, best train corrcoef:0.615834957426, best model:72
+test corrcoef:0.497946971411, best train corrcoef:0.540326117384, best model:116
+mean:0.482810380401, std:0.037534227622
+-------- result PCG3 --------
+test corrcoef:0.45306343538, best train corrcoef:0.534193543583, best model:125
+test corrcoef:0.487074968743, best train corrcoef:0.4790460038, best model:103
+test corrcoef:0.499887515919, best train corrcoef:0.428194734748, best model:125
+test corrcoef:0.459342669032, best train corrcoef:0.561845819218, best model:103
+test corrcoef:0.475958042657, best train corrcoef:0.504183498358, best model:103
+mean:0.475065326346, std:0.0172768903868
+-------- result PCG4 --------
+test corrcoef:0.505004180111, best train corrcoef:0.597950420369, best model:54
+test corrcoef:0.488577881406, best train corrcoef:0.534293310728, best model:1
+test corrcoef:0.551306994282, best train corrcoef:0.429058883029, best model:54
+test corrcoef:0.513475079002, best train corrcoef:0.62993645949, best model:2
+test corrcoef:0.494680083637, best train corrcoef:0.510072809454, best model:48
+mean:0.510608843688, std:0.022068328964
+-------- result PCG5 --------
+test corrcoef:0.393258421513, best train corrcoef:0.537032799618, best model:110
+test corrcoef:0.485872933554, best train corrcoef:0.502161882963, best model:5
+test corrcoef:0.442433646082, best train corrcoef:0.45011896981, best model:93
+test corrcoef:0.370947926744, best train corrcoef:0.572600684055, best model:111
+test corrcoef:0.47597837648, best train corrcoef:0.544528066472, best model:5
+mean:0.433698260875, std:0.0450757066291
+-------- result PG1PC2 --------
+test corrcoef:0.420530740625, best train corrcoef:0.541579324344, best model:45
+test corrcoef:0.425291522539, best train corrcoef:0.425473172751, best model:22
+test corrcoef:0.446293607847, best train corrcoef:0.434949353162, best model:82
+test corrcoef:0.445329886405, best train corrcoef:0.453444474965, best model:30
+test corrcoef:0.435163755779, best train corrcoef:0.505663645643, best model:0
+mean:0.434521902639, std:0.0103609851204
+-------- result PG3PC2 --------
+test corrcoef:0.390781183728, best train corrcoef:0.561035788466, best model:73
+test corrcoef:0.384301386553, best train corrcoef:0.39288155031, best model:51
+test corrcoef:0.443576668841, best train corrcoef:0.462193304943, best model:67
+test corrcoef:0.19948109047, best train corrcoef:0.48467733813, best model:110
+test corrcoef:0.442572530233, best train corrcoef:0.460455284705, best model:67
+mean:0.372142571965, std:0.0898559191491
+-------- result PG4PC2 --------
+test corrcoef:0.314421945454, best train corrcoef:0.5521169211, best model:26
+test corrcoef:0.458449210926, best train corrcoef:0.414358247928, best model:75
+test corrcoef:0.455208864777, best train corrcoef:0.429568582758, best model:75
+test corrcoef:0.459510686259, best train corrcoef:0.42381652497, best model:75
+test corrcoef:0.443999273333, best train corrcoef:0.472437589728, best model:75
+mean:0.42631799615, std:0.0562178008353
+-------- result PG5PC2 --------
+test corrcoef:0.39942447653, best train corrcoef:0.586588489264, best model:7
+test corrcoef:0.451839152912, best train corrcoef:0.455291352401, best model:7
+test corrcoef:0.45302576099, best train corrcoef:0.471522266416, best model:81
+test corrcoef:0.33919560276, best train corrcoef:0.421879162461, best model:99
+test corrcoef:0.426324077304, best train corrcoef:0.459782523034, best model:110
+mean:0.413961814099, std:0.0422251840385
+-------- result PG1PC2a --------
+test corrcoef:0.441611521922, best train corrcoef:0.559066660399, best model:41
+test corrcoef:0.489567639027, best train corrcoef:0.515339550057, best model:87
+test corrcoef:0.465204365904, best train corrcoef:0.422105099456, best model:139
+test corrcoef:0.437865762718, best train corrcoef:0.585292678773, best model:77
+test corrcoef:0.477768011641, best train corrcoef:0.537305939228, best model:87
+mean:0.462403460242, std:0.020080888527
+-------- result PG3PC2a --------
+test corrcoef:0.420040628775, best train corrcoef:0.526699768298, best model:106
+test corrcoef:0.46365140423, best train corrcoef:0.493397647313, best model:44
+test corrcoef:0.446062026112, best train corrcoef:0.447421285954, best model:106
+test corrcoef:0.272497008636, best train corrcoef:0.520709125818, best model:92
+test corrcoef:0.452062223022, best train corrcoef:0.507029961085, best model:44
+mean:0.410862658155, std:0.0706432438009
+-------- result PG4PC2a --------
+test corrcoef:0.252876626857, best train corrcoef:0.581795680604, best model:67
+test corrcoef:0.521621287032, best train corrcoef:0.530062222718, best model:143
+test corrcoef:0.437650560572, best train corrcoef:0.413454568237, best model:48
+test corrcoef:0.484020216524, best train corrcoef:0.604227007691, best model:54
+test corrcoef:0.524842908919, best train corrcoef:0.50170054947, best model:143
+mean:0.444202319981, std:0.100727863404
+-------- result PG5PC2a --------
+test corrcoef:0.454597934928, best train corrcoef:0.571515070334, best model:82
+test corrcoef:0.478188441664, best train corrcoef:0.486785983374, best model:104
+test corrcoef:0.468629560266, best train corrcoef:0.463938292424, best model:130
+test corrcoef:0.485401255121, best train corrcoef:0.484536776812, best model:82
+test corrcoef:0.469311478369, best train corrcoef:0.503643650127, best model:104
+mean:0.47122573407, std:0.0103567648591
