@@ -310,6 +310,108 @@ if __name__ == '__main__':
                     target=Y)
         name_result_file = 'resultPCG5.txt'
         label = 'PCG5'
+    elif args.model == 'PCG1a':
+        from PCG1a import PCG1a
+        snapshot_form = 'PCG1a-hyper7-RAM5000w500-{0}-{1}'
+        trainModel = PCG1a(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,alpha0,beta0,eta0,kappa0,scale0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,alpha0,beta0,eta0,kappa0,scale0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0e-2, 5.0),
+                   'alpha0': (1.0, 1.0e2),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0e-2, 3.0e1),
+                   'kappa0': (1.0, 1.0e2),
+                   'scale0': (1.0e-2,1.0e1),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    alpha0=X[keys.index('alpha0')], beta0=X[keys.index('beta0')],
+                    eta0=X[keys.index('eta0')], kappa0=X[keys.index('kappa0')],
+                    scale0=X[keys.index('scale0')], target=Y)
+        name_result_file = 'resultPCG1a.txt'
+        label = 'PCG1a'
+    elif args.model == 'PCG3a':
+        from PCG3a import PCG3a
+        snapshot_form = 'PCG3a-hyper7-RAM5000w500-{0}-{1}'
+        trainModel = PCG3a(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,theta0,theta1,eta0,kappa0,scale0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,theta0,theta1,eta0,kappa0,scale0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0e-2, 1.0e1),
+                   'theta0': (0.0, 1.0),
+                   'theta1': (1.0e-2, 1.0e1),
+                   'eta0': (1.0e-2, 1.0e1),
+                   'kappa0': (1.0, 1.0e2),
+                   'scale0': (1.0e-2, 1.0e1),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    theta0=X[keys.index('theta0')], theta1=X[keys.index('theta1')],
+                    eta0=X[keys.index('eta0')], kappa0=X[keys.index('kappa0')],
+                    scale0=X[keys.index('scale0')], target=Y)
+        name_result_file = 'resultPCG3a.txt'
+        label = 'PCG3a'
+    elif args.model == 'PCG4a':
+        from PCG4a import PCG4a
+        snapshot_form = 'PCG4a-hyper6-RAM5000w500-{0}-{1}'
+        trainModel = PCG4a(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,beta0,eta0,kappa0,scale0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,kappa0,scale0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0e-2, 1.0e1),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0e-2, 1.0e2),
+                   'kappa0': (1.0, 1.0e2),
+                   'scale0': (1.0e-2, 1.0e1),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    beta0=X[keys.index('beta0')], eta0=X[keys.index('eta0')],
+                    kappa0=X[keys.index('kappa0')], scale0=X[keys.index('scale0')], target=Y)
+        name_result_file = 'resultPCG4a.txt'
+        label = 'PCG4a'
+    elif args.model == 'PCG5a':
+        from PCG5a import PCG5a
+        snapshot_form = 'PCG5a-hyper7-RAM5000w500-{0}-{1}'
+        trainModel = PCG5a(gDF, rDF)
+        def evaluate_BO(mu0,gamma0,beta0,eta0,kappa0,lambda0,scale0):
+            cor = trainModel.corrcoefWithTruth([mu0,gamma0,beta0,eta0,kappa0,lambda0,scale0])
+            return cor
+        pbounds = {'mu0': (0.0, 4.0),
+                   'gamma0': (1.0e-2, 1.0e1),
+                   'beta0': (1.0, 1.0e2),
+                   'eta0': (1.0e-2, 1.0e2),
+                   'kappa0': (1.0, 1.0e2),
+                   'lambda0': (1.0, 1.0e2),
+                   'scale0': (1.0e-2, 1.0e1),
+                   }
+        def npzSave(path,bo):
+            keys = bo.keys
+            X = bo.X.transpose(1,0)
+            Y = bo.Y
+            np.savez(path,
+                    mu0=X[keys.index('mu0')], gamma0=X[keys.index('gamma0')],
+                    beta0=X[keys.index('beta0')], eta0=X[keys.index('eta0')],
+                    kappa0=X[keys.index('kappa0')], lambda0=X[keys.index('lambda0')],
+                    scale0=X[keys.index('scale0')], target=Y)
+        name_result_file = 'resultPCG5a.txt'
+        label = 'PCG5a'
     elif args.model == 'PG1PC2':
         from PG1PC2 import PG1PC2
         snapshot_form = 'PG1PC2-hyper6-RAM5000w500-{0}-{1}'
