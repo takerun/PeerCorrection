@@ -349,7 +349,7 @@ if __name__ == '__main__':
                    'theta1': (1.0e-2, 1.0e1),
                    'eta0': (1.0e-2, 1.0e1),
                    'kappa0': (1.0, 1.0e2),
-                   'scale0': (1.0e-2, 1.0e1),
+                   'scale0': (1.0e-2, 5.0),
                    }
         def npzSave(path,bo):
             keys = bo.keys
@@ -374,7 +374,7 @@ if __name__ == '__main__':
                    'beta0': (1.0, 1.0e2),
                    'eta0': (1.0e-2, 1.0e2),
                    'kappa0': (1.0, 1.0e2),
-                   'scale0': (1.0e-2, 1.0e1),
+                   'scale0': (1.0e-2, 5.0),
                    }
         def npzSave(path,bo):
             keys = bo.keys
