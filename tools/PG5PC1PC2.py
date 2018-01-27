@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import pystan
 
-RECORD = True
+RECORD = False
 
 # path information
 PG5PC1PC2_path = '../models/PG5PC1PC2.stan'
