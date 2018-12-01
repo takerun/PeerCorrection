@@ -1,4 +1,4 @@
 # PeerCorrection
 
-* Estimate the scores of translations from peer reivews using Baysian model
+* Estimate the scores of translations from peer reivews using Bayesian model.
 * Python code using Stan
